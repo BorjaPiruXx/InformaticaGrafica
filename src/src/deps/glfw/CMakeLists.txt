@@ -1,8 +1,23 @@
 
 add_library(glfw ${GLFW_LIBRARY_TYPE} 
     "${GLFW_SOURCE_DIR}/include/GLFW/glfw3.h" "${GLFW_SOURCE_DIR}/include/GLFW/glfw3native.h" 
-    internal.h platform.h mappings.h context.c init.c input.c monitor.c platform.c vulkan.c window.c 
-    egl_context.c osmesa_context.c null_platform.h null_joystick.h null_init.c null_monitor.c null_window.c 
+    internal.h 
+    platform.h 
+    mappings.h 
+    context.c 
+    init.c 
+    input.c 
+    monitor.c 
+    platform.c 
+    vulkan.c 
+    window.c 
+    egl_context.c 
+    osmesa_context.c 
+    null_platform.h 
+    null_joystick.h 
+    null_init.c 
+    null_monitor.c 
+    null_window.c 
     null_joystick.c
 )
 
@@ -10,36 +25,48 @@ add_library(glfw ${GLFW_LIBRARY_TYPE}
     The time, thread and module code is shared between all backends on a given OS - Linux in my case -,
     including the null backend, which still needs those bits to be functional
 ]==]#
-target_sources(glfw PRIVATE posix_time.h posix_thread.h posix_module.cposix_time.c posix_thread.c)
+target_sources(glfw PRIVATE 
+    posix_time.h 
+    posix_thread.h 
+    posix_module.c 
+    posix_time.c posix_thread.c)
 
 add_custom_target(update_mappings 
-    COMMAND "${CMAKE_COMMAND}" -P "${GLFW_SOURCE_DIR}/CMake/GenerateMappings.cmake" 
-    mappings.h.in mappings.h WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}" 
-    COMMENT "Updating gamepad mappings from upstream repository" SOURCES mappings.h.in 
-    "${GLFW_SOURCE_DIR}/CMake/GenerateMappings.cmake" VERBATIM
+    COMMAND "${CMAKE_COMMAND}" -P 
+    "${GLFW_SOURCE_DIR}/CMake/GenerateMappings.cmake" mappings.h.in mappings.h 
+    WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}" 
+    COMMENT "Updating gamepad mappings from upstream repository" 
+    SOURCES mappings.h.in "${GLFW_SOURCE_DIR}/CMake/GenerateMappings.cmake" VERBATIM
 )
 
 set_target_properties(update_mappings PROPERTIES FOLDER "GLFW3")
 
-if (GLFW_BUILD_COCOA)
-    target_compile_definitions(glfw PRIVATE _GLFW_COCOA)
-    target_sources(glfw PRIVATE cocoa_platform.h cocoa_joystick.h cocoa_init.m
-                                cocoa_joystick.m cocoa_monitor.m cocoa_window.m
-                                nsgl_context.m)
-endif()
-
 if(GLFW_BUILD_X11)
 
     target_compile_definitions(glfw PRIVATE _GLFW_X11)
-    target_sources(glfw PRIVATE x11_platform.h xkb_unicode.h x11_init.c x11_monitor.c x11_window.c 
-        xkb_unicode.c glx_context.c)
+    target_sources(glfw PRIVATE 
+        x11_platform.h 
+        xkb_unicode.h 
+        x11_init.c 
+        x11_monitor.c 
+        x11_window.c 
+        xkb_unicode.c 
+        glx_context.c
+    )
 
 endif()
 
 if(GLFW_BUILD_WAYLAND)
 
     target_compile_definitions(glfw PRIVATE _GLFW_WAYLAND)
-    target_sources(glfw PRIVATE wl_platform.h xkb_unicode.h wl_init.c wl_monitor.c wl_window.c xkb_unicode.c)
+    target_sources(glfw PRIVATE 
+        wl_platform.h 
+        xkb_unicode.h 
+        wl_init.c 
+        wl_monitor.c 
+        wl_window.c 
+        xkb_unicode.c
+    )
 
 endif()
 
@@ -47,11 +74,17 @@ if(GLFW_BUILD_X11 OR GLFW_BUILD_WAYLAND)
 
     if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
 
-        target_sources(glfw PRIVATE linux_joystick.h linux_joystick.c)
+        target_sources(glfw PRIVATE 
+            linux_joystick.h 
+            linux_joystick.c
+        )
 
     endif()
 
-    target_sources(glfw PRIVATE posix_poll.h posix_poll.c)
+    target_sources(glfw PRIVATE 
+        posix_poll.h 
+        posix_poll.c
+    )
 
 endif()
 
@@ -79,14 +112,26 @@ if(GLFW_BUILD_WAYLAND)
 
         set(protocol_path "${GLFW_SOURCE_DIR}/deps/wayland/${protocol_file}")
 
-        string(REGEX REPLACE "\\.xml$" "-client-protocol.h" header_file ${protocol_file})
-        string(REGEX REPLACE "\\.xml$" "-client-protocol-code.h" code_file ${protocol_file})
+        string(REGEX REPLACE 
+            "\\.xml$" "-client-protocol.h" 
+            header_file ${protocol_file}
+        )
+        string(REGEX REPLACE 
+            "\\.xml$" "-client-protocol-code.h" 
+            code_file ${protocol_file}
+        )
 
         add_custom_command(OUTPUT ${header_file}
-            COMMAND "${WAYLAND_SCANNER_EXECUTABLE}" client-header "${protocol_path}" ${header_file} DEPENDS "${protocol_path}" VERBATIM)
+            COMMAND "${WAYLAND_SCANNER_EXECUTABLE}" 
+            client-header "${protocol_path}" ${header_file} 
+            DEPENDS "${protocol_path}" VERBATIM
+        )
 
         add_custom_command(OUTPUT ${code_file}
-            COMMAND "${WAYLAND_SCANNER_EXECUTABLE}" private-code "${protocol_path}" ${code_file} DEPENDS "${protocol_path}" VERBATIM)
+            COMMAND "${WAYLAND_SCANNER_EXECUTABLE}" 
+            private-code "${protocol_path}" ${code_file} 
+            DEPENDS "${protocol_path}" VERBATIM
+        )
 
         target_sources(glfw PRIVATE ${header_file} ${code_file})
 
@@ -137,18 +182,6 @@ target_include_directories(glfw PRIVATE
     "${GLFW_BINARY_DIR}/src"
 )
 target_link_libraries(glfw PRIVATE Threads::Threads)
-
-if(GLFW_BUILD_COCOA)
-    target_link_libraries(glfw PRIVATE 
-        "-framework Cocoa" 
-        "-framework IOKit" 
-        "-framework CoreFoundation"
-    )
-
-    set(glfw_PKG_DEPS "")
-    set(glfw_PKG_LIBS "-framework Cocoa -framework IOKit -framework CoreFoundation")
-
-endif()
 
 if(GLFW_BUILD_WAYLAND)
 
@@ -272,11 +305,9 @@ endif()
 
 # Enable a reasonable set of warnings
 # NOTE: The order matters here, Clang-CL matches both MSVC and Clang
-if(MSVC)
-
-    target_compile_options(glfw PRIVATE "/W3")
-
-elseif (CMAKE_C_COMPILER_ID STREQUAL "GNU" OR CMAKE_C_COMPILER_ID STREQUAL "Clang" OR CMAKE_C_COMPILER_ID STREQUAL "AppleClang")
+if(CMAKE_C_COMPILER_ID STREQUAL "GNU" OR 
+    CMAKE_C_COMPILER_ID STREQUAL "Clang" OR 
+    CMAKE_C_COMPILER_ID STREQUAL "AppleClang")
 
     target_compile_options(glfw PRIVATE "-Wall")
 
@@ -325,11 +356,10 @@ configure_file("${GLFW_SOURCE_DIR}/CMake/glfw3.pc.in" glfw3.pc @ONLY)
 
 if(GLFW_INSTALL)
 
-    install(TARGETS glfw 
-        EXPORT glfwTargets 
-            RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}" 
-            ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}" 
-            LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+    install(TARGETS glfw EXPORT glfwTargets
+        RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}" 
+        ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}" 
+        LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}"
     )
 
 endif()
