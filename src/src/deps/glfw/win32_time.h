@@ -1,5 +1,5 @@
 //========================================================================
-// GLFW 3.4 POSIX - www.glfw.org
+// GLFW 3.4 Win32 - www.glfw.org
 //------------------------------------------------------------------------
 // Copyright (c) 2002-2006 Marcus Geelnard
 // Copyright (c) 2006-2017 Camilla Löwy <elmindreda@glfw.org>
@@ -25,41 +25,19 @@
 //
 //========================================================================
 
-#include "internal.h"
+// This is a workaround for the fact that glfw3.h needs to export APIENTRY (for
+// example to allow applications to correctly declare a GL_KHR_debug callback)
+// but windows.h assumes no one will define APIENTRY before it does
+#undef APIENTRY
 
-#if defined(GLFW_BUILD_POSIX_TIMER)
+#include <windows.h>
 
-#include <unistd.h>
-#include <sys/time.h>
+#define GLFW_WIN32_LIBRARY_TIMER_STATE  _GLFWtimerWin32   win32;
 
-
-//////////////////////////////////////////////////////////////////////////
-//////                       GLFW platform API                      //////
-//////////////////////////////////////////////////////////////////////////
-
-void _glfwPlatformInitTimer(void)
+// Win32-specific global timer data
+//
+typedef struct _GLFWtimerWin32
 {
-    _glfw.timer.posix.clock = CLOCK_REALTIME;
-    _glfw.timer.posix.frequency = 1000000000;
-
-#if defined(_POSIX_MONOTONIC_CLOCK)
-    struct timespec ts;
-    if (clock_gettime(CLOCK_MONOTONIC, &ts) == 0)
-        _glfw.timer.posix.clock = CLOCK_MONOTONIC;
-#endif
-}
-
-uint64_t _glfwPlatformGetTimerValue(void)
-{
-    struct timespec ts;
-    clock_gettime(_glfw.timer.posix.clock, &ts);
-    return (uint64_t) ts.tv_sec * _glfw.timer.posix.frequency + (uint64_t) ts.tv_nsec;
-}
-
-uint64_t _glfwPlatformGetTimerFrequency(void)
-{
-    return _glfw.timer.posix.frequency;
-}
-
-#endif // GLFW_BUILD_POSIX_TIMER
+    uint64_t            frequency;
+} _GLFWtimerWin32;
 

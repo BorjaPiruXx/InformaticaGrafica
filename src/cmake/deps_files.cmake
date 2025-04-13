@@ -8,6 +8,7 @@ set(INCLUDE_PATHS
 set(DEPS_SRC_FILES_COMMON
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/platform.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/mappings.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/null_joystick.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/context.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/init.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/input.c
@@ -19,30 +20,29 @@ set(DEPS_SRC_FILES_COMMON
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/null_monitor.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/null_window.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/null_joystick.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/null_joystick.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glad/glad.c
 )
 
 #Windows Dependency Files
-#[==[set(DEPS_SRC_FILES_WIN
+set(DEPS_SRC_FILES_WIN
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_joystick.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_platform.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_thread.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_time.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/egl_context.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_init.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_joystick.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_joystick.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_monitor.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_platform.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_thread.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_time.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_window.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/wgl_context.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/osmesa_context.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_module.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_time.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/win32_thread.h
-)]==]
+)
 
 #Linux Dependency Files
-set(DEPS_SRC_FILES_LINUX
+#[==[set(DEPS_SRC_FILES_LINUX
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/glx_context.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/x11_init.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/x11_monitor.c
@@ -58,7 +58,7 @@ set(DEPS_SRC_FILES_LINUX
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/posix_time.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/posix_thread.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/linux_joystick.h
-)
+)]==]
 
 #MacOS Dependency Files
 #[==[set(DEPS_SRC_FILES_MACOS
@@ -85,5 +85,5 @@ set_source_files_properties(
     ${DEPS_SRC_FILES_LINUX}
     ${DEPS_SRC_FILES_MACOS}
     PROPERTIES
-    COMPILE_FLAGS "-W -l -I -M"
+    COMPILE_FLAGS "-W0"
 )

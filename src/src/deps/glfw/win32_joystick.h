@@ -1,7 +1,6 @@
 //========================================================================
-// GLFW 3.4 POSIX - www.glfw.org
+// GLFW 3.4 Win32 - www.glfw.org
 //------------------------------------------------------------------------
-// Copyright (c) 2002-2006 Marcus Geelnard
 // Copyright (c) 2006-2017 Camilla Löwy <elmindreda@glfw.org>
 //
 // This software is provided 'as-is', without any express or implied
@@ -25,25 +24,28 @@
 //
 //========================================================================
 
-#include <pthread.h>
+#define GLFW_WIN32_JOYSTICK_STATE         _GLFWjoystickWin32 win32;
+#define GLFW_WIN32_LIBRARY_JOYSTICK_STATE
 
-#define GLFW_POSIX_TLS_STATE    _GLFWtlsPOSIX   posix;
-#define GLFW_POSIX_MUTEX_STATE  _GLFWmutexPOSIX posix;
-
-
-// POSIX-specific thread local storage data
+// Joystick element (axis, button or slider)
 //
-typedef struct _GLFWtlsPOSIX
+typedef struct _GLFWjoyobjectWin32
 {
-    GLFWbool        allocated;
-    pthread_key_t   key;
-} _GLFWtlsPOSIX;
+    int                     offset;
+    int                     type;
+} _GLFWjoyobjectWin32;
 
-// POSIX-specific mutex data
+// Win32-specific per-joystick data
 //
-typedef struct _GLFWmutexPOSIX
+typedef struct _GLFWjoystickWin32
 {
-    GLFWbool        allocated;
-    pthread_mutex_t handle;
-} _GLFWmutexPOSIX;
+    _GLFWjoyobjectWin32*    objects;
+    int                     objectCount;
+    IDirectInputDevice8W*   device;
+    DWORD                   index;
+    GUID                    guid;
+} _GLFWjoystickWin32;
+
+void _glfwDetectJoystickConnectionWin32(void);
+void _glfwDetectJoystickDisconnectionWin32(void);
 
