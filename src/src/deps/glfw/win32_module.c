@@ -1,7 +1,7 @@
 //========================================================================
-// GLFW 3.4 POSIX - www.glfw.org
+// GLFW 3.4 Win32 - www.glfw.org
 //------------------------------------------------------------------------
-// Copyright (c) 2022 Camilla Löwy <elmindreda@glfw.org>
+// Copyright (c) 2021 Camilla Löwy <elmindreda@glfw.org>
 //
 // This software is provided 'as-is', without any express or implied
 // warranty. In no event will the authors be held liable for any damages
@@ -24,7 +24,28 @@
 //
 //========================================================================
 
-#include <poll.h>
+#include "internal.h"
 
-GLFWbool _glfwPollPOSIX(struct pollfd* fds, nfds_t count, double* timeout);
+#if defined(GLFW_BUILD_WIN32_MODULE)
+
+//////////////////////////////////////////////////////////////////////////
+//////                       GLFW platform API                      //////
+//////////////////////////////////////////////////////////////////////////
+
+void* _glfwPlatformLoadModule(const char* path)
+{
+    return LoadLibraryA(path);
+}
+
+void _glfwPlatformFreeModule(void* module)
+{
+    FreeLibrary((HMODULE) module);
+}
+
+GLFWproc _glfwPlatformGetModuleSymbol(void* module, const char* name)
+{
+    return (GLFWproc) GetProcAddress((HMODULE) module, name);
+}
+
+#endif // GLFW_BUILD_WIN32_MODULE
 

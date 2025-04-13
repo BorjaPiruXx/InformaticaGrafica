@@ -1,7 +1,8 @@
 //========================================================================
-// GLFW 3.4 POSIX - www.glfw.org
+// GLFW 3.4 Win32 - www.glfw.org
 //------------------------------------------------------------------------
-// Copyright (c) 2021 Camilla Löwy <elmindreda@glfw.org>
+// Copyright (c) 2002-2006 Marcus Geelnard
+// Copyright (c) 2006-2017 Camilla Löwy <elmindreda@glfw.org>
 //
 // This software is provided 'as-is', without any express or implied
 // warranty. In no event will the authors be held liable for any damages
@@ -26,28 +27,28 @@
 
 #include "internal.h"
 
-#if defined(GLFW_BUILD_POSIX_MODULE)
-
-#include <dlfcn.h>
+#if defined(GLFW_BUILD_WIN32_TIMER)
 
 //////////////////////////////////////////////////////////////////////////
 //////                       GLFW platform API                      //////
 //////////////////////////////////////////////////////////////////////////
 
-void* _glfwPlatformLoadModule(const char* path)
+void _glfwPlatformInitTimer(void)
 {
-    return dlopen(path, RTLD_LAZY | RTLD_LOCAL);
+    QueryPerformanceFrequency((LARGE_INTEGER*) &_glfw.timer.win32.frequency);
 }
 
-void _glfwPlatformFreeModule(void* module)
+uint64_t _glfwPlatformGetTimerValue(void)
 {
-    dlclose(module);
+    uint64_t value;
+    QueryPerformanceCounter((LARGE_INTEGER*) &value);
+    return value;
 }
 
-GLFWproc _glfwPlatformGetModuleSymbol(void* module, const char* name)
+uint64_t _glfwPlatformGetTimerFrequency(void)
 {
-    return dlsym(module, name);
+    return _glfw.timer.win32.frequency;
 }
 
-#endif // GLFW_BUILD_POSIX_MODULE
+#endif // GLFW_BUILD_WIN32_TIMER
 
