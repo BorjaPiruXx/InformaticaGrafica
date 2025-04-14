@@ -26,6 +26,8 @@ void render()
 
 int main(int, char*[]) 
 {
+    //system("chcp 65001");
+
     // Sección de variables
     GLFWwindow* window;
 
@@ -46,6 +48,17 @@ int main(int, char*[])
     if(!window)
     {
         std::cout << "Error al crear la ventana" << std::endl;
+        glfwTerminate();
+        return -1;
+    }
+
+    // Generar contexto actual de la ventama
+    glfwMakeContextCurrent(window);
+
+    // Inicializar glad
+    if(!gladLoadGL())
+    {
+        std::cout << "Error al inicializar glad" << std::endl;
         glfwTerminate();
         return -1;
     }
