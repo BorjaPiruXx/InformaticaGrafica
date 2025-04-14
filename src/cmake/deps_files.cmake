@@ -85,5 +85,5 @@ set_source_files_properties(
     ${DEPS_SRC_FILES_LINUX}
     ${DEPS_SRC_FILES_MACOS}
     PROPERTIES
-    COMPILE_FLAGS "-W0"
+    COMPILE_FLAGS "-W -lm -I -M"
 )
