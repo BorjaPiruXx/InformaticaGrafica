@@ -1,0 +1,272 @@
+[
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\placeholder.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\placeholder.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/placeholder.cpp",
+  "output": "CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/context.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\init.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\init.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/init.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\input.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\input.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/input.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\monitor.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\monitor.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/monitor.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/monitor.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\platform.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\platform.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/platform.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/platform.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\window.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\window.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/window.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\vulkan.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\vulkan.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/vulkan.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/vulkan.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\null_init.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\null_init.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_init.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/null_init.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\null_monitor.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\null_monitor.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_monitor.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/null_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\null_window.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\null_window.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_window.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/null_window.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\null_joystick.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\null_joystick.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_joystick.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/null_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glad\\glad.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glad\\glad.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glad/glad.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glad/glad.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\egl_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\egl_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/egl_context.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\win32_init.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_init.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_init.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\win32_joystick.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_joystick.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_joystick.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\win32_monitor.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_monitor.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_monitor.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\win32_thread.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_thread.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_thread.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\win32_time.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_time.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_time.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\win32_window.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_window.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_window.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\wgl_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\wgl_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/wgl_context.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\osmesa_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\osmesa_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/osmesa_context.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\win32_module.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_module.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_module.c",
+  "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_CXX.rsp -g -o CMakeFiles\\01_window.dir\\projects\\01_window\\main.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\projects\\01_window\\main.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/main.cpp",
+  "output": "CMakeFiles/01_window.dir/projects/01_window/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\01_window.dir\\src\\deps\\glfw\\egl_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\egl_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/egl_context.c",
+  "output": "CMakeFiles/01_window.dir/src/deps/glfw/egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\01_window.dir\\src\\deps\\glfw\\win32_init.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_init.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_init.c",
+  "output": "CMakeFiles/01_window.dir/src/deps/glfw/win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\01_window.dir\\src\\deps\\glfw\\win32_joystick.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_joystick.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_joystick.c",
+  "output": "CMakeFiles/01_window.dir/src/deps/glfw/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\01_window.dir\\src\\deps\\glfw\\win32_monitor.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_monitor.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_monitor.c",
+  "output": "CMakeFiles/01_window.dir/src/deps/glfw/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\01_window.dir\\src\\deps\\glfw\\win32_thread.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_thread.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_thread.c",
+  "output": "CMakeFiles/01_window.dir/src/deps/glfw/win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\01_window.dir\\src\\deps\\glfw\\win32_time.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_time.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_time.c",
+  "output": "CMakeFiles/01_window.dir/src/deps/glfw/win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\01_window.dir\\src\\deps\\glfw\\win32_window.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_window.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_window.c",
+  "output": "CMakeFiles/01_window.dir/src/deps/glfw/win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\01_window.dir\\src\\deps\\glfw\\wgl_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\wgl_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/wgl_context.c",
+  "output": "CMakeFiles/01_window.dir/src/deps/glfw/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\01_window.dir\\src\\deps\\glfw\\osmesa_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\osmesa_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/osmesa_context.c",
+  "output": "CMakeFiles/01_window.dir/src/deps/glfw/osmesa_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/01_window.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\01_window.dir\\src\\deps\\glfw\\win32_module.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_module.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_module.c",
+  "output": "CMakeFiles/01_window.dir/src/deps/glfw/win32_module.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_CXX.rsp -g -o CMakeFiles\\02_triangle.dir\\projects\\02_triangle\\main.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\projects\\02_triangle\\main.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/main.cpp",
+  "output": "CMakeFiles/02_triangle.dir/projects/02_triangle/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\02_triangle.dir\\src\\deps\\glfw\\egl_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\egl_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/egl_context.c",
+  "output": "CMakeFiles/02_triangle.dir/src/deps/glfw/egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\02_triangle.dir\\src\\deps\\glfw\\win32_init.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_init.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_init.c",
+  "output": "CMakeFiles/02_triangle.dir/src/deps/glfw/win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\02_triangle.dir\\src\\deps\\glfw\\win32_joystick.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_joystick.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_joystick.c",
+  "output": "CMakeFiles/02_triangle.dir/src/deps/glfw/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\02_triangle.dir\\src\\deps\\glfw\\win32_monitor.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_monitor.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_monitor.c",
+  "output": "CMakeFiles/02_triangle.dir/src/deps/glfw/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\02_triangle.dir\\src\\deps\\glfw\\win32_thread.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_thread.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_thread.c",
+  "output": "CMakeFiles/02_triangle.dir/src/deps/glfw/win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\02_triangle.dir\\src\\deps\\glfw\\win32_time.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_time.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_time.c",
+  "output": "CMakeFiles/02_triangle.dir/src/deps/glfw/win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\02_triangle.dir\\src\\deps\\glfw\\win32_window.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_window.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_window.c",
+  "output": "CMakeFiles/02_triangle.dir/src/deps/glfw/win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\02_triangle.dir\\src\\deps\\glfw\\wgl_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\wgl_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/wgl_context.c",
+  "output": "CMakeFiles/02_triangle.dir/src/deps/glfw/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\02_triangle.dir\\src\\deps\\glfw\\osmesa_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\osmesa_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/osmesa_context.c",
+  "output": "CMakeFiles/02_triangle.dir/src/deps/glfw/osmesa_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/02_triangle/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/02_triangle.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\02_triangle.dir\\src\\deps\\glfw\\win32_module.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_module.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_module.c",
+  "output": "CMakeFiles/02_triangle.dir/src/deps/glfw/win32_module.c.obj"
+}
+]

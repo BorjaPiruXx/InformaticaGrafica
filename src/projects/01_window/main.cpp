@@ -1,4 +1,4 @@
-#include <glad/glad.h>
+﻿#include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
 
@@ -26,10 +26,12 @@ void render()
 
 int main(int, char*[]) 
 {
-    //system("chcp 65001");
+    // Permitir el encoding español
+    system("chcp 65001");
 
     // Sección de variables
     GLFWwindow* window;
+    int width, height;
 
     // Inicializar GLFW
     if(!glfwInit())
@@ -64,6 +66,8 @@ int main(int, char*[])
     }
 
     // Redimensionar la ventana
+    glfwGetFramebufferSize(window, &width, &height);
+    glViewport(0, 0, width, height);
     glfwSetFramebufferSizeCallback(window, onChangeFrameBufferSize);
 
     // Obtener color de fondo de la ventana

@@ -1,0 +1,5 @@
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/EngineLib.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/01_window.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/02_triangle.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/edit_cache.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/rebuild_cache.dir
