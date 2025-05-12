@@ -43,8 +43,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj.d"
   "CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj"
   "CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj.d"
-  "CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj"
-  "CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj.d"
+  "CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj"
+  "CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj.d"
   "libEngineLib.a"
   "libEngineLib.pdb"
 )

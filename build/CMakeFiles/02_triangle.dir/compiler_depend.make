@@ -52,6 +52,7 @@ CMakeFiles/02_triangle.dir/projects/02_triangle/main.cpp.obj: C:/Users/borja/One
   C:/msys64/mingw64/include/c++/14.2.0/bits/range_access.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/refwrap.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
+  C:/msys64/mingw64/include/c++/14.2.0/bits/specfun.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/std_abs.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
   C:/msys64/mingw64/include/c++/14.2.0/bits/stl_construct.h \
@@ -71,6 +72,7 @@ CMakeFiles/02_triangle.dir/projects/02_triangle/main.cpp.obj: C:/Users/borja/One
   C:/msys64/mingw64/include/c++/14.2.0/cctype \
   C:/msys64/mingw64/include/c++/14.2.0/cerrno \
   C:/msys64/mingw64/include/c++/14.2.0/clocale \
+  C:/msys64/mingw64/include/c++/14.2.0/cmath \
   C:/msys64/mingw64/include/c++/14.2.0/concepts \
   C:/msys64/mingw64/include/c++/14.2.0/cstddef \
   C:/msys64/mingw64/include/c++/14.2.0/cstdio \
@@ -90,6 +92,8 @@ CMakeFiles/02_triangle.dir/projects/02_triangle/main.cpp.obj: C:/Users/borja/One
   C:/msys64/mingw64/include/c++/14.2.0/iosfwd \
   C:/msys64/mingw64/include/c++/14.2.0/iostream \
   C:/msys64/mingw64/include/c++/14.2.0/istream \
+  C:/msys64/mingw64/include/c++/14.2.0/limits \
+  C:/msys64/mingw64/include/c++/14.2.0/math.h \
   C:/msys64/mingw64/include/c++/14.2.0/new \
   C:/msys64/mingw64/include/c++/14.2.0/ostream \
   C:/msys64/mingw64/include/c++/14.2.0/pstl/pstl_config.h \
@@ -99,6 +103,18 @@ CMakeFiles/02_triangle.dir/projects/02_triangle/main.cpp.obj: C:/Users/borja/One
   C:/msys64/mingw64/include/c++/14.2.0/string \
   C:/msys64/mingw64/include/c++/14.2.0/string_view \
   C:/msys64/mingw64/include/c++/14.2.0/system_error \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+  C:/msys64/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
   C:/msys64/mingw64/include/c++/14.2.0/tuple \
   C:/msys64/mingw64/include/c++/14.2.0/type_traits \
   C:/msys64/mingw64/include/c++/14.2.0/typeinfo \
@@ -124,6 +140,7 @@ CMakeFiles/02_triangle.dir/projects/02_triangle/main.cpp.obj: C:/Users/borja/One
   C:/msys64/mingw64/include/limits.h \
   C:/msys64/mingw64/include/locale.h \
   C:/msys64/mingw64/include/malloc.h \
+  C:/msys64/mingw64/include/math.h \
   C:/msys64/mingw64/include/process.h \
   C:/msys64/mingw64/include/pthread.h \
   C:/msys64/mingw64/include/pthread_compat.h \
@@ -2730,6 +2747,10 @@ C:/msys64/mingw64/include/_mingw_stat64.h:
 
 C:/msys64/mingw64/include/_timeval.h:
 
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/bits/specfun.h:
+
 C:/msys64/mingw64/include/c++/14.2.0/bits/new_allocator.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h:
@@ -2785,8 +2806,6 @@ C:/msys64/mingw64/include/c++/14.2.0/bits/basic_string.tcc:
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_joystick.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/char_traits.h:
-
-C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h:
 
@@ -2892,6 +2911,8 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/string_view.tcc:
 
+C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator.h:
+
 C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator_args.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/bits/utility.h:
@@ -2902,7 +2923,11 @@ C:/msys64/mingw64/include/c++/14.2.0/cctype:
 
 C:/msys64/mingw64/include/c++/14.2.0/clocale:
 
+C:/msys64/mingw64/include/c++/14.2.0/cmath:
+
 C:/msys64/mingw64/include/c++/14.2.0/concepts:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc:
 
 C:/msys64/mingw64/include/c++/14.2.0/cstddef:
 
@@ -2948,6 +2973,10 @@ C:/msys64/mingw64/include/_mingw_stdarg.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/istream:
 
+C:/msys64/mingw64/include/c++/14.2.0/limits:
+
+C:/msys64/mingw64/include/c++/14.2.0/math.h:
+
 C:/msys64/mingw64/include/rpcnterr.h:
 
 C:/msys64/mingw64/include/corecrt_wstdlib.h:
@@ -2979,6 +3008,44 @@ C:/msys64/mingw64/include/c++/14.2.0/string_view:
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/system_error:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/beta_function.tcc:
+
+C:/msys64/mingw64/include/stralign.h:
+
+C:/msys64/mingw64/include/bemapiset.h:
+
+C:/msys64/mingw64/include/pthread_time.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/gamma.tcc:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc:
+
+C:/msys64/mingw64/include/winuser.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc:
+
+C:/msys64/mingw64/include/wincon.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc:
+
+C:/msys64/mingw64/include/pshpack1.h:
+
+C:/msys64/mingw64/include/stdio.h:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc:
+
+C:/msys64/mingw64/include/c++/14.2.0/tr1/special_function_util.h:
 
 C:/msys64/mingw64/include/c++/14.2.0/tuple:
 
@@ -3044,6 +3111,10 @@ C:/msys64/mingw64/include/objidl.h:
 
 C:/msys64/mingw64/include/malloc.h:
 
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_platform.h:
+
+C:/msys64/mingw64/include/math.h:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h:
 
 C:/msys64/mingw64/include/systemtopologyapi.h:
@@ -3055,12 +3126,6 @@ C:/msys64/mingw64/include/pthread_compat.h:
 C:/msys64/mingw64/include/memoryapi.h:
 
 C:/msys64/mingw64/include/pthread_signal.h:
-
-C:/msys64/mingw64/include/stralign.h:
-
-C:/msys64/mingw64/include/bemapiset.h:
-
-C:/msys64/mingw64/include/pthread_time.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h:
 
@@ -3087,10 +3152,6 @@ C:/msys64/mingw64/include/signal.h:
 C:/msys64/mingw64/include/stddef.h:
 
 C:/msys64/mingw64/include/stdint.h:
-
-C:/msys64/mingw64/include/pshpack1.h:
-
-C:/msys64/mingw64/include/stdio.h:
 
 C:/msys64/mingw64/include/stdlib.h:
 
@@ -3276,8 +3337,6 @@ C:/msys64/mingw64/include/virtdisk.h:
 
 C:/msys64/mingw64/include/winbase.h:
 
-C:/msys64/mingw64/include/wincon.h:
-
 C:/msys64/mingw64/include/winerror.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h:
@@ -3295,8 +3354,6 @@ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/
 C:/msys64/mingw64/include/winreg.h:
 
 C:/msys64/mingw64/include/winsvc.h:
-
-C:/msys64/mingw64/include/winuser.h:
 
 C:/msys64/mingw64/include/winver.h:
 
@@ -3386,8 +3443,6 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h:
@@ -3397,8 +3452,6 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h:
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h:
 
@@ -3435,10 +3488,6 @@ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h:
-
-C:/msys64/mingw64/include/math.h:
-
-C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_platform.h:
 
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_joystick.h:
 

@@ -1,9 +1,9 @@
 [
 {
   "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\placeholder.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\placeholder.cpp",
-  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/placeholder.cpp",
-  "output": "CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\window.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\window.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/window.cpp",
+  "output": "CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj"
 },
 {
   "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
