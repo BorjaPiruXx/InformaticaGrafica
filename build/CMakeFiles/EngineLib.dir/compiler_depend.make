@@ -5583,8 +5583,6 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj: C:/Users/borja/OneDrive/Des
   C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_thread.h \
   C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_time.h
 
-CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/placeholder.cpp
-
 
 C:/msys64/mingw64/include/rpcnterr.h:
 
@@ -6239,5 +6237,3 @@ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_time.c:
 
 C:/msys64/mingw64/include/windowsx.h:
-
-C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/placeholder.cpp:

@@ -71,20 +71,20 @@ include CMakeFiles/EngineLib.dir/flags.make
 CMakeFiles/EngineLib.dir/codegen:
 .PHONY : CMakeFiles/EngineLib.dir/codegen
 
-CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj: CMakeFiles/EngineLib.dir/flags.make
-CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj: CMakeFiles/EngineLib.dir/includes_CXX.rsp
-CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/placeholder.cpp
-CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj -MF CMakeFiles\EngineLib.dir\src\engine\placeholder.cpp.obj.d -o CMakeFiles\EngineLib.dir\src\engine\placeholder.cpp.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\placeholder.cpp
+CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj: CMakeFiles/EngineLib.dir/flags.make
+CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj: CMakeFiles/EngineLib.dir/includes_CXX.rsp
+CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/window.cpp
+CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj -MF CMakeFiles\EngineLib.dir\src\engine\window.cpp.obj.d -o CMakeFiles\EngineLib.dir\src\engine\window.cpp.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\window.cpp
 
-CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\placeholder.cpp > CMakeFiles\EngineLib.dir\src\engine\placeholder.cpp.i
+CMakeFiles/EngineLib.dir/src/engine/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EngineLib.dir/src/engine/window.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\window.cpp > CMakeFiles\EngineLib.dir\src\engine\window.cpp.i
 
-CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\placeholder.cpp -o CMakeFiles\EngineLib.dir\src\engine\placeholder.cpp.s
+CMakeFiles/EngineLib.dir/src/engine/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineLib.dir/src/engine/window.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\window.cpp -o CMakeFiles\EngineLib.dir\src\engine\window.cpp.s
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj: CMakeFiles/EngineLib.dir/flags.make
 CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
@@ -418,7 +418,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.s: cmake_force
 
 # Object files for target EngineLib
 EngineLib_OBJECTS = \
-"CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj" \
+"CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj" \
 "CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj" \
 "CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj" \
 "CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj" \
@@ -445,7 +445,7 @@ EngineLib_OBJECTS = \
 # External object files for target EngineLib
 EngineLib_EXTERNAL_OBJECTS =
 
-libEngineLib.a: CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj
+libEngineLib.a: CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj

@@ -797,29 +797,29 @@ src/deps/glfw/window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.s
 .PHONY : src/deps/glfw/window.c.s
 
-src/engine/placeholder.obj: src/engine/placeholder.cpp.obj
-.PHONY : src/engine/placeholder.obj
+src/engine/window.obj: src/engine/window.cpp.obj
+.PHONY : src/engine/window.obj
 
 # target to build an object file
-src/engine/placeholder.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.obj
-.PHONY : src/engine/placeholder.cpp.obj
+src/engine/window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj
+.PHONY : src/engine/window.cpp.obj
 
-src/engine/placeholder.i: src/engine/placeholder.cpp.i
-.PHONY : src/engine/placeholder.i
+src/engine/window.i: src/engine/window.cpp.i
+.PHONY : src/engine/window.i
 
 # target to preprocess a source file
-src/engine/placeholder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.i
-.PHONY : src/engine/placeholder.cpp.i
+src/engine/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/window.cpp.i
+.PHONY : src/engine/window.cpp.i
 
-src/engine/placeholder.s: src/engine/placeholder.cpp.s
-.PHONY : src/engine/placeholder.s
+src/engine/window.s: src/engine/window.cpp.s
+.PHONY : src/engine/window.s
 
 # target to generate assembly for a file
-src/engine/placeholder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/placeholder.cpp.s
-.PHONY : src/engine/placeholder.cpp.s
+src/engine/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/window.cpp.s
+.PHONY : src/engine/window.cpp.s
 
 # Help Target
 help:
@@ -905,9 +905,9 @@ help:
 	@echo ... src/deps/glfw/window.obj
 	@echo ... src/deps/glfw/window.i
 	@echo ... src/deps/glfw/window.s
-	@echo ... src/engine/placeholder.obj
-	@echo ... src/engine/placeholder.i
-	@echo ... src/engine/placeholder.s
+	@echo ... src/engine/window.obj
+	@echo ... src/engine/window.i
+	@echo ... src/engine/window.s
 .PHONY : help
 
 

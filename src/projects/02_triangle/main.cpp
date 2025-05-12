@@ -1,6 +1,7 @@
 #include <glad/glad.h> 
 #include <GLFW/glfw3.h>
 #include <iostream>
+#include <math.h>
 
 void onChangeFrameBufferSize(GLFWwindow* window, int width, int height)
 {
@@ -23,6 +24,12 @@ void render(uint32_t program, uint32_t vao)
     // Usar el programa y ligar array de vértices
     glUseProgram(program);
     glBindVertexArray(vao);
+
+    // Encontrar el uniform en el programa y darle valor al rojo
+    float time = glfwGetTime();
+    float colorRed = sin(time) / 2.0f + 0.5f;
+    int colorLocation = glGetUniformLocation(program, "color");
+    glUniform4f(colorLocation, colorRed, 0.0f, 0.0f, 1.0f);
 
     // Pintar elementos
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
@@ -112,7 +119,7 @@ uint32_t createProgram()
     // Generar información del shader de vértices
     const char* vertexInfo = 
         "#version 330 core\n"
-        "layout (location=0) in vec3 aPos;\n"
+        "layout (location = 0) in vec3 aPos;\n"
         "void main()\n"
         "{\n"
         "   gl_Position = vec4(aPos, 1.0);\n"
@@ -128,10 +135,11 @@ uint32_t createProgram()
     // Generar información del shader de fragmentos
     const char* fragmentInfo =
         "#version 330 core\n"
-        "out vec4 FragColor;\n"
+        "out vec4 fragColor;\n"
+        "uniform vec4 color;\n"
         "void main()\n"
         "{\n"
-        "   FragColor = vec4(0.2, 0.7, 0.2, 1.0);\n"
+        "   fragColor = color;\n"
         "}\0"
     ;
 
