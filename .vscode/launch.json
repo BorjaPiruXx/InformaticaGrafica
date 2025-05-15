@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "02_triangle",
+      "name": "03_color",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/02_triangle",
+      "program": "${workspaceFolder}/build/03_color",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

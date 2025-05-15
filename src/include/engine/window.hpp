@@ -51,11 +51,11 @@ class Window
 
         Window(Window&&) = default;
 
-        Window& operator = (const Window&) = default;
+        Window& operator=(const Window&) = default;
 
-        Window& operator = (Window&&) = default;
+        Window& operator=(Window&&) = default;
 
         GLFWwindow* _window;
         uint32_t _width = 800;
-        uint32_t _height = 800;
+        uint32_t _height = 600;
 };

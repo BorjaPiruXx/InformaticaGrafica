@@ -1,11 +1,12 @@
 #include "engine/window.hpp"
 #include "engine/input.hpp"
-#include <iostream>
 
 #pragma warning(push, 0)
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #pragma warning(pop)
+
+#include <iostream>
 
 void onChangeFrameBufferSize(GLFWwindow*, const int32_t width, const int32_t height) noexcept 
 {

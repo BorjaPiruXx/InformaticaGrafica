@@ -3,7 +3,8 @@
 #include "engine/window.hpp"
 #include <functional>
 
-class Input {
+class Input 
+{
     public:
         static Input* instance() 
         {
