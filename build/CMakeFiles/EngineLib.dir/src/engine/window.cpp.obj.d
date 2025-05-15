@@ -78,6 +78,9 @@ CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/bits/vector.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/array \
  C:/msys64/mingw64/include/c++/14.2.0/compare \
+ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/glad/glad.h \
+ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/KHR/khrplatform.h \
+ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/GLFW/glfw3.h \
  C:/msys64/mingw64/include/c++/14.2.0/iostream \
  C:/msys64/mingw64/include/c++/14.2.0/ostream \
  C:/msys64/mingw64/include/c++/14.2.0/ios \
@@ -161,7 +164,4 @@ CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/istream \
- C:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
- C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/glad/glad.h \
- C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/KHR/khrplatform.h \
- C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/GLFW/glfw3.h
+ C:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc
