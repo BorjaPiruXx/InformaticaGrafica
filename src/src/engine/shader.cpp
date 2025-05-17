@@ -142,8 +142,7 @@ void Shader::checkErrors(const uint32_t shader, const Type type)
             glGetShaderInfoLog(shader, 1024, nullptr, log);
             std::cout << "Error al compilar el shader de " << (type == Type::Vertex ? "vértices" : "fragmentos") << ": " << log << std::endl;
         }
-    } 
-    else 
+    } else 
     {
         glGetProgramiv(shader, GL_LINK_STATUS, &success);
         if (!success) 
@@ -164,8 +163,7 @@ void Shader::loadShader(const char* path, std::string* code)
         std::stringstream stream;
         stream << file.rdbuf();
         *code = stream.str();
-    } 
-    else 
+    } else 
     {
         std::cout << "Error al cargar la ruta del shader: " << path << std::endl;
     }

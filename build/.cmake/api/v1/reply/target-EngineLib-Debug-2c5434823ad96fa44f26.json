@@ -98,6 +98,10 @@
 				{
 					"backtrace" : 5,
 					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/stb"
 				}
 			],
 			"language" : "CXX",
@@ -141,6 +145,10 @@
 				{
 					"backtrace" : 5,
 					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/stb"
 				}
 			],
 			"language" : "C",
@@ -158,7 +166,6 @@
 				17,
 				18,
 				19,
-				24,
 				25,
 				26,
 				27,
@@ -167,7 +174,8 @@
 				30,
 				31,
 				32,
-				33
+				33,
+				34
 			]
 		}
 	],
@@ -230,7 +238,8 @@
 				30,
 				31,
 				32,
-				33
+				33,
+				34
 			]
 		}
 	],
@@ -348,6 +357,11 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glad/glad.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/deps/stb/stb_image.h",
 			"sourceGroupIndex" : 2
 		},
 		{

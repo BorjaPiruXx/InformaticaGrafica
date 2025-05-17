@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "03_color.exe"
+			"path" : "04_texture.exe"
 		},
 		{
-			"path" : "03_color.pdb"
+			"path" : "04_texture.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -103,7 +103,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"define" : "PROJECT_PATH=\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/03_color/\""
+					"define" : "PROJECT_PATH=\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/04_texture/\""
 				},
 				{
 					"backtrace" : 5,
@@ -127,6 +127,10 @@
 				{
 					"backtrace" : 7,
 					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/stb"
 				}
 			],
 			"language" : "CXX",
@@ -153,7 +157,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"define" : "PROJECT_PATH=\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/03_color/\""
+					"define" : "PROJECT_PATH=\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/04_texture/\""
 				},
 				{
 					"backtrace" : 5,
@@ -177,6 +181,10 @@
 				{
 					"backtrace" : 7,
 					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/stb"
 				}
 			],
 			"language" : "C",
@@ -202,7 +210,7 @@
 			"id" : "EngineLib::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "03_color::@6890427a1f51a3e7e1df",
+	"id" : "04_texture::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -228,8 +236,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "03_color",
-	"nameOnDisk" : "03_color.exe",
+	"name" : "04_texture",
+	"nameOnDisk" : "04_texture.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -278,7 +286,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "projects/03_color/main.cpp",
+			"path" : "projects/04_texture/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -363,12 +371,12 @@
 		},
 		{
 			"backtrace" : 9,
-			"path" : "projects/03_color/color.frag",
+			"path" : "projects/04_texture/texture.frag",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 9,
-			"path" : "projects/03_color/color.vert",
+			"path" : "projects/04_texture/texture.vert",
 			"sourceGroupIndex" : 2
 		}
 	],

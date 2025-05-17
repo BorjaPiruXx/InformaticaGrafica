@@ -2,6 +2,7 @@
 set(INCLUDE_PATHS
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/stb
 )
 
 #Common Dependency Files
@@ -21,6 +22,7 @@ set(DEPS_SRC_FILES_COMMON
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/null_window.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glfw/null_joystick.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/glad/glad.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/deps/stb/stb_image.h
 )
 
 #Windows Dependency Files
