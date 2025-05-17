@@ -19,7 +19,7 @@ void onChangeFrameBufferSize(GLFWwindow*, const int32_t width, const int32_t hei
 void onKeyPressed(GLFWwindow* window, int key, int /*scancode*/, int action, int /*mods*/) 
 {
 
-    if (action == GLFW_PRESS && key == GLFW_KEY_ESCAPE) 
+    if((action == GLFW_PRESS) && (key == GLFW_KEY_ESCAPE)) 
     {
         glfwSetWindowShouldClose(window, true);
     } else 
@@ -46,7 +46,7 @@ Window* Window::instance()
 
 Window::Window() 
 {
-    if (!glfwInit()) 
+    if(!glfwInit()) 
     {
         std::cout << "Error al inicializar GLFW" << std::endl;
         exit(-1);
@@ -57,7 +57,7 @@ Window::Window()
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     _window = glfwCreateWindow(static_cast<int>(_width), static_cast<int>(_height), "60GIIN_10_A_2024_25", nullptr, nullptr);
-    if (!_window) 
+    if(!_window) 
     {
         std::cout << "Error al crear la ventana" << std::endl;
         glfwTerminate();
@@ -104,7 +104,7 @@ bool Window::isKeyPressed(int key)
 
 void Window::setCaptureMouse(bool toggle) const 
 {
-    if (toggle) 
+    if(toggle) 
     {
         glfwSetInputMode(_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
     } else 

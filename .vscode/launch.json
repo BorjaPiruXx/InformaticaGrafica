@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "03_color",
+      "name": "04_texture",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/03_color",
+      "program": "${workspaceFolder}/build/04_texture",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

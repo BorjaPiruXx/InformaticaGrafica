@@ -1,1 +1,1 @@
--IC:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include -IC:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw
+-IC:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include -IC:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw -IC:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/stb

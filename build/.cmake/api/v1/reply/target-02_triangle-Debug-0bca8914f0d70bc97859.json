@@ -121,6 +121,10 @@
 				{
 					"backtrace" : 7,
 					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/stb"
 				}
 			],
 			"language" : "CXX",
@@ -171,6 +175,10 @@
 				{
 					"backtrace" : 7,
 					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/stb"
 				}
 			],
 			"language" : "C",
