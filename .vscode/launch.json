@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "04_texture",
+      "name": "05_transform3D",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/04_texture",
+      "program": "${workspaceFolder}/build/05_transform3D",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
