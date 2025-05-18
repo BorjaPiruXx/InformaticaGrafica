@@ -113,25 +113,31 @@ void render(const Shader shader, uint32_t vao, uint32_t* textures)
 
     shader.use();
 
-    // Crear matriz de transformación
-    glm::mat4 matrix = glm::mat4(1.0f);
+    // Crear matriz de modelo
+    glm::mat4 model = glm::mat4(1.0f);
+    model = glm::rotate(model, glm::radians(-55.0f), glm::vec3(1.0f, 0.0f, 0.0f));
 
-    // Trasladar matriz hacia la derecha (eje X)
-    matrix = glm::translate(matrix, glm::vec3(0.2f, 0.0f, 0.0f));
+    // Crear matriz de vista
+    glm::mat4 view = glm::mat4(1.0f);
+    view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
 
     /*
-     * Rotar matriz:
-     *  > ciertos grados sobre alguno de los ejes
-     *  > de manera continuada (movimiento del objeto)
+     * Crear matriz de proyección:
+     *  > campo de perspectiva (fov)
+     *  > aspect ratio respecto al ancho y alto de la pantalla (aspect)
+     *  > momento en el que la cámara va a poder ver algo (near)
+     *  > momento en el que la cámara va a dejar de ver algo (far)
     */
-    //matrix = glm::rotate(matrix, glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-    matrix = glm::rotate(matrix, static_cast<float>(glfwGetTime()), glm::vec3(0.0f, 0.0f, 1.0f));
+    const float fov = 45.0f;
+    const float near = 0.1f;
+    const float far = 100.0f;
+    Window* window = Window::instance();
+    glm::mat4 projection = glm::perspective(glm::radians(fov), static_cast<float>(window->getWidth()) / static_cast<float>(window->getHeight()), near, far);
 
-    // Escalar matriz a la mitad en los 3 ejes (uniforme)
-    matrix = glm::scale(matrix, glm::vec3(0.5f, 0.5f, 0.5f));
-
-    // Establecer en el shader el valor de la matriz
-    shader.set("transform", matrix);
+    // Establecer en el shader los valores de cada matriz
+    shader.set("model", model);
+    shader.set("view", view);
+    shader.set("projection", projection);
 
     glBindVertexArray(vao);
     addTexturesOnShader(shader, textures);
