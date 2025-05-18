@@ -69,4 +69,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/02_triangle.dir/DependInfo.cmake"
   "CMakeFiles/03_color.dir/DependInfo.cmake"
   "CMakeFiles/04_texture.dir/DependInfo.cmake"
+  "CMakeFiles/05_transform3D.dir/DependInfo.cmake"
   )
