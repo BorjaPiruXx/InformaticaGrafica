@@ -108,7 +108,13 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
 			]
 		},
 		{
@@ -154,18 +160,10 @@
 			"language" : "C",
 			"sourceIndexes" : 
 			[
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
+				21,
+				22,
+				23,
+				24,
 				25,
 				26,
 				27,
@@ -174,8 +172,16 @@
 				30,
 				31,
 				32,
-				33,
-				34
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47
 			]
 		}
 	],
@@ -194,35 +200,53 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Source Files\\geometry",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				2,
-				3,
-				4
+				8,
+				9,
+				10,
+				11
+			]
+		},
+		{
+			"name" : "Header Files\\geometry",
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		},
+		{
+			"name" : "Header Files\\geometry\\data",
+			"sourceIndexes" : 
+			[
+				17
 			]
 		},
 		{
 			"name" : "Deps",
 			"sourceIndexes" : 
 			[
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
 				18,
 				19,
 				20,
@@ -239,7 +263,20 @@
 				31,
 				32,
 				33,
-				34
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47
 			]
 		}
 	],
@@ -259,190 +296,261 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/engine/window.hpp",
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/texture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/geometry/geometry.cpp",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/geometry/cube.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/geometry/quad.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/geometry/sphere.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/geometry/teapot.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/engine/window.hpp",
+			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 1,
 			"path" : "include/engine/input.hpp",
-			"sourceGroupIndex" : 1
+			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 1,
 			"path" : "include/engine/shader.hpp",
-			"sourceGroupIndex" : 1
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/engine/texture.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/engine/geometry/geometry.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/engine/geometry/cube.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/engine/geometry/quad.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/engine/geometry/sphere.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/engine/geometry/teapot.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/engine/geometry/data/teapot.hpp",
+			"sourceGroupIndex" : 4
 		},
 		{
 			"backtrace" : 1,
 			"path" : "src/deps/glfw/platform.h",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"path" : "src/deps/glfw/mappings.h",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"path" : "src/deps/glfw/null_joystick.h",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/context.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/init.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/input.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/monitor.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/platform.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/window.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/vulkan.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/null_init.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/null_monitor.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/null_window.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/null_joystick.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glad/glad.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 1,
 			"path" : "src/deps/stb/stb_image.h",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"path" : "src/deps/glfw/win32_joystick.h",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"path" : "src/deps/glfw/win32_platform.h",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"path" : "src/deps/glfw/win32_thread.h",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"path" : "src/deps/glfw/win32_time.h",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/egl_context.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/win32_init.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/win32_joystick.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/win32_monitor.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/win32_thread.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/win32_time.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/win32_window.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/wgl_context.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/osmesa_context.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		},
 		{
 			"backtrace" : 6,
 			"compileGroupIndex" : 1,
 			"path" : "src/deps/glfw/win32_module.c",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 5
 		}
 	],
 	"type" : "STATIC_LIBRARY"

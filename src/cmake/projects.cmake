@@ -6,4 +6,5 @@ set(PROJECT_LIST
     04_texture
     05_transform3D
     06_cube
+    07_geometry
 )

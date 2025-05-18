@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "06_cube",
+      "name": "07_geometry",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/06_cube",
+      "program": "${workspaceFolder}/build/07_geometry",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

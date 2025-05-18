@@ -213,6 +213,19 @@ EngineLib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/build
 .PHONY : 06_cube/fast
 
+#=============================================================================
+# Target rules for targets named 07_geometry
+
+# Build rule for target.
+07_geometry: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 07_geometry
+.PHONY : 07_geometry
+
+# fast build rule for target.
+07_geometry/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/build
+.PHONY : 07_geometry/fast
+
 projects/01_window/main.obj: projects/01_window/main.cpp.obj
 .PHONY : projects/01_window/main.obj
 
@@ -357,6 +370,30 @@ projects/06_cube/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/projects/06_cube/main.cpp.s
 .PHONY : projects/06_cube/main.cpp.s
 
+projects/07_geometry/main.obj: projects/07_geometry/main.cpp.obj
+.PHONY : projects/07_geometry/main.obj
+
+# target to build an object file
+projects/07_geometry/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/projects/07_geometry/main.cpp.obj
+.PHONY : projects/07_geometry/main.cpp.obj
+
+projects/07_geometry/main.i: projects/07_geometry/main.cpp.i
+.PHONY : projects/07_geometry/main.i
+
+# target to preprocess a source file
+projects/07_geometry/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/projects/07_geometry/main.cpp.i
+.PHONY : projects/07_geometry/main.cpp.i
+
+projects/07_geometry/main.s: projects/07_geometry/main.cpp.s
+.PHONY : projects/07_geometry/main.s
+
+# target to generate assembly for a file
+projects/07_geometry/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/projects/07_geometry/main.cpp.s
+.PHONY : projects/07_geometry/main.cpp.s
+
 src/deps/glad/glad.obj: src/deps/glad/glad.c.obj
 .PHONY : src/deps/glad/glad.obj
 
@@ -417,6 +454,7 @@ src/deps/glfw/egl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/egl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/egl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/egl_context.c.obj
 .PHONY : src/deps/glfw/egl_context.c.obj
 
 src/deps/glfw/egl_context.i: src/deps/glfw/egl_context.c.i
@@ -431,6 +469,7 @@ src/deps/glfw/egl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/egl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/egl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/egl_context.c.i
 .PHONY : src/deps/glfw/egl_context.c.i
 
 src/deps/glfw/egl_context.s: src/deps/glfw/egl_context.c.s
@@ -445,6 +484,7 @@ src/deps/glfw/egl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/egl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/egl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/egl_context.c.s
 .PHONY : src/deps/glfw/egl_context.c.s
 
 src/deps/glfw/init.obj: src/deps/glfw/init.c.obj
@@ -627,6 +667,7 @@ src/deps/glfw/osmesa_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/osmesa_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/osmesa_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/osmesa_context.c.obj
 .PHONY : src/deps/glfw/osmesa_context.c.obj
 
 src/deps/glfw/osmesa_context.i: src/deps/glfw/osmesa_context.c.i
@@ -641,6 +682,7 @@ src/deps/glfw/osmesa_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/osmesa_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/osmesa_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/osmesa_context.c.i
 .PHONY : src/deps/glfw/osmesa_context.c.i
 
 src/deps/glfw/osmesa_context.s: src/deps/glfw/osmesa_context.c.s
@@ -655,6 +697,7 @@ src/deps/glfw/osmesa_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/osmesa_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/osmesa_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/osmesa_context.c.s
 .PHONY : src/deps/glfw/osmesa_context.c.s
 
 src/deps/glfw/platform.obj: src/deps/glfw/platform.c.obj
@@ -717,6 +760,7 @@ src/deps/glfw/wgl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/wgl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/wgl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/wgl_context.c.obj
 .PHONY : src/deps/glfw/wgl_context.c.obj
 
 src/deps/glfw/wgl_context.i: src/deps/glfw/wgl_context.c.i
@@ -731,6 +775,7 @@ src/deps/glfw/wgl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/wgl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/wgl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/wgl_context.c.i
 .PHONY : src/deps/glfw/wgl_context.c.i
 
 src/deps/glfw/wgl_context.s: src/deps/glfw/wgl_context.c.s
@@ -745,6 +790,7 @@ src/deps/glfw/wgl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/wgl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/wgl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/wgl_context.c.s
 .PHONY : src/deps/glfw/wgl_context.c.s
 
 src/deps/glfw/win32_init.obj: src/deps/glfw/win32_init.c.obj
@@ -759,6 +805,7 @@ src/deps/glfw/win32_init.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_init.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_init.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_init.c.obj
 .PHONY : src/deps/glfw/win32_init.c.obj
 
 src/deps/glfw/win32_init.i: src/deps/glfw/win32_init.c.i
@@ -773,6 +820,7 @@ src/deps/glfw/win32_init.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_init.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_init.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_init.c.i
 .PHONY : src/deps/glfw/win32_init.c.i
 
 src/deps/glfw/win32_init.s: src/deps/glfw/win32_init.c.s
@@ -787,6 +835,7 @@ src/deps/glfw/win32_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_init.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_init.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_init.c.s
 .PHONY : src/deps/glfw/win32_init.c.s
 
 src/deps/glfw/win32_joystick.obj: src/deps/glfw/win32_joystick.c.obj
@@ -801,6 +850,7 @@ src/deps/glfw/win32_joystick.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_joystick.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_joystick.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_joystick.c.obj
 .PHONY : src/deps/glfw/win32_joystick.c.obj
 
 src/deps/glfw/win32_joystick.i: src/deps/glfw/win32_joystick.c.i
@@ -815,6 +865,7 @@ src/deps/glfw/win32_joystick.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_joystick.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_joystick.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_joystick.c.i
 .PHONY : src/deps/glfw/win32_joystick.c.i
 
 src/deps/glfw/win32_joystick.s: src/deps/glfw/win32_joystick.c.s
@@ -829,6 +880,7 @@ src/deps/glfw/win32_joystick.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_joystick.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_joystick.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_joystick.c.s
 .PHONY : src/deps/glfw/win32_joystick.c.s
 
 src/deps/glfw/win32_module.obj: src/deps/glfw/win32_module.c.obj
@@ -843,6 +895,7 @@ src/deps/glfw/win32_module.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_module.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.obj
 .PHONY : src/deps/glfw/win32_module.c.obj
 
 src/deps/glfw/win32_module.i: src/deps/glfw/win32_module.c.i
@@ -857,6 +910,7 @@ src/deps/glfw/win32_module.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_module.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.i
 .PHONY : src/deps/glfw/win32_module.c.i
 
 src/deps/glfw/win32_module.s: src/deps/glfw/win32_module.c.s
@@ -871,6 +925,7 @@ src/deps/glfw/win32_module.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_module.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.s
 .PHONY : src/deps/glfw/win32_module.c.s
 
 src/deps/glfw/win32_monitor.obj: src/deps/glfw/win32_monitor.c.obj
@@ -885,6 +940,7 @@ src/deps/glfw/win32_monitor.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_monitor.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_monitor.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_monitor.c.obj
 .PHONY : src/deps/glfw/win32_monitor.c.obj
 
 src/deps/glfw/win32_monitor.i: src/deps/glfw/win32_monitor.c.i
@@ -899,6 +955,7 @@ src/deps/glfw/win32_monitor.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_monitor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_monitor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_monitor.c.i
 .PHONY : src/deps/glfw/win32_monitor.c.i
 
 src/deps/glfw/win32_monitor.s: src/deps/glfw/win32_monitor.c.s
@@ -913,6 +970,7 @@ src/deps/glfw/win32_monitor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_monitor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_monitor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_monitor.c.s
 .PHONY : src/deps/glfw/win32_monitor.c.s
 
 src/deps/glfw/win32_thread.obj: src/deps/glfw/win32_thread.c.obj
@@ -927,6 +985,7 @@ src/deps/glfw/win32_thread.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_thread.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_thread.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_thread.c.obj
 .PHONY : src/deps/glfw/win32_thread.c.obj
 
 src/deps/glfw/win32_thread.i: src/deps/glfw/win32_thread.c.i
@@ -941,6 +1000,7 @@ src/deps/glfw/win32_thread.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_thread.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_thread.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_thread.c.i
 .PHONY : src/deps/glfw/win32_thread.c.i
 
 src/deps/glfw/win32_thread.s: src/deps/glfw/win32_thread.c.s
@@ -955,6 +1015,7 @@ src/deps/glfw/win32_thread.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_thread.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_thread.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_thread.c.s
 .PHONY : src/deps/glfw/win32_thread.c.s
 
 src/deps/glfw/win32_time.obj: src/deps/glfw/win32_time.c.obj
@@ -969,6 +1030,7 @@ src/deps/glfw/win32_time.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_time.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_time.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_time.c.obj
 .PHONY : src/deps/glfw/win32_time.c.obj
 
 src/deps/glfw/win32_time.i: src/deps/glfw/win32_time.c.i
@@ -983,6 +1045,7 @@ src/deps/glfw/win32_time.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_time.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_time.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_time.c.i
 .PHONY : src/deps/glfw/win32_time.c.i
 
 src/deps/glfw/win32_time.s: src/deps/glfw/win32_time.c.s
@@ -997,6 +1060,7 @@ src/deps/glfw/win32_time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_time.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_time.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_time.c.s
 .PHONY : src/deps/glfw/win32_time.c.s
 
 src/deps/glfw/win32_window.obj: src/deps/glfw/win32_window.c.obj
@@ -1011,6 +1075,7 @@ src/deps/glfw/win32_window.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_window.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_window.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_window.c.obj
 .PHONY : src/deps/glfw/win32_window.c.obj
 
 src/deps/glfw/win32_window.i: src/deps/glfw/win32_window.c.i
@@ -1025,6 +1090,7 @@ src/deps/glfw/win32_window.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_window.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_window.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_window.c.i
 .PHONY : src/deps/glfw/win32_window.c.i
 
 src/deps/glfw/win32_window.s: src/deps/glfw/win32_window.c.s
@@ -1039,6 +1105,7 @@ src/deps/glfw/win32_window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_window.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_window.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_window.c.s
 .PHONY : src/deps/glfw/win32_window.c.s
 
 src/deps/glfw/window.obj: src/deps/glfw/window.c.obj
@@ -1065,6 +1132,126 @@ src/deps/glfw/window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.s
 .PHONY : src/deps/glfw/window.c.s
 
+src/engine/geometry/cube.obj: src/engine/geometry/cube.cpp.obj
+.PHONY : src/engine/geometry/cube.obj
+
+# target to build an object file
+src/engine/geometry/cube.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/cube.cpp.obj
+.PHONY : src/engine/geometry/cube.cpp.obj
+
+src/engine/geometry/cube.i: src/engine/geometry/cube.cpp.i
+.PHONY : src/engine/geometry/cube.i
+
+# target to preprocess a source file
+src/engine/geometry/cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/cube.cpp.i
+.PHONY : src/engine/geometry/cube.cpp.i
+
+src/engine/geometry/cube.s: src/engine/geometry/cube.cpp.s
+.PHONY : src/engine/geometry/cube.s
+
+# target to generate assembly for a file
+src/engine/geometry/cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/cube.cpp.s
+.PHONY : src/engine/geometry/cube.cpp.s
+
+src/engine/geometry/geometry.obj: src/engine/geometry/geometry.cpp.obj
+.PHONY : src/engine/geometry/geometry.obj
+
+# target to build an object file
+src/engine/geometry/geometry.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/geometry.cpp.obj
+.PHONY : src/engine/geometry/geometry.cpp.obj
+
+src/engine/geometry/geometry.i: src/engine/geometry/geometry.cpp.i
+.PHONY : src/engine/geometry/geometry.i
+
+# target to preprocess a source file
+src/engine/geometry/geometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/geometry.cpp.i
+.PHONY : src/engine/geometry/geometry.cpp.i
+
+src/engine/geometry/geometry.s: src/engine/geometry/geometry.cpp.s
+.PHONY : src/engine/geometry/geometry.s
+
+# target to generate assembly for a file
+src/engine/geometry/geometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/geometry.cpp.s
+.PHONY : src/engine/geometry/geometry.cpp.s
+
+src/engine/geometry/quad.obj: src/engine/geometry/quad.cpp.obj
+.PHONY : src/engine/geometry/quad.obj
+
+# target to build an object file
+src/engine/geometry/quad.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/quad.cpp.obj
+.PHONY : src/engine/geometry/quad.cpp.obj
+
+src/engine/geometry/quad.i: src/engine/geometry/quad.cpp.i
+.PHONY : src/engine/geometry/quad.i
+
+# target to preprocess a source file
+src/engine/geometry/quad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/quad.cpp.i
+.PHONY : src/engine/geometry/quad.cpp.i
+
+src/engine/geometry/quad.s: src/engine/geometry/quad.cpp.s
+.PHONY : src/engine/geometry/quad.s
+
+# target to generate assembly for a file
+src/engine/geometry/quad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/quad.cpp.s
+.PHONY : src/engine/geometry/quad.cpp.s
+
+src/engine/geometry/sphere.obj: src/engine/geometry/sphere.cpp.obj
+.PHONY : src/engine/geometry/sphere.obj
+
+# target to build an object file
+src/engine/geometry/sphere.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/sphere.cpp.obj
+.PHONY : src/engine/geometry/sphere.cpp.obj
+
+src/engine/geometry/sphere.i: src/engine/geometry/sphere.cpp.i
+.PHONY : src/engine/geometry/sphere.i
+
+# target to preprocess a source file
+src/engine/geometry/sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/sphere.cpp.i
+.PHONY : src/engine/geometry/sphere.cpp.i
+
+src/engine/geometry/sphere.s: src/engine/geometry/sphere.cpp.s
+.PHONY : src/engine/geometry/sphere.s
+
+# target to generate assembly for a file
+src/engine/geometry/sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/sphere.cpp.s
+.PHONY : src/engine/geometry/sphere.cpp.s
+
+src/engine/geometry/teapot.obj: src/engine/geometry/teapot.cpp.obj
+.PHONY : src/engine/geometry/teapot.obj
+
+# target to build an object file
+src/engine/geometry/teapot.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.obj
+.PHONY : src/engine/geometry/teapot.cpp.obj
+
+src/engine/geometry/teapot.i: src/engine/geometry/teapot.cpp.i
+.PHONY : src/engine/geometry/teapot.i
+
+# target to preprocess a source file
+src/engine/geometry/teapot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.i
+.PHONY : src/engine/geometry/teapot.cpp.i
+
+src/engine/geometry/teapot.s: src/engine/geometry/teapot.cpp.s
+.PHONY : src/engine/geometry/teapot.s
+
+# target to generate assembly for a file
+src/engine/geometry/teapot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.s
+.PHONY : src/engine/geometry/teapot.cpp.s
+
 src/engine/shader.obj: src/engine/shader.cpp.obj
 .PHONY : src/engine/shader.obj
 
@@ -1088,6 +1275,30 @@ src/engine/shader.s: src/engine/shader.cpp.s
 src/engine/shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/shader.cpp.s
 .PHONY : src/engine/shader.cpp.s
+
+src/engine/texture.obj: src/engine/texture.cpp.obj
+.PHONY : src/engine/texture.obj
+
+# target to build an object file
+src/engine/texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/texture.cpp.obj
+.PHONY : src/engine/texture.cpp.obj
+
+src/engine/texture.i: src/engine/texture.cpp.i
+.PHONY : src/engine/texture.i
+
+# target to preprocess a source file
+src/engine/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/texture.cpp.i
+.PHONY : src/engine/texture.cpp.i
+
+src/engine/texture.s: src/engine/texture.cpp.s
+.PHONY : src/engine/texture.s
+
+# target to generate assembly for a file
+src/engine/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/texture.cpp.s
+.PHONY : src/engine/texture.cpp.s
 
 src/engine/window.obj: src/engine/window.cpp.obj
 .PHONY : src/engine/window.obj
@@ -1128,6 +1339,7 @@ help:
 	@echo ... 04_texture
 	@echo ... 05_transform3D
 	@echo ... 06_cube
+	@echo ... 07_geometry
 	@echo ... EngineLib
 	@echo ... projects/01_window/main.obj
 	@echo ... projects/01_window/main.i
@@ -1147,6 +1359,9 @@ help:
 	@echo ... projects/06_cube/main.obj
 	@echo ... projects/06_cube/main.i
 	@echo ... projects/06_cube/main.s
+	@echo ... projects/07_geometry/main.obj
+	@echo ... projects/07_geometry/main.i
+	@echo ... projects/07_geometry/main.s
 	@echo ... src/deps/glad/glad.obj
 	@echo ... src/deps/glad/glad.i
 	@echo ... src/deps/glad/glad.s
@@ -1213,9 +1428,27 @@ help:
 	@echo ... src/deps/glfw/window.obj
 	@echo ... src/deps/glfw/window.i
 	@echo ... src/deps/glfw/window.s
+	@echo ... src/engine/geometry/cube.obj
+	@echo ... src/engine/geometry/cube.i
+	@echo ... src/engine/geometry/cube.s
+	@echo ... src/engine/geometry/geometry.obj
+	@echo ... src/engine/geometry/geometry.i
+	@echo ... src/engine/geometry/geometry.s
+	@echo ... src/engine/geometry/quad.obj
+	@echo ... src/engine/geometry/quad.i
+	@echo ... src/engine/geometry/quad.s
+	@echo ... src/engine/geometry/sphere.obj
+	@echo ... src/engine/geometry/sphere.i
+	@echo ... src/engine/geometry/sphere.s
+	@echo ... src/engine/geometry/teapot.obj
+	@echo ... src/engine/geometry/teapot.i
+	@echo ... src/engine/geometry/teapot.s
 	@echo ... src/engine/shader.obj
 	@echo ... src/engine/shader.i
 	@echo ... src/engine/shader.s
+	@echo ... src/engine/texture.obj
+	@echo ... src/engine/texture.i
+	@echo ... src/engine/texture.s
 	@echo ... src/engine/window.obj
 	@echo ... src/engine/window.i
 	@echo ... src/engine/window.s

@@ -13,6 +13,42 @@
 },
 {
   "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\texture.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\texture.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/texture.cpp",
+  "output": "CMakeFiles/EngineLib.dir/src/engine/texture.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\geometry\\geometry.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\geometry\\geometry.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/geometry.cpp",
+  "output": "CMakeFiles/EngineLib.dir/src/engine/geometry/geometry.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\geometry\\cube.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\geometry\\cube.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/cube.cpp",
+  "output": "CMakeFiles/EngineLib.dir/src/engine/geometry/cube.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\geometry\\quad.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\geometry\\quad.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/quad.cpp",
+  "output": "CMakeFiles/EngineLib.dir/src/engine/geometry/quad.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\geometry\\sphere.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\geometry\\sphere.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/sphere.cpp",
+  "output": "CMakeFiles/EngineLib.dir/src/engine/geometry/sphere.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\geometry\\teapot.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\geometry\\teapot.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/teapot.cpp",
+  "output": "CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
   "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\context.c",
   "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/context.c",
   "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj"
@@ -538,5 +574,71 @@
   "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/06_cube/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/06_cube.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\06_cube.dir\\src\\deps\\glfw\\win32_module.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_module.c",
   "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_module.c",
   "output": "CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_CXX.rsp -g -o CMakeFiles\\07_geometry.dir\\projects\\07_geometry\\main.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\projects\\07_geometry\\main.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/main.cpp",
+  "output": "CMakeFiles/07_geometry.dir/projects/07_geometry/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\egl_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\egl_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/egl_context.c",
+  "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\win32_init.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_init.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_init.c",
+  "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\win32_joystick.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_joystick.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_joystick.c",
+  "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\win32_monitor.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_monitor.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_monitor.c",
+  "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\win32_thread.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_thread.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_thread.c",
+  "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\win32_time.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_time.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_time.c",
+  "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\win32_window.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_window.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_window.c",
+  "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\wgl_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\wgl_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/wgl_context.c",
+  "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\osmesa_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\osmesa_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/osmesa_context.c",
+  "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/osmesa_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\win32_module.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_module.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_module.c",
+  "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.obj"
 }
 ]
