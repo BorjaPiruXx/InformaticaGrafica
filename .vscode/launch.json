@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "05_transform3D",
+      "name": "06_cube",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/05_transform3D",
+      "program": "${workspaceFolder}/build/06_cube",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\06_cube.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\06_cube.dir/objects.a @CMakeFiles\06_cube.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\06_cube.dir/objects.a -Wl,--no-whole-archive -o 06_cube.exe -Wl,--out-implib,lib06_cube.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\06_cube.dir\linkLibs.rsp

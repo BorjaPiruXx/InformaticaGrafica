@@ -371,12 +371,12 @@
 		},
 		{
 			"backtrace" : 9,
-			"path" : "projects/05_transform3D/texture.frag",
+			"path" : "projects/05_transform3D/transform3D.frag",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 9,
-			"path" : "projects/05_transform3D/texture.vert",
+			"path" : "projects/05_transform3D/transform3D.vert",
 			"sourceGroupIndex" : 2
 		}
 	],
