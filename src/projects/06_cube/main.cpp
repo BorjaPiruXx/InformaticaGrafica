@@ -109,32 +109,24 @@ void addTexturesOnShader(const Shader shader, uint32_t* textures)
 
 void render(const Shader shader, uint32_t vao, uint32_t* textures)
 {
-    glClear(GL_COLOR_BUFFER_BIT);
+    // Limpiar además el buffer de profundidad
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     shader.use();
 
-    // Crear matriz de modelo
     glm::mat4 model = glm::mat4(1.0f);
-    model = glm::rotate(model, glm::radians(-55.0f), glm::vec3(1.0f, 0.0f, 0.0f));
+    model = glm::translate(model, glm::vec3(0.5f, 0.0f, 0.0f));
+    model = glm::rotate(model, static_cast<float>(glfwGetTime()) * glm::radians(50.0f), glm::vec3(0.5f, 1.0f, 0.0f));
 
-    // Crear matriz de vista
     glm::mat4 view = glm::mat4(1.0f);
     view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
 
-    /*
-     * Crear matriz de proyección:
-     *  > campo de perspectiva (fov)
-     *  > aspect ratio respecto al ancho y alto de la pantalla (aspect)
-     *  > momento en el que la cámara va a poder ver algo (near)
-     *  > momento en el que la cámara va a dejar de ver algo (far)
-    */
     const float fov = 45.0f;
     const float near = 0.1f;
     const float far = 100.0f;
     Window* window = Window::instance();
     glm::mat4 projection = glm::perspective(glm::radians(fov), static_cast<float>(window->getWidth()) / static_cast<float>(window->getHeight()), near, far);
 
-    // Establecer en el shader los valores de cada matriz
     shader.set("model", model);
     shader.set("view", view);
     shader.set("projection", projection);
@@ -142,24 +134,62 @@ void render(const Shader shader, uint32_t vao, uint32_t* textures)
     glBindVertexArray(vao);
     addTexturesOnShader(shader, textures);
 
-    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, nullptr);
+
+    // Generar nuevo cubo modificando sólo la matriz de modelo
+     glm::mat4 model2 = glm::mat4(1.0f);
+     model2 = glm::translate(model2, glm::vec3(-1.0f, 0.0f, -2.0f));
+     model2 = glm::rotate(model2, static_cast<float>(glfwGetTime()) * glm::radians(50.0f), glm::vec3(0.5f, 1.0f, 0.0f));
+     shader.set("model", model2);
+     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, nullptr);
+
 }
 
 std::tuple<uint32_t, uint32_t, uint32_t> createVertexData() 
 {
     float vertex[] = 
     {
-       //   Posiciones              Colores             Coordenadas de textura
-       0.5f, 0.5f, 0.0f,        1.0f, 0.0f, 0.0f,           1.0f, 1.0f,
-       0.5f, -0.5f, 0.0f,       0.0f, 1.0f, 0.0f,           1.0f, 0.0f,
-       -0.5f, -0.5f, 0.0f,      0.0f, 0.0f, 1.0f,           0.0f, 0.0f,
-       -0.5f, 0.5f, 0.0f,       1.0f, 1.0f, 0.0f,           0.0f, 1.0f
+       //   Posiciones                  UVs
+       //               Cara frontal
+       -0.5f, -0.5f, 0.5f,          0.0f, 0.0f,
+       0.5f, -0.5f, 0.5f,           1.0f, 0.0f,
+       0.5f, 0.5f, 0.5f,            1.0f, 1.0f,
+       -0.5f, 0.5f, 0.5f,           0.0f, 1.0f,
+       //               Cara derecha
+       0.5f, -0.5f, 0.5f,           0.0f, 0.0f,
+       0.5f, -0.5f, -0.5f,          1.0f, 0.0f,
+       0.5f, 0.5f, -0.5f,           1.0f, 1.0f,
+       0.5f, 0.5f, 0.5f,            0.0f, 1.0f,   
+       //               Cara trasera
+       -0.5f, -0.5f, -0.5f,         0.0f, 0.0f,
+       -0.5f, 0.5f, -0.5f,          1.0f, 0.0f,
+       0.5f, 0.5f, -0.5f,           1.0f, 1.0f,
+       0.5f, -0.5f, -0.5f,          0.0f, 1.0f,
+       //               Cara izquierda
+       -0.5f, -0.5f, 0.5f,          0.0f, 0.0f,
+       -0.5f, 0.5f, 0.5f,           1.0f, 0.0f,
+       -0.5f, 0.5f, -0.5f,          1.0f, 1.0f,
+       -0.5f, -0.5f, -0.5f,         0.0f, 1.0f,
+       //               Cara abajo
+       -0.5f, -0.5f, 0.5f,          0.0f, 0.0f,
+       -0.5f, -0.5f, -0.5f,         1.0f, 0.0f,
+       0.5f, -0.5f, -0.5f,          1.0f, 1.0f,
+       0.5f, -0.5f, 0.5f,           0.0f, 1.0f,
+       //               Cara arriba
+       -0.5f, 0.5f, 0.5f,           0.0f, 0.0f,
+       0.5f, 0.5f, 0.5f,            1.0f, 0.0f,
+       0.5f, 0.5f, -0.5f,           1.0f, 1.0f,
+       -0.5f, 0.5f, -0.5f,          0.0f, 1.0f
     };
 
     uint32_t index[] = 
     {
-        0, 3, 1,
-        1, 3, 2
+        // Frontal          Derecha             Trasera
+        0, 1, 2,            4, 5, 6,            8, 9, 10,          
+        0, 2, 3,            4, 6, 7,            8, 10, 11,
+        // Izquierda        Abajo               Arriba
+        12, 13, 14,         16, 17, 18,         20, 21, 22,
+        12, 14, 15,         16, 18, 19,         20, 22, 23
     };
 
     uint32_t vao, vbo, ebo;
@@ -174,12 +204,10 @@ std::tuple<uint32_t, uint32_t, uint32_t> createVertexData()
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertex), vertex, GL_STATIC_DRAW);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(index), index, GL_STATIC_DRAW);
 
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), nullptr);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), nullptr);
     glEnableVertexAttribArray(0);
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), reinterpret_cast<void*>(3 * sizeof(float)));
+    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), reinterpret_cast<void*>(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
-    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), reinterpret_cast<void*>(6 * sizeof(float)));
-    glEnableVertexAttribArray(2);
 
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
@@ -224,7 +252,7 @@ int main(int, char*[])
 
     Window* window = Window::instance();
     std::tuple<uint32_t, uint32_t, uint32_t> vertex = createVertexData();
-    const Shader shader(PROJECT_PATH "transform3D.vert", PROJECT_PATH "transform3D.frag");
+    const Shader shader(PROJECT_PATH "cube.vert", PROJECT_PATH "cube.frag");
 
     stbi_set_flip_vertically_on_load(true);
     uint32_t* textures = new uint32_t[2] {
@@ -233,6 +261,15 @@ int main(int, char*[])
     };
 
     glClearColor(0.0f, 0.2f, 0.5f, 1.0f);
+
+    /*
+     * Habilitar buffer de profundidad:
+     *  > decidir qué téxel se va a visualizar
+     *  > el que más cerca esté de la cámara gana
+    */
+    glEnable(GL_DEPTH_TEST);
+    glDepthFunc(GL_LESS);
+
     glEnable(GL_CULL_FACE);
     glCullFace(GL_BACK);
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);

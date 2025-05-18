@@ -5,4 +5,5 @@ set(PROJECT_LIST
     03_color
     04_texture
     05_transform3D
+    06_cube
 )
