@@ -30,7 +30,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_time.c" "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj" "gcc" "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj.d"
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_window.c" "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj" "gcc" "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj.d"
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/window.c" "CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj" "gcc" "CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj.d"
+  "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/cube.cpp" "CMakeFiles/EngineLib.dir/src/engine/geometry/cube.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/geometry/cube.cpp.obj.d"
+  "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/geometry.cpp" "CMakeFiles/EngineLib.dir/src/engine/geometry/geometry.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/geometry/geometry.cpp.obj.d"
+  "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/quad.cpp" "CMakeFiles/EngineLib.dir/src/engine/geometry/quad.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/geometry/quad.cpp.obj.d"
+  "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/sphere.cpp" "CMakeFiles/EngineLib.dir/src/engine/geometry/sphere.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/geometry/sphere.cpp.obj.d"
+  "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/teapot.cpp" "CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.obj.d"
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/shader.cpp" "CMakeFiles/EngineLib.dir/src/engine/shader.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/shader.cpp.obj.d"
+  "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/texture.cpp" "CMakeFiles/EngineLib.dir/src/engine/texture.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/texture.cpp.obj.d"
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/window.cpp" "CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj.d"
   )
 
