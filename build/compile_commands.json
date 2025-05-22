@@ -640,5 +640,71 @@
   "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/07_geometry/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/07_geometry.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\07_geometry.dir\\src\\deps\\glfw\\win32_module.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_module.c",
   "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_module.c",
   "output": "CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_CXX.rsp -g -o CMakeFiles\\08_camera.dir\\projects\\08_camera\\main.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\projects\\08_camera\\main.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/main.cpp",
+  "output": "CMakeFiles/08_camera.dir/projects/08_camera/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\08_camera.dir\\src\\deps\\glfw\\egl_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\egl_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/egl_context.c",
+  "output": "CMakeFiles/08_camera.dir/src/deps/glfw/egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\08_camera.dir\\src\\deps\\glfw\\win32_init.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_init.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_init.c",
+  "output": "CMakeFiles/08_camera.dir/src/deps/glfw/win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\08_camera.dir\\src\\deps\\glfw\\win32_joystick.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_joystick.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_joystick.c",
+  "output": "CMakeFiles/08_camera.dir/src/deps/glfw/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\08_camera.dir\\src\\deps\\glfw\\win32_monitor.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_monitor.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_monitor.c",
+  "output": "CMakeFiles/08_camera.dir/src/deps/glfw/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\08_camera.dir\\src\\deps\\glfw\\win32_thread.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_thread.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_thread.c",
+  "output": "CMakeFiles/08_camera.dir/src/deps/glfw/win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\08_camera.dir\\src\\deps\\glfw\\win32_time.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_time.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_time.c",
+  "output": "CMakeFiles/08_camera.dir/src/deps/glfw/win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\08_camera.dir\\src\\deps\\glfw\\win32_window.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_window.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_window.c",
+  "output": "CMakeFiles/08_camera.dir/src/deps/glfw/win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\08_camera.dir\\src\\deps\\glfw\\wgl_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\wgl_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/wgl_context.c",
+  "output": "CMakeFiles/08_camera.dir/src/deps/glfw/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\08_camera.dir\\src\\deps\\glfw\\osmesa_context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\osmesa_context.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/osmesa_context.c",
+  "output": "CMakeFiles/08_camera.dir/src/deps/glfw/osmesa_context.c.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DASSETS_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\\\" -DPROJECT_PATH=\\\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/\\\" -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/08_camera.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\08_camera.dir\\src\\deps\\glfw\\win32_module.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\win32_module.c",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_module.c",
+  "output": "CMakeFiles/08_camera.dir/src/deps/glfw/win32_module.c.obj"
 }
 ]

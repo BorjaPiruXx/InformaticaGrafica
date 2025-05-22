@@ -7,4 +7,5 @@ set(PROJECT_LIST
     05_transform3D
     06_cube
     07_geometry
+    08_camera
 )

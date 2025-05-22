@@ -226,6 +226,19 @@ EngineLib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/build
 .PHONY : 07_geometry/fast
 
+#=============================================================================
+# Target rules for targets named 08_camera
+
+# Build rule for target.
+08_camera: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 08_camera
+.PHONY : 08_camera
+
+# fast build rule for target.
+08_camera/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/build
+.PHONY : 08_camera/fast
+
 projects/01_window/main.obj: projects/01_window/main.cpp.obj
 .PHONY : projects/01_window/main.obj
 
@@ -394,6 +407,30 @@ projects/07_geometry/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/projects/07_geometry/main.cpp.s
 .PHONY : projects/07_geometry/main.cpp.s
 
+projects/08_camera/main.obj: projects/08_camera/main.cpp.obj
+.PHONY : projects/08_camera/main.obj
+
+# target to build an object file
+projects/08_camera/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/projects/08_camera/main.cpp.obj
+.PHONY : projects/08_camera/main.cpp.obj
+
+projects/08_camera/main.i: projects/08_camera/main.cpp.i
+.PHONY : projects/08_camera/main.i
+
+# target to preprocess a source file
+projects/08_camera/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/projects/08_camera/main.cpp.i
+.PHONY : projects/08_camera/main.cpp.i
+
+projects/08_camera/main.s: projects/08_camera/main.cpp.s
+.PHONY : projects/08_camera/main.s
+
+# target to generate assembly for a file
+projects/08_camera/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/projects/08_camera/main.cpp.s
+.PHONY : projects/08_camera/main.cpp.s
+
 src/deps/glad/glad.obj: src/deps/glad/glad.c.obj
 .PHONY : src/deps/glad/glad.obj
 
@@ -455,6 +492,7 @@ src/deps/glfw/egl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/egl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/egl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/egl_context.c.obj
 .PHONY : src/deps/glfw/egl_context.c.obj
 
 src/deps/glfw/egl_context.i: src/deps/glfw/egl_context.c.i
@@ -470,6 +508,7 @@ src/deps/glfw/egl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/egl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/egl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/egl_context.c.i
 .PHONY : src/deps/glfw/egl_context.c.i
 
 src/deps/glfw/egl_context.s: src/deps/glfw/egl_context.c.s
@@ -485,6 +524,7 @@ src/deps/glfw/egl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/egl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/egl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/egl_context.c.s
 .PHONY : src/deps/glfw/egl_context.c.s
 
 src/deps/glfw/init.obj: src/deps/glfw/init.c.obj
@@ -668,6 +708,7 @@ src/deps/glfw/osmesa_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/osmesa_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/osmesa_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/osmesa_context.c.obj
 .PHONY : src/deps/glfw/osmesa_context.c.obj
 
 src/deps/glfw/osmesa_context.i: src/deps/glfw/osmesa_context.c.i
@@ -683,6 +724,7 @@ src/deps/glfw/osmesa_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/osmesa_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/osmesa_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/osmesa_context.c.i
 .PHONY : src/deps/glfw/osmesa_context.c.i
 
 src/deps/glfw/osmesa_context.s: src/deps/glfw/osmesa_context.c.s
@@ -698,6 +740,7 @@ src/deps/glfw/osmesa_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/osmesa_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/osmesa_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/osmesa_context.c.s
 .PHONY : src/deps/glfw/osmesa_context.c.s
 
 src/deps/glfw/platform.obj: src/deps/glfw/platform.c.obj
@@ -761,6 +804,7 @@ src/deps/glfw/wgl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/wgl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/wgl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/wgl_context.c.obj
 .PHONY : src/deps/glfw/wgl_context.c.obj
 
 src/deps/glfw/wgl_context.i: src/deps/glfw/wgl_context.c.i
@@ -776,6 +820,7 @@ src/deps/glfw/wgl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/wgl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/wgl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/wgl_context.c.i
 .PHONY : src/deps/glfw/wgl_context.c.i
 
 src/deps/glfw/wgl_context.s: src/deps/glfw/wgl_context.c.s
@@ -791,6 +836,7 @@ src/deps/glfw/wgl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/wgl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/wgl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/wgl_context.c.s
 .PHONY : src/deps/glfw/wgl_context.c.s
 
 src/deps/glfw/win32_init.obj: src/deps/glfw/win32_init.c.obj
@@ -806,6 +852,7 @@ src/deps/glfw/win32_init.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_init.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_init.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_init.c.obj
 .PHONY : src/deps/glfw/win32_init.c.obj
 
 src/deps/glfw/win32_init.i: src/deps/glfw/win32_init.c.i
@@ -821,6 +868,7 @@ src/deps/glfw/win32_init.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_init.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_init.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_init.c.i
 .PHONY : src/deps/glfw/win32_init.c.i
 
 src/deps/glfw/win32_init.s: src/deps/glfw/win32_init.c.s
@@ -836,6 +884,7 @@ src/deps/glfw/win32_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_init.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_init.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_init.c.s
 .PHONY : src/deps/glfw/win32_init.c.s
 
 src/deps/glfw/win32_joystick.obj: src/deps/glfw/win32_joystick.c.obj
@@ -851,6 +900,7 @@ src/deps/glfw/win32_joystick.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_joystick.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_joystick.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_joystick.c.obj
 .PHONY : src/deps/glfw/win32_joystick.c.obj
 
 src/deps/glfw/win32_joystick.i: src/deps/glfw/win32_joystick.c.i
@@ -866,6 +916,7 @@ src/deps/glfw/win32_joystick.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_joystick.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_joystick.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_joystick.c.i
 .PHONY : src/deps/glfw/win32_joystick.c.i
 
 src/deps/glfw/win32_joystick.s: src/deps/glfw/win32_joystick.c.s
@@ -881,6 +932,7 @@ src/deps/glfw/win32_joystick.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_joystick.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_joystick.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_joystick.c.s
 .PHONY : src/deps/glfw/win32_joystick.c.s
 
 src/deps/glfw/win32_module.obj: src/deps/glfw/win32_module.c.obj
@@ -896,6 +948,7 @@ src/deps/glfw/win32_module.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_module.c.obj
 .PHONY : src/deps/glfw/win32_module.c.obj
 
 src/deps/glfw/win32_module.i: src/deps/glfw/win32_module.c.i
@@ -911,6 +964,7 @@ src/deps/glfw/win32_module.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_module.c.i
 .PHONY : src/deps/glfw/win32_module.c.i
 
 src/deps/glfw/win32_module.s: src/deps/glfw/win32_module.c.s
@@ -926,6 +980,7 @@ src/deps/glfw/win32_module.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_module.c.s
 .PHONY : src/deps/glfw/win32_module.c.s
 
 src/deps/glfw/win32_monitor.obj: src/deps/glfw/win32_monitor.c.obj
@@ -941,6 +996,7 @@ src/deps/glfw/win32_monitor.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_monitor.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_monitor.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_monitor.c.obj
 .PHONY : src/deps/glfw/win32_monitor.c.obj
 
 src/deps/glfw/win32_monitor.i: src/deps/glfw/win32_monitor.c.i
@@ -956,6 +1012,7 @@ src/deps/glfw/win32_monitor.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_monitor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_monitor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_monitor.c.i
 .PHONY : src/deps/glfw/win32_monitor.c.i
 
 src/deps/glfw/win32_monitor.s: src/deps/glfw/win32_monitor.c.s
@@ -971,6 +1028,7 @@ src/deps/glfw/win32_monitor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_monitor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_monitor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_monitor.c.s
 .PHONY : src/deps/glfw/win32_monitor.c.s
 
 src/deps/glfw/win32_thread.obj: src/deps/glfw/win32_thread.c.obj
@@ -986,6 +1044,7 @@ src/deps/glfw/win32_thread.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_thread.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_thread.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_thread.c.obj
 .PHONY : src/deps/glfw/win32_thread.c.obj
 
 src/deps/glfw/win32_thread.i: src/deps/glfw/win32_thread.c.i
@@ -1001,6 +1060,7 @@ src/deps/glfw/win32_thread.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_thread.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_thread.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_thread.c.i
 .PHONY : src/deps/glfw/win32_thread.c.i
 
 src/deps/glfw/win32_thread.s: src/deps/glfw/win32_thread.c.s
@@ -1016,6 +1076,7 @@ src/deps/glfw/win32_thread.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_thread.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_thread.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_thread.c.s
 .PHONY : src/deps/glfw/win32_thread.c.s
 
 src/deps/glfw/win32_time.obj: src/deps/glfw/win32_time.c.obj
@@ -1031,6 +1092,7 @@ src/deps/glfw/win32_time.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_time.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_time.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_time.c.obj
 .PHONY : src/deps/glfw/win32_time.c.obj
 
 src/deps/glfw/win32_time.i: src/deps/glfw/win32_time.c.i
@@ -1046,6 +1108,7 @@ src/deps/glfw/win32_time.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_time.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_time.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_time.c.i
 .PHONY : src/deps/glfw/win32_time.c.i
 
 src/deps/glfw/win32_time.s: src/deps/glfw/win32_time.c.s
@@ -1061,6 +1124,7 @@ src/deps/glfw/win32_time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_time.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_time.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_time.c.s
 .PHONY : src/deps/glfw/win32_time.c.s
 
 src/deps/glfw/win32_window.obj: src/deps/glfw/win32_window.c.obj
@@ -1076,6 +1140,7 @@ src/deps/glfw/win32_window.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_window.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_window.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_window.c.obj
 .PHONY : src/deps/glfw/win32_window.c.obj
 
 src/deps/glfw/win32_window.i: src/deps/glfw/win32_window.c.i
@@ -1091,6 +1156,7 @@ src/deps/glfw/win32_window.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_window.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_window.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_window.c.i
 .PHONY : src/deps/glfw/win32_window.c.i
 
 src/deps/glfw/win32_window.s: src/deps/glfw/win32_window.c.s
@@ -1106,6 +1172,7 @@ src/deps/glfw/win32_window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_window.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_window.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_window.c.s
 .PHONY : src/deps/glfw/win32_window.c.s
 
 src/deps/glfw/window.obj: src/deps/glfw/window.c.obj
@@ -1340,6 +1407,7 @@ help:
 	@echo ... 05_transform3D
 	@echo ... 06_cube
 	@echo ... 07_geometry
+	@echo ... 08_camera
 	@echo ... EngineLib
 	@echo ... projects/01_window/main.obj
 	@echo ... projects/01_window/main.i
@@ -1362,6 +1430,9 @@ help:
 	@echo ... projects/07_geometry/main.obj
 	@echo ... projects/07_geometry/main.i
 	@echo ... projects/07_geometry/main.s
+	@echo ... projects/08_camera/main.obj
+	@echo ... projects/08_camera/main.i
+	@echo ... projects/08_camera/main.s
 	@echo ... src/deps/glad/glad.obj
 	@echo ... src/deps/glad/glad.i
 	@echo ... src/deps/glad/glad.s

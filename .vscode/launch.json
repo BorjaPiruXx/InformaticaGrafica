@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "07_geometry",
+      "name": "08_camera",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/07_geometry",
+      "program": "${workspaceFolder}/build/08_camera",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

@@ -6,5 +6,6 @@ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/0
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/05_transform3D.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/06_cube.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/07_geometry.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/08_camera.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/edit_cache.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/rebuild_cache.dir
