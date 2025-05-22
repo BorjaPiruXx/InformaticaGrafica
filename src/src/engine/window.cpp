@@ -28,12 +28,12 @@ void onKeyPressed(GLFWwindow* window, int key, int /*scancode*/, int action, int
     }
 }
 
-void onMouse(GLFWwindow* /*window*/, double xpos, double ypos) 
+void onMouse(GLFWwindow*, double xpos, double ypos) 
 {
     Input::instance()->mouseMoved(static_cast<float>(xpos), static_cast<float>(ypos));
 }
 
-void onScroll(GLFWwindow* /*window*/, double xoffset, double yoffset) 
+void onScroll(GLFWwindow*, double xoffset, double yoffset) 
 {
     Input::instance()->scrollMoved(static_cast<float>(xoffset), static_cast<float>(yoffset));
 }
