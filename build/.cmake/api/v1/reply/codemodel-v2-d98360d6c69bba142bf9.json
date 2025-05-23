@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "60GIIN_10_A_2024_25",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "10_lightmap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10_lightmap-Debug-af86951ea9a29ca08aac.json",
+					"name" : "10_lightmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EngineLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EngineLib-Debug-03af4f3a81aecf9038b6.json",
+					"name" : "EngineLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+		"source" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

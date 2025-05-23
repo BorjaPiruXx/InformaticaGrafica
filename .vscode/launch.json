@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "09_phong",
+      "name": "10_lightmap",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/09_phong",
+      "program": "${workspaceFolder}/build/10_lightmap",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
