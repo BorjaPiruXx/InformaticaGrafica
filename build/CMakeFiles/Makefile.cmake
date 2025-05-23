@@ -73,4 +73,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/06_cube.dir/DependInfo.cmake"
   "CMakeFiles/07_geometry.dir/DependInfo.cmake"
   "CMakeFiles/08_camera.dir/DependInfo.cmake"
+  "CMakeFiles/09_phong.dir/DependInfo.cmake"
   )
