@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "08_camera",
+      "name": "09_phong",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/08_camera",
+      "program": "${workspaceFolder}/build/09_phong",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

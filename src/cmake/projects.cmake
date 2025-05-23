@@ -8,4 +8,5 @@ set(PROJECT_LIST
     06_cube
     07_geometry
     08_camera
+    09_phong
 )
