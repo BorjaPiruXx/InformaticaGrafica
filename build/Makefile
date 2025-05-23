@@ -1199,6 +1199,30 @@ src/deps/glfw/window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.s
 .PHONY : src/deps/glfw/window.c.s
 
+src/engine/camera.obj: src/engine/camera.cpp.obj
+.PHONY : src/engine/camera.obj
+
+# target to build an object file
+src/engine/camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/camera.cpp.obj
+.PHONY : src/engine/camera.cpp.obj
+
+src/engine/camera.i: src/engine/camera.cpp.i
+.PHONY : src/engine/camera.i
+
+# target to preprocess a source file
+src/engine/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/camera.cpp.i
+.PHONY : src/engine/camera.cpp.i
+
+src/engine/camera.s: src/engine/camera.cpp.s
+.PHONY : src/engine/camera.s
+
+# target to generate assembly for a file
+src/engine/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/camera.cpp.s
+.PHONY : src/engine/camera.cpp.s
+
 src/engine/geometry/cube.obj: src/engine/geometry/cube.cpp.obj
 .PHONY : src/engine/geometry/cube.obj
 
@@ -1499,6 +1523,9 @@ help:
 	@echo ... src/deps/glfw/window.obj
 	@echo ... src/deps/glfw/window.i
 	@echo ... src/deps/glfw/window.s
+	@echo ... src/engine/camera.obj
+	@echo ... src/engine/camera.i
+	@echo ... src/engine/camera.s
 	@echo ... src/engine/geometry/cube.obj
 	@echo ... src/engine/geometry/cube.i
 	@echo ... src/engine/geometry/cube.s

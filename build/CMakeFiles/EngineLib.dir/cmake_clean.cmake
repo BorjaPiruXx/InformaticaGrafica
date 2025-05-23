@@ -43,6 +43,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj.d"
   "CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj"
   "CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj.d"
+  "CMakeFiles/EngineLib.dir/src/engine/camera.cpp.obj"
+  "CMakeFiles/EngineLib.dir/src/engine/camera.cpp.obj.d"
   "CMakeFiles/EngineLib.dir/src/engine/geometry/cube.cpp.obj"
   "CMakeFiles/EngineLib.dir/src/engine/geometry/cube.cpp.obj.d"
   "CMakeFiles/EngineLib.dir/src/engine/geometry/geometry.cpp.obj"
