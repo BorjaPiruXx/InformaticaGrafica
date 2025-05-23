@@ -81,23 +81,12 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
     Window* window = Window::instance();
     glm::mat4 projection = glm::perspective(glm::radians(camera.getFOV()), static_cast<float>(window->getWidth()) / static_cast<float>(window->getHeight()), near, far);
 
-    // Obtener posición del foco
     glm::vec3 lightPosition = glm::vec3(3.0f, 1.0f, 0.0f);
-
-    // Obtener color del foco (verde)
     glm::vec3 lightColor = glm::vec3(0.5f, 1.0f, 0.5f);
-
-    // Obtener color del objeto
     glm::vec3 objectColor = glm::vec3(0.8f, 0.4f, 0.2f);
 
-    // Usar shader de luz
     shader1.use();
 
-    /*
-     * Generar matriz de modelo para shader de luz:
-     *  > Trasladar con lightPosition
-     *  > Escalar uniformemente en 0.1
-    */
     glm::mat4 model = glm::mat4(1.0f);
     model = glm::translate(model, lightPosition);
     model = glm::scale(model, glm::vec3(0.1f));
@@ -106,33 +95,20 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
     shader1.set("view", view);
     shader1.set("projection", projection);
 
-    // Establecer en shader de luz el valor del color del foco
     shader1.set("lightColor", lightColor);
 
     figure.render();
 
-    // Usar shader de phong
     shader2.use();
 
-    // Generar matriz de modelo para shader de phong
     model = glm::mat4(1.0f);
-
-    // Generar matriz normal para tratamiento de escalado no uniforme
     const glm::mat3 normal = glm::transpose(glm::inverse(model));
 
     shader2.set("model", model);
     shader2.set("view", view);
     shader2.set("projection", projection);
-
-    // Establecer en shader de phong el valor de la matriz normal
     shader2.set("normal", normal);
 
-    /*
-     * Establecer en shader de phong los valores de la:
-     *  > Posición del foco
-     *  > Componente ambiente, difusa y especular del foco
-     *  > Componente ambiente, difusa y especular del objeto
-    */
     shader2.set("light.position", lightPosition);
     shader2.set("light.ambient", lightColor * glm::vec3(0.1f));
     shader2.set("light.diffuse", lightColor * glm::vec3(0.8f));
@@ -140,11 +116,8 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
     shader2.set("material.ambient", objectColor);
     shader2.set("material.diffuse", objectColor);
     shader2.set("material.specular", objectColor);
+    shader2.set("material.shininess", 1);
 
-    // Establecer en shade de phong el valor del brillo
-    shader2.set("material.shininess", 256);
-
-    // Establecer en shade de phong el valor de la posición de la cámara
     shader2.set("cameraPosition", camera.getPosition());
 
     figure.render();
@@ -162,7 +135,6 @@ int main(int, char*[])
 
     const Sphere figure(1.0f, 50, 50);
 
-    // Incluimos los dos shaders de iluminación
     const Shader shader1(PROJECT_PATH "light.vert", PROJECT_PATH "light.frag");
     const Shader shader2(PROJECT_PATH "phong.vert", PROJECT_PATH "phong.frag");
 
@@ -187,8 +159,6 @@ int main(int, char*[])
 
         handleInput(deltaTime);
         //update();
-
-        // Pasamos los dos shaders al render
         render(shader1, shader2, figure, texture1, texture2);
         window->frame();
     }

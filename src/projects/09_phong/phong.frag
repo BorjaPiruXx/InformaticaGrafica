@@ -33,8 +33,8 @@ void main()
     vec3 diffuse = max(dot(N, L), 0.0) * material.diffuse * light.diffuse;
 
     vec3 V = normalize(cameraPosition - fragmentPosition);
-    vec3 R = reflect(-L, N);
-    vec3 specular = pow(max(dot(V, R), 0.0), material.shininess) * material.specular * light.specular;
+    vec3 H = normalize(L + V);
+    vec3 specular = pow(max(dot(N, H), 0.0), material.shininess) * material.specular * light.specular;
 
     fragmentColor = vec4(ambient + diffuse + specular, 1.0);
 }
