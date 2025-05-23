@@ -307,6 +307,7 @@ CMakeFiles/08_camera.dir/projects/08_camera/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/bits/vector.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/array \
  C:/msys64/mingw64/include/c++/14.2.0/compare \
+ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/camera.hpp \
  C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/geometry/cube.hpp \
  C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/geometry/geometry.hpp \
  C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/geometry/sphere.hpp \

@@ -8,6 +8,7 @@ set(ENGINE_SRC_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/engine/geometry/quad.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/engine/geometry/sphere.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/engine/geometry/teapot.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/engine/camera.cpp
 )
 
 set(ENGINE_HEADER_FILES
@@ -21,4 +22,5 @@ set(ENGINE_HEADER_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/include/engine/geometry/sphere.hpp
     ${CMAKE_CURRENT_SOURCE_DIR}/include/engine/geometry/teapot.hpp
     ${CMAKE_CURRENT_SOURCE_DIR}/include/engine/geometry/data/teapot.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/engine/camera.hpp
 )

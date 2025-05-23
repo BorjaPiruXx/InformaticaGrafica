@@ -4,6 +4,7 @@
 CMakeFiles/08_camera.dir/projects/08_camera/main.cpp.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/08_camera/main.cpp \
   C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/GLFW/glfw3.h \
   C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/KHR/khrplatform.h \
+  C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/camera.hpp \
   C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/geometry/cube.hpp \
   C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/geometry/geometry.hpp \
   C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/geometry/sphere.hpp \
@@ -2908,6 +2909,14 @@ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/KHR/kh
 
 C:/msys64/mingw64/include/c++/14.2.0/cerrno:
 
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/camera.hpp:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h:
+
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/geometry/geometry.hpp:
+
+C:/msys64/mingw64/include/sched.h:
+
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/glm/exponential.hpp:
 
 C:/msys64/mingw64/include/consoleapi2.h:
@@ -2915,10 +2924,6 @@ C:/msys64/mingw64/include/consoleapi2.h:
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/shader.hpp:
 
 C:/msys64/mingw64/include/c++/14.2.0/streambuf:
-
-C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/geometry/geometry.hpp:
-
-C:/msys64/mingw64/include/sched.h:
 
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include/engine/texture.hpp:
 
@@ -3734,9 +3739,9 @@ C:/msys64/mingw64/include/corecrt_wctype.h:
 
 C:/msys64/mingw64/include/ctype.h:
 
-C:/msys64/mingw64/include/limits.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h:
+
+C:/msys64/mingw64/include/limits.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h:
 
@@ -3947,8 +3952,6 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h:
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h:
 
