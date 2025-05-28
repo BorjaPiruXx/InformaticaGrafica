@@ -86,6 +86,17 @@ void handleInput(const float time)
     }
 }
 
+void renderBulb(const Shader& shader, const Geometry& figure, const glm::vec3 position)
+{
+    glm::mat4 model = glm::mat4(1.0f);
+    model = glm::translate(model, position);
+    model = glm::scale(model, glm::vec3(0.1f));
+
+    shader.set("model", model);
+
+    figure.render();
+}
+
 void renderFloor(const Shader& shader, const Geometry& figure, const Texture& texture)
 {
     glm::mat4 model = glm::mat4(1.0f);
@@ -120,40 +131,56 @@ void renderBattlements(const Shader& shader, const Geometry& figure, const Textu
     }
 }
 
-void render(const Shader& shader1, const Shader& shader2, const Geometry& figure1, const Geometry& figure2, const Texture& texture1, const Texture& texture2, const Texture& texture3)
+void render(const Shader& shader1, const Shader& shader2, const Geometry& figure1, const Geometry& figure2, const Geometry& figure3, const Texture& texture1, const Texture& texture2, const Texture& texture3)
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    // Obtener dirección del foco
-    glm::vec3 lightDirection = glm::vec3(-0.2f, -1.0f, -0.3f);
+    // Obtener posición del foco
+    glm::vec3 lightPosition = glm::vec3(0.0f, 1.0f, 0.0f);
 
-    glm::vec3 lightColor = glm::vec3(0.7f, 0.7f, 0.7f);
+    glm::vec3 lightColor = glm::vec3(1.0f, 1.0, 1.0f);
 
     glm::mat4 view = camera.getViewMatrix();
     Window* window = Window::instance();
     glm::mat4 projection = glm::perspective(glm::radians(camera.getFOV()), static_cast<float>(window->getWidth()) / static_cast<float>(window->getHeight()), near, far);
 
-    shader2.use();
+    shader1.use();
 
+    shader1.set("view", view);
+    shader1.set("projection", projection);
+
+    shader1.set("lightColor", lightColor);
+
+    renderBulb(shader1, figure1, lightPosition);
+
+    shader2.use();
+    
     shader2.set("view", view);
     shader2.set("projection", projection);
 
-    // Establecer en shader de phong el valor de la dirección del foco
-    shader2.set("light.direction", lightDirection);
+    // Establecer en shader de phong los valores de la: posición del foco
+    shader2.set("light.position", lightPosition);
 
     shader2.set("light.ambient", lightColor * glm::vec3(0.1f));
     shader2.set("light.diffuse", lightColor * glm::vec3(0.8f));
     shader2.set("light.specular", lightColor * glm::vec3(1.0f, 1.0f, 1.0f));
 
+    /*
+     * Establecer en shader de phong los valores de las componentes de la atenuación:
+     *  > Constante
+     *  > Lineal
+     *  > Cuadrática
+    */
+    shader2.set("light.constant", 1.0f);
+    shader2.set("light.lineal", 0.35f);
+    shader2.set("light.quadratic", 0.44f);
+    
     shader2.set("material.shininess", 32);
 
     shader2.set("cameraPosition", camera.getPosition());
 
-    // Renderizar base de la torre (cuadrado)
-    renderFloor(shader2, figure1, texture1);
-
-    // Renderizar almenas de la torre (cubos)
-    renderBattlements(shader2, figure2, texture2);
+    renderFloor(shader2, figure2, texture1);
+    renderBattlements(shader2, figure3, texture2);
 }
 
 int main(int, char*[]) 
@@ -166,6 +193,7 @@ int main(int, char*[])
     input->setMouseMoveCallback(onMouseMove);
     input->setScrollMoveCallback(onScrollMove);
 
+    const Sphere sphere(0.5f, 50, 50);
     const Quad quad(1.0f);
     const Cube cube(1.0f);
 
@@ -194,7 +222,7 @@ int main(int, char*[])
 
         handleInput(deltaTime);
         //update();
-        render(shader1, shader2, quad, cube, texture1, texture2, texture3);
+        render(shader1, shader2, sphere, quad, cube, texture1, texture2, texture3);
         window->frame();
     }
 
