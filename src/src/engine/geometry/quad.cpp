@@ -15,26 +15,38 @@ Quad::Quad(float size, bool calcTangents) : _size(size)
 
     float positions[] = 
     {
-        // Arriba derecha           // Abajo izquierda
-        half, half, 0.0f,           half, -half, 0.0f,
-        half, -half, 0.0f,          -half, half, 0.0f,
-        -half, half, 0.0f,          -half, -half, 0.0f
+        // Arriba derecha
+        half, half, 0.0f,
+        half, -half, 0.0f,
+        -half, half, 0.0f,
+        // Abajo izquierda
+        half, -half, 0.0f,
+        -half, half, 0.0f,
+        -half, -half, 0.0f
     };
 
     float uvs[] = 
     {
-        // Arriba derecha           // Abajo izquierda
-        1.0f, 1.0f,                 1.0f, 0.0f,
-        1.0f, 0.0f,                 0.0f, 1.0f,
-        0.0f, 1.0f,                 0.0f, 0.0f
+        // Arriba derecha
+        1.0f, 1.0f,
+        1.0f, 0.0f,
+        0.0f, 1.0f,
+        // Abajo izquierda
+        1.0f, 0.0f,
+        0.0f, 1.0f,
+        0.0f, 0.0f
     };
 
     float normals[] = 
     {
-        // Arriba derecha           // Abajo izquierda
-        0.0f, 0.0f, 1.0f,           0.0f, 0.0f, 1.0f,
-        0.0f, 0.0f, 1.0f,           0.0f, 0.0f, 1.0f,
-        0.0f, 0.0f, 1.0f,           0.0f, 0.0f, 1.0f
+        // Arriba derecha
+        0.0f, 0.0f, 1.0f,
+        0.0f, 0.0f, 1.0f,
+        0.0f, 0.0f, 1.0f,
+        // Abajo izquierda
+        0.0f, 0.0f, 1.0f,
+        0.0f, 0.0f, 1.0f,
+        0.0f, 0.0f, 1.0f
     };
 
     uint32_t index[] = 

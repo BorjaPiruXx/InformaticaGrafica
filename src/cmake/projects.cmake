@@ -1,6 +1,6 @@
 #List of projects
 set(PROJECT_LIST
-    #[==[01_window
+    01_window
     02_triangle
     03_color
     04_texture
@@ -8,6 +8,7 @@ set(PROJECT_LIST
     06_cube
     07_geometry
     08_camera
-    09_phong]==]
+    09_phong
     10_lightmap
+    11_lightemitter
 )

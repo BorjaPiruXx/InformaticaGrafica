@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "10_lightmap",
+      "name": "11_lightemitter",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/10_lightmap",
+      "program": "${workspaceFolder}/build/11_lightemitter",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
