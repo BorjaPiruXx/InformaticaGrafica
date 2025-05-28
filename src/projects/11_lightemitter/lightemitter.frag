@@ -2,7 +2,10 @@
 
 struct Light
 {
-    vec3 direction;
+    float constant;
+    float lineal;
+    float quadratic;
+    vec3 position;
     vec3 ambient;
     vec3 diffuse;
     vec3 specular;
@@ -28,16 +31,20 @@ void main()
 {
     vec3 diffMap = vec3(texture(material.diffuse, textureCoord));
     vec3 specMap = vec3(texture(material.specular, textureCoord));
+
+    vec3 direction = light.position - fragmentPosition;
+    float distMitg = length(direction);
+    float mitigation = 1.0 / (light.constant + (light.lineal * distMitg) + (light.quadratic * pow(distMitg, 2)));
     
     vec3 ambient = diffMap * light.ambient;
 
     vec3 N = normalize(normalPosition);
-    vec3 L = normalize(light.direction - fragmentPosition);
+    vec3 L = normalize(direction);
     vec3 diffuse = max(dot(N, L), 0.0) * diffMap * light.diffuse;
 
     vec3 V = normalize(cameraPosition - fragmentPosition);
     vec3 H = normalize(L + V);
     vec3 specular = pow(max(dot(N, H), 0.0), material.shininess) * specMap * light.specular;
 
-    fragmentColor = vec4(ambient + diffuse + specular, 1.0);
+    fragmentColor = vec4((ambient + diffuse + specular) * mitigation, 1.0);
 }
