@@ -1,4 +1,14 @@
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/EngineLib.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/01_window.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/02_triangle.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/03_color.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/04_texture.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/05_transform3D.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/06_cube.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/07_geometry.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/08_camera.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/09_phong.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/10_lightmap.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/11_lightemitter.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/edit_cache.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/rebuild_cache.dir
