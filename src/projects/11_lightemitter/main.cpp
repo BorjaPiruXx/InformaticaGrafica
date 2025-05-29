@@ -17,6 +17,49 @@
 
 #include <iostream>
 
+Camera camera(glm::vec3(0.0f, 0.0f, 5.0f));
+
+// Dirección de la luz direccional
+glm::vec3 dirLightDirection(-0.2f, -1.0f, -0.3f);
+
+// Direcciones del vector de Spot Lights
+std::vector<glm::vec3> spotLightsDirections =
+{
+    glm::vec3(0.0f, -1.0f, 0.0f),
+    glm::vec3(0.0f, -1.0f, 0.0f)
+};
+
+// Posiciones del vector de Point Lights
+std::vector<glm::vec3> pointLightsPositions =
+{
+    glm::vec3(0.0f, 2.0f, -4.0f),
+    glm::vec3(0.0f, 2.0f, 4.0f)
+};
+
+// Posiciones del vector de Spot Lights
+std::vector<glm::vec3> spotLightsPositions =
+{
+    glm::vec3(4.0f, 2.0f, 0.0f),
+    glm::vec3(-4.0f, 2.0f, 0.0f)
+};
+
+// Color de la luz direccional
+glm::vec3 dirLightColor(0.3f, 0.3f, 0.3f);
+
+// Colores del vector de Point Lights
+std::vector<glm::vec3> pointLightsColors =
+{
+    glm::vec3(0.8f, 0.2f, 0.3f),
+    glm::vec3(0.6f, 0.1f, 0.2f)
+};
+
+// Colores del vector de Spot Lights
+std::vector<glm::vec3> spotLightsColors =
+{
+    glm::vec3(0.2f, 0.8f, 0.3f),
+    glm::vec3(0.2f, 0.1f, 0.8f)
+};
+
 std::vector<glm::vec3> battlements
 {
     glm::vec3(0.0f, 0.0f, -4.0f),
@@ -28,8 +71,6 @@ std::vector<glm::vec3> battlements
     glm::vec3(4.0f, 0.0f, -4.0f),
     glm::vec3(4.0f, 0.0f, 4.0f)
 };
-
-Camera camera(glm::vec3(0.0f, 0.0f, 5.0f));
 
 bool firstMouse = true;
 float lastMouseX, lastMouseY;
@@ -86,15 +127,19 @@ void handleInput(const float time)
     }
 }
 
-void renderBulb(const Shader& shader, const Geometry& figure, const glm::vec3 position)
+void renderBulbs(const Shader& shader, const Geometry& figure, std::vector<glm::vec3> positions, const std::vector<glm::vec3> colors)
 {
-    glm::mat4 model = glm::mat4(1.0f);
-    model = glm::translate(model, position);
-    model = glm::scale(model, glm::vec3(0.1f));
+    for(size_t i = 0; i < pointLightsPositions.size(); ++i)
+    {
+        glm::mat4 model = glm::mat4(1.0f);
+        model = glm::translate(model, positions[i]);
+        model = glm::scale(model, glm::vec3(0.1f));
 
-    shader.set("model", model);
+        shader.set("model", model);
+        shader.set("lightColor", colors[i]);
 
-    figure.render();
+        figure.render();
+    }
 }
 
 void renderFloor(const Shader& shader, const Geometry& figure, const Texture& texture)
@@ -135,12 +180,6 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    // Obtener posición y dirección del foco
-    glm::vec3 lightPosition = glm::vec3(0.0f, 1.0f, 0.0f);
-    glm::vec3 lightDirection = glm::vec3(0.2f, -1.0f, 0.2f);
-
-    glm::vec3 lightColor = glm::vec3(1.0f, 1.0f, 1.0f);
-
     glm::mat4 view = camera.getViewMatrix();
     Window* window = Window::instance();
     glm::mat4 projection = glm::perspective(glm::radians(camera.getFOV()), static_cast<float>(window->getWidth()) / static_cast<float>(window->getHeight()), near, far);
@@ -150,33 +189,54 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
     shader1.set("view", view);
     shader1.set("projection", projection);
 
-    shader1.set("lightColor", lightColor);
-
-    renderBulb(shader1, figure1, lightPosition);
-
+    renderBulbs(shader1, figure1, pointLightsPositions, pointLightsColors);
+    renderBulbs(shader1, figure1, spotLightsPositions, spotLightsColors);
+    
     shader2.use();
     
     shader2.set("view", view);
     shader2.set("projection", projection);
 
-    /*
-     * Establecer en shader de phong los siguientes valores:
-     *  > Posición del foco
-     *  > Dirección del foco
-     *  > Ángulo de corte de luz
-     *  > Ángulo de corte de oscuridad
-    */
-    shader2.set("light.position", lightPosition);
-    shader2.set("light.direction", lightDirection);
-    shader2.set("light.cutOff", glm::cos(glm::radians(30.0f)));
-    shader2.set("light.outerCutOff", glm::cos(glm::radians(35.0f)));
+    // Establecer en shader de phong las componentes asociadas al foco direccional
+    shader2.set("dirLight.direction", dirLightDirection);
+    shader2.set("dirLight.ambient", dirLightColor * glm::vec3(0.025f));
+    shader2.set("dirLight.diffuse", dirLightColor * glm::vec3(0.8f));
+    shader2.set("dirLight.specular", dirLightColor * glm::vec3(1.0f, 1.0f, 1.0f));
+    
+    // Establecer en shader de phong las componentes asociadas al vector de Point Lights
+    for(size_t i = 0; i < pointLightsPositions.size(); ++i)
+    {
+        const std::string pointLight = "pointLights[" + std::to_string(i) + "].";
+        shader2.set((pointLight + "position").c_str(), pointLightsPositions[i]);
 
-    shader2.set("light.ambient", lightColor * glm::vec3(0.025f));
-    shader2.set("light.diffuse", lightColor * glm::vec3(0.8f));
-    shader2.set("light.specular", lightColor * glm::vec3(1.0f, 1.0f, 1.0f));
-    shader2.set("light.constant", 1.0f);
-    shader2.set("light.lineal", 0.35f);
-    shader2.set("light.quadratic", 0.44f);
+        shader2.set((pointLight + "ambient").c_str(), pointLightsColors[i] * glm::vec3(0.025f));
+        shader2.set((pointLight + "diffuse").c_str(), pointLightsColors[i] * glm::vec3(0.8f));
+        shader2.set((pointLight + "specular").c_str(), pointLightsColors[i] * glm::vec3(1.0f, 1.0f, 1.0f));
+
+        shader2.set((pointLight + "constant").c_str(), 1.0f);
+        shader2.set((pointLight + "lineal").c_str(), 0.35f);
+        shader2.set((pointLight + "quadratic").c_str(), 0.44f);
+    }
+
+    // Establecer en shader de phong las componentes asociadas al vector de Spot Lights
+    for(size_t i = 0; i < spotLightsPositions.size(); ++i)
+    {
+        const std::string spotLight = "spotLights[" + std::to_string(i) + "].";
+
+        shader2.set((spotLight + "position").c_str(), spotLightsPositions[i]);
+        shader2.set((spotLight + "direction").c_str(), spotLightsDirections[i]);
+
+        shader2.set((spotLight + "cutOff").c_str(), glm::cos(glm::radians(30.0f)));
+        shader2.set((spotLight + "outerCutOff").c_str(), glm::cos(glm::radians(35.0f)));
+
+        shader2.set((spotLight + "ambient").c_str(), spotLightsColors[i] * glm::vec3(0.025f));
+        shader2.set((spotLight + "diffuse").c_str(), spotLightsColors[i] * glm::vec3(0.8f));
+        shader2.set((spotLight + "specular").c_str(), spotLightsColors[i] * glm::vec3(1.0f, 1.0f, 1.0f));
+
+        shader2.set((spotLight + "constant").c_str(), 1.0f);
+        shader2.set((spotLight + "lineal").c_str(), 0.35f);
+        shader2.set((spotLight + "quadratic").c_str(), 0.44f);
+    }
     
     shader2.set("material.shininess", 32);
 
