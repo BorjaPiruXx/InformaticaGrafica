@@ -135,10 +135,11 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    // Obtener posición del foco
+    // Obtener posición y dirección del foco
     glm::vec3 lightPosition = glm::vec3(0.0f, 1.0f, 0.0f);
+    glm::vec3 lightDirection = glm::vec3(0.2f, -1.0f, 0.2f);
 
-    glm::vec3 lightColor = glm::vec3(1.0f, 1.0, 1.0f);
+    glm::vec3 lightColor = glm::vec3(1.0f, 1.0f, 1.0f);
 
     glm::mat4 view = camera.getViewMatrix();
     Window* window = Window::instance();
@@ -158,19 +159,21 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
     shader2.set("view", view);
     shader2.set("projection", projection);
 
-    // Establecer en shader de phong los valores de la: posición del foco
+    /*
+     * Establecer en shader de phong los siguientes valores:
+     *  > Posición del foco
+     *  > Dirección del foco
+     *  > Ángulo de corte de luz
+     *  > Ángulo de corte de oscuridad
+    */
     shader2.set("light.position", lightPosition);
+    shader2.set("light.direction", lightDirection);
+    shader2.set("light.cutOff", glm::cos(glm::radians(30.0f)));
+    shader2.set("light.outerCutOff", glm::cos(glm::radians(35.0f)));
 
-    shader2.set("light.ambient", lightColor * glm::vec3(0.1f));
+    shader2.set("light.ambient", lightColor * glm::vec3(0.025f));
     shader2.set("light.diffuse", lightColor * glm::vec3(0.8f));
     shader2.set("light.specular", lightColor * glm::vec3(1.0f, 1.0f, 1.0f));
-
-    /*
-     * Establecer en shader de phong los valores de las componentes de la atenuación:
-     *  > Constante
-     *  > Lineal
-     *  > Cuadrática
-    */
     shader2.set("light.constant", 1.0f);
     shader2.set("light.lineal", 0.35f);
     shader2.set("light.quadratic", 0.44f);
