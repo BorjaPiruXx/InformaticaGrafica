@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\14_fbo.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\14_fbo.dir/objects.a @CMakeFiles\14_fbo.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\14_fbo.dir/objects.a -Wl,--no-whole-archive -o 14_fbo.exe -Wl,--out-implib,lib14_fbo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\14_fbo.dir\linkLibs.rsp

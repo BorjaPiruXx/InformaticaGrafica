@@ -266,6 +266,7 @@ CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_module.c.s: cmake_force
 10_lightmap.exe: CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_module.c.obj
 10_lightmap.exe: CMakeFiles/10_lightmap.dir/build.make
 10_lightmap.exe: libEngineLib.a
+10_lightmap.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 10_lightmap.exe: CMakeFiles/10_lightmap.dir/linkLibs.rsp
 10_lightmap.exe: CMakeFiles/10_lightmap.dir/objects1.rsp
 10_lightmap.exe: CMakeFiles/10_lightmap.dir/link.txt

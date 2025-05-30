@@ -1544,6 +1544,54 @@ src/engine/geometry/teapot.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.s
 .PHONY : src/engine/geometry/teapot.cpp.s
 
+src/engine/mesh.obj: src/engine/mesh.cpp.obj
+.PHONY : src/engine/mesh.obj
+
+# target to build an object file
+src/engine/mesh.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj
+.PHONY : src/engine/mesh.cpp.obj
+
+src/engine/mesh.i: src/engine/mesh.cpp.i
+.PHONY : src/engine/mesh.i
+
+# target to preprocess a source file
+src/engine/mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.i
+.PHONY : src/engine/mesh.cpp.i
+
+src/engine/mesh.s: src/engine/mesh.cpp.s
+.PHONY : src/engine/mesh.s
+
+# target to generate assembly for a file
+src/engine/mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.s
+.PHONY : src/engine/mesh.cpp.s
+
+src/engine/model.obj: src/engine/model.cpp.obj
+.PHONY : src/engine/model.obj
+
+# target to build an object file
+src/engine/model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj
+.PHONY : src/engine/model.cpp.obj
+
+src/engine/model.i: src/engine/model.cpp.i
+.PHONY : src/engine/model.i
+
+# target to preprocess a source file
+src/engine/model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/model.cpp.i
+.PHONY : src/engine/model.cpp.i
+
+src/engine/model.s: src/engine/model.cpp.s
+.PHONY : src/engine/model.s
+
+# target to generate assembly for a file
+src/engine/model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/engine/model.cpp.s
+.PHONY : src/engine/model.cpp.s
+
 src/engine/shader.obj: src/engine/shader.cpp.obj
 .PHONY : src/engine/shader.obj
 
@@ -1754,6 +1802,12 @@ help:
 	@echo ... src/engine/geometry/teapot.obj
 	@echo ... src/engine/geometry/teapot.i
 	@echo ... src/engine/geometry/teapot.s
+	@echo ... src/engine/mesh.obj
+	@echo ... src/engine/mesh.i
+	@echo ... src/engine/mesh.s
+	@echo ... src/engine/model.obj
+	@echo ... src/engine/model.i
+	@echo ... src/engine/model.s
 	@echo ... src/engine/shader.obj
 	@echo ... src/engine/shader.i
 	@echo ... src/engine/shader.s

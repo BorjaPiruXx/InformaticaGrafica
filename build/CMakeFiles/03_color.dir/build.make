@@ -266,6 +266,7 @@ CMakeFiles/03_color.dir/src/deps/glfw/win32_module.c.s: cmake_force
 03_color.exe: CMakeFiles/03_color.dir/src/deps/glfw/win32_module.c.obj
 03_color.exe: CMakeFiles/03_color.dir/build.make
 03_color.exe: libEngineLib.a
+03_color.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 03_color.exe: CMakeFiles/03_color.dir/linkLibs.rsp
 03_color.exe: CMakeFiles/03_color.dir/objects1.rsp
 03_color.exe: CMakeFiles/03_color.dir/link.txt
