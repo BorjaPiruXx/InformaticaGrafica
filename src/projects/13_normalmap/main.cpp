@@ -149,6 +149,9 @@ void render(const Geometry& quad, const Geometry& sphere, const Shader& light_sh
 }
 
 int main(int, char* []) {
+
+  system("chcp 65001");
+  
   Window* window = Window::instance();
   Input* input = Input::instance();
 

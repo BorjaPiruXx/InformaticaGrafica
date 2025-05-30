@@ -160,6 +160,9 @@ void render(const Geometry& quad, const Geometry& cube, const Shader& phong_shad
 }
 
 int main(int, char* []) {
+
+  system("chcp 65001");
+  
   Window* window = Window::instance();
   Input* input = Input::instance();
 
