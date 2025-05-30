@@ -36,6 +36,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/quad.cpp" "CMakeFiles/EngineLib.dir/src/engine/geometry/quad.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/geometry/quad.cpp.obj.d"
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/sphere.cpp" "CMakeFiles/EngineLib.dir/src/engine/geometry/sphere.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/geometry/sphere.cpp.obj.d"
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/geometry/teapot.cpp" "CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.obj.d"
+  "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/mesh.cpp" "CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj.d"
+  "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/model.cpp" "CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj.d"
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/shader.cpp" "CMakeFiles/EngineLib.dir/src/engine/shader.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/shader.cpp.obj.d"
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/texture.cpp" "CMakeFiles/EngineLib.dir/src/engine/texture.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/texture.cpp.obj.d"
   "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/window.cpp" "CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj" "gcc" "CMakeFiles/EngineLib.dir/src/engine/window.cpp.obj.d"

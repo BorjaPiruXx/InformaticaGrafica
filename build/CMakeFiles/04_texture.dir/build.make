@@ -266,6 +266,7 @@ CMakeFiles/04_texture.dir/src/deps/glfw/win32_module.c.s: cmake_force
 04_texture.exe: CMakeFiles/04_texture.dir/src/deps/glfw/win32_module.c.obj
 04_texture.exe: CMakeFiles/04_texture.dir/build.make
 04_texture.exe: libEngineLib.a
+04_texture.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 04_texture.exe: CMakeFiles/04_texture.dir/linkLibs.rsp
 04_texture.exe: CMakeFiles/04_texture.dir/objects1.rsp
 04_texture.exe: CMakeFiles/04_texture.dir/link.txt

@@ -266,6 +266,7 @@ CMakeFiles/02_triangle.dir/src/deps/glfw/win32_module.c.s: cmake_force
 02_triangle.exe: CMakeFiles/02_triangle.dir/src/deps/glfw/win32_module.c.obj
 02_triangle.exe: CMakeFiles/02_triangle.dir/build.make
 02_triangle.exe: libEngineLib.a
+02_triangle.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 02_triangle.exe: CMakeFiles/02_triangle.dir/linkLibs.rsp
 02_triangle.exe: CMakeFiles/02_triangle.dir/objects1.rsp
 02_triangle.exe: CMakeFiles/02_triangle.dir/link.txt

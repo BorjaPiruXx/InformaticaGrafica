@@ -55,6 +55,18 @@
 },
 {
   "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\mesh.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\mesh.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/mesh.cpp",
+  "output": "CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\EngineLib.dir\\src\\engine\\model.cpp.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\engine\\model.cpp",
+  "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/model.cpp",
+  "output": "CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj"
+},
+{
+  "directory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
   "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -D_GLFW_USE_OPENGL=1 -D_GLFW_WGL -D_GLFW_WIN32 @CMakeFiles/EngineLib.dir/includes_C.rsp -g -W -lm -I -M -o CMakeFiles\\EngineLib.dir\\src\\deps\\glfw\\context.c.obj -c C:\\Users\\borja\\OneDrive\\Desktop\\VIU\\GitHub\\InformaticaGrafica\\src\\src\\deps\\glfw\\context.c",
   "file": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/context.c",
   "output": "CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj"

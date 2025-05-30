@@ -206,11 +206,41 @@ CMakeFiles/EngineLib.dir/src/engine/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineLib.dir/src/engine/camera.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\camera.cpp -o CMakeFiles\EngineLib.dir\src\engine\camera.cpp.s
 
+CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj: CMakeFiles/EngineLib.dir/flags.make
+CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj: CMakeFiles/EngineLib.dir/includes_CXX.rsp
+CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/mesh.cpp
+CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj -MF CMakeFiles\EngineLib.dir\src\engine\mesh.cpp.obj.d -o CMakeFiles\EngineLib.dir\src\engine\mesh.cpp.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\mesh.cpp
+
+CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\mesh.cpp > CMakeFiles\EngineLib.dir\src\engine\mesh.cpp.i
+
+CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\mesh.cpp -o CMakeFiles\EngineLib.dir\src\engine\mesh.cpp.s
+
+CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj: CMakeFiles/EngineLib.dir/flags.make
+CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj: CMakeFiles/EngineLib.dir/includes_CXX.rsp
+CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/engine/model.cpp
+CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj -MF CMakeFiles\EngineLib.dir\src\engine\model.cpp.obj.d -o CMakeFiles\EngineLib.dir\src\engine\model.cpp.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\model.cpp
+
+CMakeFiles/EngineLib.dir/src/engine/model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EngineLib.dir/src/engine/model.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\model.cpp > CMakeFiles\EngineLib.dir\src\engine\model.cpp.i
+
+CMakeFiles/EngineLib.dir/src/engine/model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineLib.dir/src/engine/model.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\engine\model.cpp -o CMakeFiles\EngineLib.dir\src\engine\model.cpp.s
+
 CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj: CMakeFiles/EngineLib.dir/flags.make
 CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/context.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\context.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\context.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\context.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.i: cmake_force
@@ -225,7 +255,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj: CMakeFiles/EngineLib.dir/flag
 CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/init.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\init.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\init.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\init.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.i: cmake_force
@@ -240,7 +270,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj: CMakeFiles/EngineLib.dir/fla
 CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/input.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\input.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\input.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\input.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.i: cmake_force
@@ -255,7 +285,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/monitor.c.obj: CMakeFiles/EngineLib.dir/f
 CMakeFiles/EngineLib.dir/src/deps/glfw/monitor.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/monitor.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/monitor.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/monitor.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/monitor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/monitor.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/monitor.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\monitor.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\monitor.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\monitor.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/monitor.c.i: cmake_force
@@ -270,7 +300,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/platform.c.obj: CMakeFiles/EngineLib.dir/
 CMakeFiles/EngineLib.dir/src/deps/glfw/platform.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/platform.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/platform.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/platform.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/platform.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/platform.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\platform.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\platform.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\platform.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/platform.c.i: cmake_force
@@ -285,7 +315,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj: CMakeFiles/EngineLib.dir/fl
 CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/window.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\window.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\window.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\window.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/window.c.i: cmake_force
@@ -300,7 +330,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/vulkan.c.obj: CMakeFiles/EngineLib.dir/fl
 CMakeFiles/EngineLib.dir/src/deps/glfw/vulkan.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/vulkan.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/vulkan.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/vulkan.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/vulkan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/vulkan.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/vulkan.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\vulkan.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\vulkan.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\vulkan.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/vulkan.c.i: cmake_force
@@ -315,7 +345,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/null_init.c.obj: CMakeFiles/EngineLib.dir
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_init.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_init.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_init.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_init.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/null_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/null_init.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/null_init.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\null_init.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\null_init.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\null_init.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_init.c.i: cmake_force
@@ -330,7 +360,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/null_monitor.c.obj: CMakeFiles/EngineLib.
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_monitor.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_monitor.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_monitor.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_monitor.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/null_monitor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/null_monitor.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/null_monitor.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\null_monitor.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\null_monitor.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\null_monitor.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_monitor.c.i: cmake_force
@@ -345,7 +375,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/null_window.c.obj: CMakeFiles/EngineLib.d
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_window.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_window.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_window.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_window.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/null_window.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/null_window.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/null_window.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\null_window.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\null_window.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\null_window.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_window.c.i: cmake_force
@@ -360,7 +390,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/null_joystick.c.obj: CMakeFiles/EngineLib
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_joystick.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_joystick.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/null_joystick.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_joystick.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/null_joystick.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/null_joystick.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/null_joystick.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\null_joystick.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\null_joystick.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\null_joystick.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/null_joystick.c.i: cmake_force
@@ -375,7 +405,7 @@ CMakeFiles/EngineLib.dir/src/deps/glad/glad.c.obj: CMakeFiles/EngineLib.dir/flag
 CMakeFiles/EngineLib.dir/src/deps/glad/glad.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glad/glad.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glad/glad.c
 CMakeFiles/EngineLib.dir/src/deps/glad/glad.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/EngineLib.dir/src/deps/glad/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/EngineLib.dir/src/deps/glad/glad.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glad/glad.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glad\glad.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glad\glad.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glad\glad.c
 
 CMakeFiles/EngineLib.dir/src/deps/glad/glad.c.i: cmake_force
@@ -390,7 +420,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.obj: CMakeFiles/EngineLib.d
 CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/egl_context.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\egl_context.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\egl_context.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\egl_context.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.i: cmake_force
@@ -405,7 +435,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.obj: CMakeFiles/EngineLib.di
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_init.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\win32_init.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\win32_init.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\win32_init.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.i: cmake_force
@@ -420,7 +450,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.obj: CMakeFiles/EngineLi
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_joystick.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\win32_joystick.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\win32_joystick.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\win32_joystick.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.i: cmake_force
@@ -435,7 +465,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.obj: CMakeFiles/EngineLib
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_monitor.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\win32_monitor.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\win32_monitor.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\win32_monitor.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.i: cmake_force
@@ -450,7 +480,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.obj: CMakeFiles/EngineLib.
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_thread.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\win32_thread.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\win32_thread.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\win32_thread.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.i: cmake_force
@@ -465,7 +495,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj: CMakeFiles/EngineLib.di
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_time.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\win32_time.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\win32_time.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\win32_time.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.i: cmake_force
@@ -480,7 +510,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj: CMakeFiles/EngineLib.
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_window.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\win32_window.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\win32_window.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\win32_window.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.i: cmake_force
@@ -495,7 +525,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.obj: CMakeFiles/EngineLib.d
 CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/wgl_context.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\wgl_context.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\wgl_context.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\wgl_context.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.i: cmake_force
@@ -510,7 +540,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj: CMakeFiles/EngineLi
 CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/osmesa_context.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\osmesa_context.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\osmesa_context.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\osmesa_context.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.i: cmake_force
@@ -525,7 +555,7 @@ CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj: CMakeFiles/EngineLib.
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj: CMakeFiles/EngineLib.dir/includes_C.rsp
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw/win32_module.c
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj: CMakeFiles/EngineLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -W -lm -I -M -MD -MT CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj -MF CMakeFiles\EngineLib.dir\src\deps\glfw\win32_module.c.obj.d -o CMakeFiles\EngineLib.dir\src\deps\glfw\win32_module.c.obj -c C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\src\src\deps\glfw\win32_module.c
 
 CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.i: cmake_force
@@ -547,6 +577,8 @@ EngineLib_OBJECTS = \
 "CMakeFiles/EngineLib.dir/src/engine/geometry/sphere.cpp.obj" \
 "CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.obj" \
 "CMakeFiles/EngineLib.dir/src/engine/camera.cpp.obj" \
+"CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj" \
+"CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj" \
 "CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj" \
 "CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj" \
 "CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj" \
@@ -582,6 +614,8 @@ libEngineLib.a: CMakeFiles/EngineLib.dir/src/engine/geometry/quad.cpp.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/src/engine/geometry/sphere.cpp.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/src/engine/geometry/teapot.cpp.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/src/engine/camera.cpp.obj
+libEngineLib.a: CMakeFiles/EngineLib.dir/src/engine/mesh.cpp.obj
+libEngineLib.a: CMakeFiles/EngineLib.dir/src/engine/model.cpp.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/src/deps/glfw/context.c.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/src/deps/glfw/init.c.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/src/deps/glfw/input.c.obj
@@ -606,9 +640,10 @@ libEngineLib.a: CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj
 libEngineLib.a: CMakeFiles/EngineLib.dir/build.make
 libEngineLib.a: CMakeFiles/EngineLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library libEngineLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX static library libEngineLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\EngineLib.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EngineLib.dir\link.txt --verbose=$(VERBOSE)
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.dll C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build
 
 # Rule to build all files generated by this target.
 CMakeFiles/EngineLib.dir/build: libEngineLib.a
