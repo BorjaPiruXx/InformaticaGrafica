@@ -82,6 +82,9 @@ void render(const Shader& shader, const Model& object) {
 }
 
 int main(int, char* []) {
+
+  system("chcp 65001");
+
   Window* window = Window::instance();
   Input* input = Input::instance();
 
