@@ -278,6 +278,58 @@ EngineLib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/build
 .PHONY : 11_lightemitter/fast
 
+#=============================================================================
+# Target rules for targets named 12_loadmodel
+
+# Build rule for target.
+12_loadmodel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12_loadmodel
+.PHONY : 12_loadmodel
+
+# fast build rule for target.
+12_loadmodel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/build
+.PHONY : 12_loadmodel/fast
+
+#=============================================================================
+# Target rules for targets named 13_normalmap
+
+# Build rule for target.
+13_normalmap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 13_normalmap
+.PHONY : 13_normalmap
+
+# fast build rule for target.
+13_normalmap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/build
+.PHONY : 13_normalmap/fast
+
+#=============================================================================
+# Target rules for targets named 14_fbo
+
+# Build rule for target.
+14_fbo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 14_fbo
+.PHONY : 14_fbo
+
+# fast build rule for target.
+14_fbo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/build
+.PHONY : 14_fbo/fast
+
+#=============================================================================
+# Target rules for targets named 15_shadowmap
+
+# Build rule for target.
+15_shadowmap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 15_shadowmap
+.PHONY : 15_shadowmap
+
+# fast build rule for target.
+15_shadowmap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/build
+.PHONY : 15_shadowmap/fast
+
 projects/01_window/main.obj: projects/01_window/main.cpp.obj
 .PHONY : projects/01_window/main.obj
 
@@ -542,6 +594,102 @@ projects/11_lightemitter/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/projects/11_lightemitter/main.cpp.s
 .PHONY : projects/11_lightemitter/main.cpp.s
 
+projects/12_loadmodel/main.obj: projects/12_loadmodel/main.cpp.obj
+.PHONY : projects/12_loadmodel/main.obj
+
+# target to build an object file
+projects/12_loadmodel/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/projects/12_loadmodel/main.cpp.obj
+.PHONY : projects/12_loadmodel/main.cpp.obj
+
+projects/12_loadmodel/main.i: projects/12_loadmodel/main.cpp.i
+.PHONY : projects/12_loadmodel/main.i
+
+# target to preprocess a source file
+projects/12_loadmodel/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/projects/12_loadmodel/main.cpp.i
+.PHONY : projects/12_loadmodel/main.cpp.i
+
+projects/12_loadmodel/main.s: projects/12_loadmodel/main.cpp.s
+.PHONY : projects/12_loadmodel/main.s
+
+# target to generate assembly for a file
+projects/12_loadmodel/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/projects/12_loadmodel/main.cpp.s
+.PHONY : projects/12_loadmodel/main.cpp.s
+
+projects/13_normalmap/main.obj: projects/13_normalmap/main.cpp.obj
+.PHONY : projects/13_normalmap/main.obj
+
+# target to build an object file
+projects/13_normalmap/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/projects/13_normalmap/main.cpp.obj
+.PHONY : projects/13_normalmap/main.cpp.obj
+
+projects/13_normalmap/main.i: projects/13_normalmap/main.cpp.i
+.PHONY : projects/13_normalmap/main.i
+
+# target to preprocess a source file
+projects/13_normalmap/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/projects/13_normalmap/main.cpp.i
+.PHONY : projects/13_normalmap/main.cpp.i
+
+projects/13_normalmap/main.s: projects/13_normalmap/main.cpp.s
+.PHONY : projects/13_normalmap/main.s
+
+# target to generate assembly for a file
+projects/13_normalmap/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/projects/13_normalmap/main.cpp.s
+.PHONY : projects/13_normalmap/main.cpp.s
+
+projects/14_fbo/main.obj: projects/14_fbo/main.cpp.obj
+.PHONY : projects/14_fbo/main.obj
+
+# target to build an object file
+projects/14_fbo/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/projects/14_fbo/main.cpp.obj
+.PHONY : projects/14_fbo/main.cpp.obj
+
+projects/14_fbo/main.i: projects/14_fbo/main.cpp.i
+.PHONY : projects/14_fbo/main.i
+
+# target to preprocess a source file
+projects/14_fbo/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/projects/14_fbo/main.cpp.i
+.PHONY : projects/14_fbo/main.cpp.i
+
+projects/14_fbo/main.s: projects/14_fbo/main.cpp.s
+.PHONY : projects/14_fbo/main.s
+
+# target to generate assembly for a file
+projects/14_fbo/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/projects/14_fbo/main.cpp.s
+.PHONY : projects/14_fbo/main.cpp.s
+
+projects/15_shadowmap/main.obj: projects/15_shadowmap/main.cpp.obj
+.PHONY : projects/15_shadowmap/main.obj
+
+# target to build an object file
+projects/15_shadowmap/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/projects/15_shadowmap/main.cpp.obj
+.PHONY : projects/15_shadowmap/main.cpp.obj
+
+projects/15_shadowmap/main.i: projects/15_shadowmap/main.cpp.i
+.PHONY : projects/15_shadowmap/main.i
+
+# target to preprocess a source file
+projects/15_shadowmap/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/projects/15_shadowmap/main.cpp.i
+.PHONY : projects/15_shadowmap/main.cpp.i
+
+projects/15_shadowmap/main.s: projects/15_shadowmap/main.cpp.s
+.PHONY : projects/15_shadowmap/main.s
+
+# target to generate assembly for a file
+projects/15_shadowmap/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/projects/15_shadowmap/main.cpp.s
+.PHONY : projects/15_shadowmap/main.cpp.s
+
 src/deps/glad/glad.obj: src/deps/glad/glad.c.obj
 .PHONY : src/deps/glad/glad.obj
 
@@ -607,6 +755,10 @@ src/deps/glfw/egl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/egl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/egl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/egl_context.c.obj
 .PHONY : src/deps/glfw/egl_context.c.obj
 
 src/deps/glfw/egl_context.i: src/deps/glfw/egl_context.c.i
@@ -626,6 +778,10 @@ src/deps/glfw/egl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/egl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/egl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/egl_context.c.i
 .PHONY : src/deps/glfw/egl_context.c.i
 
 src/deps/glfw/egl_context.s: src/deps/glfw/egl_context.c.s
@@ -645,6 +801,10 @@ src/deps/glfw/egl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/egl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/egl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/egl_context.c.s
 .PHONY : src/deps/glfw/egl_context.c.s
 
 src/deps/glfw/init.obj: src/deps/glfw/init.c.obj
@@ -832,6 +992,10 @@ src/deps/glfw/osmesa_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/osmesa_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/osmesa_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/osmesa_context.c.obj
 .PHONY : src/deps/glfw/osmesa_context.c.obj
 
 src/deps/glfw/osmesa_context.i: src/deps/glfw/osmesa_context.c.i
@@ -851,6 +1015,10 @@ src/deps/glfw/osmesa_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/osmesa_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/osmesa_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/osmesa_context.c.i
 .PHONY : src/deps/glfw/osmesa_context.c.i
 
 src/deps/glfw/osmesa_context.s: src/deps/glfw/osmesa_context.c.s
@@ -870,6 +1038,10 @@ src/deps/glfw/osmesa_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/osmesa_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/osmesa_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/osmesa_context.c.s
 .PHONY : src/deps/glfw/osmesa_context.c.s
 
 src/deps/glfw/platform.obj: src/deps/glfw/platform.c.obj
@@ -937,6 +1109,10 @@ src/deps/glfw/wgl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/wgl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/wgl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/wgl_context.c.obj
 .PHONY : src/deps/glfw/wgl_context.c.obj
 
 src/deps/glfw/wgl_context.i: src/deps/glfw/wgl_context.c.i
@@ -956,6 +1132,10 @@ src/deps/glfw/wgl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/wgl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/wgl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/wgl_context.c.i
 .PHONY : src/deps/glfw/wgl_context.c.i
 
 src/deps/glfw/wgl_context.s: src/deps/glfw/wgl_context.c.s
@@ -975,6 +1155,10 @@ src/deps/glfw/wgl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/wgl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/wgl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/wgl_context.c.s
 .PHONY : src/deps/glfw/wgl_context.c.s
 
 src/deps/glfw/win32_init.obj: src/deps/glfw/win32_init.c.obj
@@ -994,6 +1178,10 @@ src/deps/glfw/win32_init.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_init.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_init.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_init.c.obj
 .PHONY : src/deps/glfw/win32_init.c.obj
 
 src/deps/glfw/win32_init.i: src/deps/glfw/win32_init.c.i
@@ -1013,6 +1201,10 @@ src/deps/glfw/win32_init.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_init.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_init.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_init.c.i
 .PHONY : src/deps/glfw/win32_init.c.i
 
 src/deps/glfw/win32_init.s: src/deps/glfw/win32_init.c.s
@@ -1032,6 +1224,10 @@ src/deps/glfw/win32_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_init.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_init.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_init.c.s
 .PHONY : src/deps/glfw/win32_init.c.s
 
 src/deps/glfw/win32_joystick.obj: src/deps/glfw/win32_joystick.c.obj
@@ -1051,6 +1247,10 @@ src/deps/glfw/win32_joystick.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_joystick.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_joystick.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_joystick.c.obj
 .PHONY : src/deps/glfw/win32_joystick.c.obj
 
 src/deps/glfw/win32_joystick.i: src/deps/glfw/win32_joystick.c.i
@@ -1070,6 +1270,10 @@ src/deps/glfw/win32_joystick.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_joystick.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_joystick.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_joystick.c.i
 .PHONY : src/deps/glfw/win32_joystick.c.i
 
 src/deps/glfw/win32_joystick.s: src/deps/glfw/win32_joystick.c.s
@@ -1089,6 +1293,10 @@ src/deps/glfw/win32_joystick.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_joystick.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_joystick.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_joystick.c.s
 .PHONY : src/deps/glfw/win32_joystick.c.s
 
 src/deps/glfw/win32_module.obj: src/deps/glfw/win32_module.c.obj
@@ -1108,6 +1316,10 @@ src/deps/glfw/win32_module.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_module.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_module.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.obj
 .PHONY : src/deps/glfw/win32_module.c.obj
 
 src/deps/glfw/win32_module.i: src/deps/glfw/win32_module.c.i
@@ -1127,6 +1339,10 @@ src/deps/glfw/win32_module.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_module.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_module.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.i
 .PHONY : src/deps/glfw/win32_module.c.i
 
 src/deps/glfw/win32_module.s: src/deps/glfw/win32_module.c.s
@@ -1146,6 +1362,10 @@ src/deps/glfw/win32_module.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_module.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_module.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.s
 .PHONY : src/deps/glfw/win32_module.c.s
 
 src/deps/glfw/win32_monitor.obj: src/deps/glfw/win32_monitor.c.obj
@@ -1165,6 +1385,10 @@ src/deps/glfw/win32_monitor.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_monitor.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_monitor.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_monitor.c.obj
 .PHONY : src/deps/glfw/win32_monitor.c.obj
 
 src/deps/glfw/win32_monitor.i: src/deps/glfw/win32_monitor.c.i
@@ -1184,6 +1408,10 @@ src/deps/glfw/win32_monitor.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_monitor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_monitor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_monitor.c.i
 .PHONY : src/deps/glfw/win32_monitor.c.i
 
 src/deps/glfw/win32_monitor.s: src/deps/glfw/win32_monitor.c.s
@@ -1203,6 +1431,10 @@ src/deps/glfw/win32_monitor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_monitor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_monitor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_monitor.c.s
 .PHONY : src/deps/glfw/win32_monitor.c.s
 
 src/deps/glfw/win32_thread.obj: src/deps/glfw/win32_thread.c.obj
@@ -1222,6 +1454,10 @@ src/deps/glfw/win32_thread.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_thread.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_thread.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_thread.c.obj
 .PHONY : src/deps/glfw/win32_thread.c.obj
 
 src/deps/glfw/win32_thread.i: src/deps/glfw/win32_thread.c.i
@@ -1241,6 +1477,10 @@ src/deps/glfw/win32_thread.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_thread.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_thread.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_thread.c.i
 .PHONY : src/deps/glfw/win32_thread.c.i
 
 src/deps/glfw/win32_thread.s: src/deps/glfw/win32_thread.c.s
@@ -1260,6 +1500,10 @@ src/deps/glfw/win32_thread.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_thread.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_thread.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_thread.c.s
 .PHONY : src/deps/glfw/win32_thread.c.s
 
 src/deps/glfw/win32_time.obj: src/deps/glfw/win32_time.c.obj
@@ -1279,6 +1523,10 @@ src/deps/glfw/win32_time.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_time.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_time.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_time.c.obj
 .PHONY : src/deps/glfw/win32_time.c.obj
 
 src/deps/glfw/win32_time.i: src/deps/glfw/win32_time.c.i
@@ -1298,6 +1546,10 @@ src/deps/glfw/win32_time.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_time.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_time.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_time.c.i
 .PHONY : src/deps/glfw/win32_time.c.i
 
 src/deps/glfw/win32_time.s: src/deps/glfw/win32_time.c.s
@@ -1317,6 +1569,10 @@ src/deps/glfw/win32_time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_time.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_time.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_time.c.s
 .PHONY : src/deps/glfw/win32_time.c.s
 
 src/deps/glfw/win32_window.obj: src/deps/glfw/win32_window.c.obj
@@ -1336,6 +1592,10 @@ src/deps/glfw/win32_window.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_window.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_window.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_window.c.obj
 .PHONY : src/deps/glfw/win32_window.c.obj
 
 src/deps/glfw/win32_window.i: src/deps/glfw/win32_window.c.i
@@ -1355,6 +1615,10 @@ src/deps/glfw/win32_window.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_window.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_window.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_window.c.i
 .PHONY : src/deps/glfw/win32_window.c.i
 
 src/deps/glfw/win32_window.s: src/deps/glfw/win32_window.c.s
@@ -1374,6 +1638,10 @@ src/deps/glfw/win32_window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_window.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_window.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_window.c.s
 .PHONY : src/deps/glfw/win32_window.c.s
 
 src/deps/glfw/window.obj: src/deps/glfw/window.c.obj
@@ -1684,6 +1952,10 @@ help:
 	@echo ... 09_phong
 	@echo ... 10_lightmap
 	@echo ... 11_lightemitter
+	@echo ... 12_loadmodel
+	@echo ... 13_normalmap
+	@echo ... 14_fbo
+	@echo ... 15_shadowmap
 	@echo ... EngineLib
 	@echo ... projects/01_window/main.obj
 	@echo ... projects/01_window/main.i
@@ -1718,6 +1990,18 @@ help:
 	@echo ... projects/11_lightemitter/main.obj
 	@echo ... projects/11_lightemitter/main.i
 	@echo ... projects/11_lightemitter/main.s
+	@echo ... projects/12_loadmodel/main.obj
+	@echo ... projects/12_loadmodel/main.i
+	@echo ... projects/12_loadmodel/main.s
+	@echo ... projects/13_normalmap/main.obj
+	@echo ... projects/13_normalmap/main.i
+	@echo ... projects/13_normalmap/main.s
+	@echo ... projects/14_fbo/main.obj
+	@echo ... projects/14_fbo/main.i
+	@echo ... projects/14_fbo/main.s
+	@echo ... projects/15_shadowmap/main.obj
+	@echo ... projects/15_shadowmap/main.i
+	@echo ... projects/15_shadowmap/main.s
 	@echo ... src/deps/glad/glad.obj
 	@echo ... src/deps/glad/glad.i
 	@echo ... src/deps/glad/glad.s

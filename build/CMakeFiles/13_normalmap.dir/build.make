@@ -266,7 +266,6 @@ CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.s: cmake_force
 13_normalmap.exe: CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.obj
 13_normalmap.exe: CMakeFiles/13_normalmap.dir/build.make
 13_normalmap.exe: libEngineLib.a
-13_normalmap.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 13_normalmap.exe: CMakeFiles/13_normalmap.dir/linkLibs.rsp
 13_normalmap.exe: CMakeFiles/13_normalmap.dir/objects1.rsp
 13_normalmap.exe: CMakeFiles/13_normalmap.dir/link.txt

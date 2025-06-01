@@ -11,8 +11,9 @@ set(PROJECT_LIST
     09_phong
     10_lightmap
     11_lightemitter
-    #[==[12_loadmap
+    12_loadmodel
     13_normalmap
     14_fbo
-    15_shadowmap]==]
+    15_shadowmap
+    #16_exam
 )

@@ -10,5 +10,9 @@ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/0
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/09_phong.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/10_lightmap.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/11_lightemitter.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/12_loadmodel.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/13_normalmap.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/14_fbo.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/15_shadowmap.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/edit_cache.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/rebuild_cache.dir

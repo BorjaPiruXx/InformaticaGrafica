@@ -266,7 +266,6 @@ CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.s: cmake_force
 05_transform3D.exe: CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.obj
 05_transform3D.exe: CMakeFiles/05_transform3D.dir/build.make
 05_transform3D.exe: libEngineLib.a
-05_transform3D.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 05_transform3D.exe: CMakeFiles/05_transform3D.dir/linkLibs.rsp
 05_transform3D.exe: CMakeFiles/05_transform3D.dir/objects1.rsp
 05_transform3D.exe: CMakeFiles/05_transform3D.dir/link.txt

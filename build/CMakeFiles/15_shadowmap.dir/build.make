@@ -266,7 +266,6 @@ CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.s: cmake_force
 15_shadowmap.exe: CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.obj
 15_shadowmap.exe: CMakeFiles/15_shadowmap.dir/build.make
 15_shadowmap.exe: libEngineLib.a
-15_shadowmap.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 15_shadowmap.exe: CMakeFiles/15_shadowmap.dir/linkLibs.rsp
 15_shadowmap.exe: CMakeFiles/15_shadowmap.dir/objects1.rsp
 15_shadowmap.exe: CMakeFiles/15_shadowmap.dir/link.txt

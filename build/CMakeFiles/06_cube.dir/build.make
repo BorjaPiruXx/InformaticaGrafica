@@ -266,7 +266,6 @@ CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.s: cmake_force
 06_cube.exe: CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.obj
 06_cube.exe: CMakeFiles/06_cube.dir/build.make
 06_cube.exe: libEngineLib.a
-06_cube.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 06_cube.exe: CMakeFiles/06_cube.dir/linkLibs.rsp
 06_cube.exe: CMakeFiles/06_cube.dir/objects1.rsp
 06_cube.exe: CMakeFiles/06_cube.dir/link.txt

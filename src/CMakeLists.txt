@@ -24,7 +24,10 @@ add_library(EngineLib STATIC ${ENGINE_SRC_FILES} ${ENGINE_HEADER_FILES} ${DEPS_S
 target_include_directories(EngineLib PRIVATE ${INCLUDE_PATHS})
 target_compile_definitions(EngineLib PRIVATE -D_GLFW_USE_OPENGL=1)
 target_compile_features(EngineLib PRIVATE cxx_std_17)
-target_link_libraries(EngineLib PRIVATE ${CMAKE_CURRENT_LIST_DIR}/libs/Debug/assimp-vc143-mt.lib)
+#target_link_libraries(EngineLib PRIVATE ${CMAKE_CURRENT_LIST_DIR}/libs/Debug/assimp-vc143-mt.lib)
+
+find_package(assimp REQUIRED)
+target_link_libraries(EngineLib PRIVATE assimp)
 
 configure_platform(EngineLib)
 configure_compiler(EngineLib)

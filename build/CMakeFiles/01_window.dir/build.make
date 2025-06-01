@@ -266,7 +266,6 @@ CMakeFiles/01_window.dir/src/deps/glfw/win32_module.c.s: cmake_force
 01_window.exe: CMakeFiles/01_window.dir/src/deps/glfw/win32_module.c.obj
 01_window.exe: CMakeFiles/01_window.dir/build.make
 01_window.exe: libEngineLib.a
-01_window.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 01_window.exe: CMakeFiles/01_window.dir/linkLibs.rsp
 01_window.exe: CMakeFiles/01_window.dir/objects1.rsp
 01_window.exe: CMakeFiles/01_window.dir/link.txt
