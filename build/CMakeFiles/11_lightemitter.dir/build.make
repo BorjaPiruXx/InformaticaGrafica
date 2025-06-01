@@ -266,7 +266,6 @@ CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_module.c.s: cmake_force
 11_lightemitter.exe: CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_module.c.obj
 11_lightemitter.exe: CMakeFiles/11_lightemitter.dir/build.make
 11_lightemitter.exe: libEngineLib.a
-11_lightemitter.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 11_lightemitter.exe: CMakeFiles/11_lightemitter.dir/linkLibs.rsp
 11_lightemitter.exe: CMakeFiles/11_lightemitter.dir/objects1.rsp
 11_lightemitter.exe: CMakeFiles/11_lightemitter.dir/link.txt

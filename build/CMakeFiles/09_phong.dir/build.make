@@ -266,7 +266,6 @@ CMakeFiles/09_phong.dir/src/deps/glfw/win32_module.c.s: cmake_force
 09_phong.exe: CMakeFiles/09_phong.dir/src/deps/glfw/win32_module.c.obj
 09_phong.exe: CMakeFiles/09_phong.dir/build.make
 09_phong.exe: libEngineLib.a
-09_phong.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 09_phong.exe: CMakeFiles/09_phong.dir/linkLibs.rsp
 09_phong.exe: CMakeFiles/09_phong.dir/objects1.rsp
 09_phong.exe: CMakeFiles/09_phong.dir/link.txt

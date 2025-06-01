@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "11_lightemitter",
+      "name": "12_loadmodel",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/11_lightemitter",
+      "program": "${workspaceFolder}/build/12_loadmodel",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

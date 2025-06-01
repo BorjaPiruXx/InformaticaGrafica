@@ -266,7 +266,6 @@ CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.s: cmake_force
 14_fbo.exe: CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.obj
 14_fbo.exe: CMakeFiles/14_fbo.dir/build.make
 14_fbo.exe: libEngineLib.a
-14_fbo.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 14_fbo.exe: CMakeFiles/14_fbo.dir/linkLibs.rsp
 14_fbo.exe: CMakeFiles/14_fbo.dir/objects1.rsp
 14_fbo.exe: CMakeFiles/14_fbo.dir/link.txt

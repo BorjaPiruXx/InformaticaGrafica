@@ -266,7 +266,6 @@ CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.s: cmake_force
 07_geometry.exe: CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.obj
 07_geometry.exe: CMakeFiles/07_geometry.dir/build.make
 07_geometry.exe: libEngineLib.a
-07_geometry.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 07_geometry.exe: CMakeFiles/07_geometry.dir/linkLibs.rsp
 07_geometry.exe: CMakeFiles/07_geometry.dir/objects1.rsp
 07_geometry.exe: CMakeFiles/07_geometry.dir/link.txt

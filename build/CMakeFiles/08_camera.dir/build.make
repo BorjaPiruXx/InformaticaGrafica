@@ -266,7 +266,6 @@ CMakeFiles/08_camera.dir/src/deps/glfw/win32_module.c.s: cmake_force
 08_camera.exe: CMakeFiles/08_camera.dir/src/deps/glfw/win32_module.c.obj
 08_camera.exe: CMakeFiles/08_camera.dir/build.make
 08_camera.exe: libEngineLib.a
-08_camera.exe: C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/libs/Debug/assimp-vc143-mt.lib
 08_camera.exe: CMakeFiles/08_camera.dir/linkLibs.rsp
 08_camera.exe: CMakeFiles/08_camera.dir/objects1.rsp
 08_camera.exe: CMakeFiles/08_camera.dir/link.txt

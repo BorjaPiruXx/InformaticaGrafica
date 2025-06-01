@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "60GIIN_10_A_2024_25",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01_window::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_window-Debug-cb4ced1499eb978d5a17.json",
+					"name" : "01_window",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_triangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_triangle-Debug-b005bc9d2dfcd776c6cb.json",
+					"name" : "02_triangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_color-Debug-5d12ace22e7605f6932b.json",
+					"name" : "03_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04_texture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_texture-Debug-734a52bf4fde7284780a.json",
+					"name" : "04_texture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_transform3D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_transform3D-Debug-c5bc318a099204e91f27.json",
+					"name" : "05_transform3D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_cube::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_cube-Debug-1cd3cc35671b542a64a2.json",
+					"name" : "06_cube",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07_geometry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07_geometry-Debug-3b3f856650141494ad5a.json",
+					"name" : "07_geometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08_camera-Debug-86ead93f7c2d2068cd75.json",
+					"name" : "08_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09_phong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09_phong-Debug-40b5f0ec0c98ea2a794d.json",
+					"name" : "09_phong",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10_lightmap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10_lightmap-Debug-bf930a0f56515a7d1bca.json",
+					"name" : "10_lightmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11_lightemitter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11_lightemitter-Debug-7209a14a3caccbe2ccde.json",
+					"name" : "11_lightemitter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12_loadmodel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12_loadmodel-Debug-c08311441087fdd299e2.json",
+					"name" : "12_loadmodel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "13_normalmap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-13_normalmap-Debug-31ee997580a9a4222114.json",
+					"name" : "13_normalmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "14_fbo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-14_fbo-Debug-0e3155bd73cae560c834.json",
+					"name" : "14_fbo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "15_shadowmap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-15_shadowmap-Debug-502b89ad11e3231a07f8.json",
+					"name" : "15_shadowmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EngineLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EngineLib-Debug-1baecae5b6592aeb9e3e.json",
+					"name" : "EngineLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build",
+		"source" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
