@@ -2,6 +2,7 @@
     "cmake.sourceDirectory": "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src",
     "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
     "files.associations": {
+        "*.txt": "cmake",
         "array": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
@@ -56,6 +57,21 @@
         "cstring": "cpp",
         "fstream": "cpp",
         "iomanip": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "any": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "unordered_set": "cpp",
+        "ratio": "cpp",
+        "regex": "cpp",
+        "mutex": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp"
     }
 }
