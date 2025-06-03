@@ -25,6 +25,39 @@ glm::mat4 Camera::getViewMatrix() const
   return glm::lookAt(position_, position_ + front_, up_);
 }
 
+// Reemplazar el método lookAt de GLM por una implementación propia
+glm::mat4 Camera::getViewMatrixWithoutGLM() const 
+{
+  // Definir eje Z (hacia atrás)
+  glm::vec3 axisZ = glm::normalize(position_ - (position_ + front_));
+
+  // Definir eje X (hacia la derecha)
+  glm::vec3 axisX = glm::normalize(glm::cross(glm::normalize(up_), axisZ));
+
+  // Definir eje Y (hacia arriba)
+  glm::vec3 axisY = glm::cross(axisZ, axisX);
+
+  // Generar matriz de vista (lookAt)
+  glm::mat4 lookAt(1.0f);
+
+  lookAt[0][0] = axisX.x;
+  lookAt[1][0] = axisX.y;
+  lookAt[2][0] = axisX.z;
+  lookAt[3][0] = -glm::dot(axisX, position_);
+
+  lookAt[0][1] = axisY.x;
+  lookAt[1][1] = axisY.y;
+  lookAt[2][1] = axisY.z;
+  lookAt[3][1] = -glm::dot(axisY, position_);
+
+  lookAt[0][2] = axisZ.x;
+  lookAt[1][2] = axisZ.y;
+  lookAt[2][2] = axisZ.z;
+  lookAt[3][2] = -glm::dot(axisZ, position_);
+
+  return lookAt;
+}
+
 float Camera::getFOV() const 
 {
   return fov_;
@@ -33,6 +66,12 @@ float Camera::getFOV() const
 glm::vec3 Camera::getPosition() const 
 {
   return position_;
+}
+
+// Obtener el front de la cámara
+glm::vec3 Camera::getFront() const
+{
+  return front_;
 }
 
 void Camera::updateCameraVectors() 

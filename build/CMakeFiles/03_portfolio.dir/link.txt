@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\03_portfolio.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\03_portfolio.dir/objects.a @CMakeFiles\03_portfolio.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\03_portfolio.dir/objects.a -Wl,--no-whole-archive -o 03_portfolio.exe -Wl,--out-implib,lib03_portfolio.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\03_portfolio.dir\linkLibs.rsp

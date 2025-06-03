@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "12_loadmodel",
+      "name": "05_portfolio",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/12_loadmodel",
+      "program": "${workspaceFolder}/build/05_portfolio",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

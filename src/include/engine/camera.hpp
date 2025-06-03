@@ -29,8 +29,15 @@ class Camera
     Camera(float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch);
 
     [[nodiscard]] glm::mat4 getViewMatrix() const;
+
+    // Método propio para realizar la función LookAt sin GLM
+    [[nodiscard]] glm::mat4 getViewMatrixWithoutGLM() const;
+
     [[nodiscard]] float getFOV() const;
     [[nodiscard]] glm::vec3 getPosition() const;
+
+    // Método propio para obtener el vector front_ de la cámara
+    [[nodiscard]] glm::vec3 getFront() const;
 
     void handleKeyboard(Movement direction, float dt);
     void handleMouseMovement(float xoffset, float yoffset, bool constrainPitch = true);

@@ -15,5 +15,9 @@ set(PROJECT_LIST
     13_normalmap
     14_fbo
     15_shadowmap
-    #16_exam
+    01_portfolio
+    02_portfolio
+    03_portfolio
+    04_portfolio
+    05_portfolio
 )

@@ -330,6 +330,95 @@ EngineLib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/build
 .PHONY : 15_shadowmap/fast
 
+#=============================================================================
+# Target rules for targets named 01_portfolio
+
+# Build rule for target.
+01_portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_portfolio
+.PHONY : 01_portfolio
+
+# fast build rule for target.
+01_portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/build
+.PHONY : 01_portfolio/fast
+
+#=============================================================================
+# Target rules for targets named 02_portfolio
+
+# Build rule for target.
+02_portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02_portfolio
+.PHONY : 02_portfolio
+
+# fast build rule for target.
+02_portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/build
+.PHONY : 02_portfolio/fast
+
+#=============================================================================
+# Target rules for targets named 03_portfolio
+
+# Build rule for target.
+03_portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 03_portfolio
+.PHONY : 03_portfolio
+
+# fast build rule for target.
+03_portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/build
+.PHONY : 03_portfolio/fast
+
+#=============================================================================
+# Target rules for targets named 04_portfolio
+
+# Build rule for target.
+04_portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 04_portfolio
+.PHONY : 04_portfolio
+
+# fast build rule for target.
+04_portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/build
+.PHONY : 04_portfolio/fast
+
+#=============================================================================
+# Target rules for targets named 05_portfolio
+
+# Build rule for target.
+05_portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 05_portfolio
+.PHONY : 05_portfolio
+
+# fast build rule for target.
+05_portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/build
+.PHONY : 05_portfolio/fast
+
+projects/01_portfolio/main.obj: projects/01_portfolio/main.cpp.obj
+.PHONY : projects/01_portfolio/main.obj
+
+# target to build an object file
+projects/01_portfolio/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/projects/01_portfolio/main.cpp.obj
+.PHONY : projects/01_portfolio/main.cpp.obj
+
+projects/01_portfolio/main.i: projects/01_portfolio/main.cpp.i
+.PHONY : projects/01_portfolio/main.i
+
+# target to preprocess a source file
+projects/01_portfolio/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/projects/01_portfolio/main.cpp.i
+.PHONY : projects/01_portfolio/main.cpp.i
+
+projects/01_portfolio/main.s: projects/01_portfolio/main.cpp.s
+.PHONY : projects/01_portfolio/main.s
+
+# target to generate assembly for a file
+projects/01_portfolio/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/projects/01_portfolio/main.cpp.s
+.PHONY : projects/01_portfolio/main.cpp.s
+
 projects/01_window/main.obj: projects/01_window/main.cpp.obj
 .PHONY : projects/01_window/main.obj
 
@@ -353,6 +442,30 @@ projects/01_window/main.s: projects/01_window/main.cpp.s
 projects/01_window/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/projects/01_window/main.cpp.s
 .PHONY : projects/01_window/main.cpp.s
+
+projects/02_portfolio/main.obj: projects/02_portfolio/main.cpp.obj
+.PHONY : projects/02_portfolio/main.obj
+
+# target to build an object file
+projects/02_portfolio/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/projects/02_portfolio/main.cpp.obj
+.PHONY : projects/02_portfolio/main.cpp.obj
+
+projects/02_portfolio/main.i: projects/02_portfolio/main.cpp.i
+.PHONY : projects/02_portfolio/main.i
+
+# target to preprocess a source file
+projects/02_portfolio/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/projects/02_portfolio/main.cpp.i
+.PHONY : projects/02_portfolio/main.cpp.i
+
+projects/02_portfolio/main.s: projects/02_portfolio/main.cpp.s
+.PHONY : projects/02_portfolio/main.s
+
+# target to generate assembly for a file
+projects/02_portfolio/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/projects/02_portfolio/main.cpp.s
+.PHONY : projects/02_portfolio/main.cpp.s
 
 projects/02_triangle/main.obj: projects/02_triangle/main.cpp.obj
 .PHONY : projects/02_triangle/main.obj
@@ -402,6 +515,54 @@ projects/03_color/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/projects/03_color/main.cpp.s
 .PHONY : projects/03_color/main.cpp.s
 
+projects/03_portfolio/main.obj: projects/03_portfolio/main.cpp.obj
+.PHONY : projects/03_portfolio/main.obj
+
+# target to build an object file
+projects/03_portfolio/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/projects/03_portfolio/main.cpp.obj
+.PHONY : projects/03_portfolio/main.cpp.obj
+
+projects/03_portfolio/main.i: projects/03_portfolio/main.cpp.i
+.PHONY : projects/03_portfolio/main.i
+
+# target to preprocess a source file
+projects/03_portfolio/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/projects/03_portfolio/main.cpp.i
+.PHONY : projects/03_portfolio/main.cpp.i
+
+projects/03_portfolio/main.s: projects/03_portfolio/main.cpp.s
+.PHONY : projects/03_portfolio/main.s
+
+# target to generate assembly for a file
+projects/03_portfolio/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/projects/03_portfolio/main.cpp.s
+.PHONY : projects/03_portfolio/main.cpp.s
+
+projects/04_portfolio/main.obj: projects/04_portfolio/main.cpp.obj
+.PHONY : projects/04_portfolio/main.obj
+
+# target to build an object file
+projects/04_portfolio/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/projects/04_portfolio/main.cpp.obj
+.PHONY : projects/04_portfolio/main.cpp.obj
+
+projects/04_portfolio/main.i: projects/04_portfolio/main.cpp.i
+.PHONY : projects/04_portfolio/main.i
+
+# target to preprocess a source file
+projects/04_portfolio/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/projects/04_portfolio/main.cpp.i
+.PHONY : projects/04_portfolio/main.cpp.i
+
+projects/04_portfolio/main.s: projects/04_portfolio/main.cpp.s
+.PHONY : projects/04_portfolio/main.s
+
+# target to generate assembly for a file
+projects/04_portfolio/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/projects/04_portfolio/main.cpp.s
+.PHONY : projects/04_portfolio/main.cpp.s
+
 projects/04_texture/main.obj: projects/04_texture/main.cpp.obj
 .PHONY : projects/04_texture/main.obj
 
@@ -425,6 +586,30 @@ projects/04_texture/main.s: projects/04_texture/main.cpp.s
 projects/04_texture/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/projects/04_texture/main.cpp.s
 .PHONY : projects/04_texture/main.cpp.s
+
+projects/05_portfolio/main.obj: projects/05_portfolio/main.cpp.obj
+.PHONY : projects/05_portfolio/main.obj
+
+# target to build an object file
+projects/05_portfolio/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/projects/05_portfolio/main.cpp.obj
+.PHONY : projects/05_portfolio/main.cpp.obj
+
+projects/05_portfolio/main.i: projects/05_portfolio/main.cpp.i
+.PHONY : projects/05_portfolio/main.i
+
+# target to preprocess a source file
+projects/05_portfolio/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/projects/05_portfolio/main.cpp.i
+.PHONY : projects/05_portfolio/main.cpp.i
+
+projects/05_portfolio/main.s: projects/05_portfolio/main.cpp.s
+.PHONY : projects/05_portfolio/main.s
+
+# target to generate assembly for a file
+projects/05_portfolio/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/projects/05_portfolio/main.cpp.s
+.PHONY : projects/05_portfolio/main.cpp.s
 
 projects/05_transform3D/main.obj: projects/05_transform3D/main.cpp.obj
 .PHONY : projects/05_transform3D/main.obj
@@ -759,6 +944,11 @@ src/deps/glfw/egl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/egl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/egl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/egl_context.c.obj
 .PHONY : src/deps/glfw/egl_context.c.obj
 
 src/deps/glfw/egl_context.i: src/deps/glfw/egl_context.c.i
@@ -782,6 +972,11 @@ src/deps/glfw/egl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/egl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/egl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/egl_context.c.i
 .PHONY : src/deps/glfw/egl_context.c.i
 
 src/deps/glfw/egl_context.s: src/deps/glfw/egl_context.c.s
@@ -805,6 +1000,11 @@ src/deps/glfw/egl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/egl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/egl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/egl_context.c.s
 .PHONY : src/deps/glfw/egl_context.c.s
 
 src/deps/glfw/init.obj: src/deps/glfw/init.c.obj
@@ -996,6 +1196,11 @@ src/deps/glfw/osmesa_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/osmesa_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/osmesa_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
 .PHONY : src/deps/glfw/osmesa_context.c.obj
 
 src/deps/glfw/osmesa_context.i: src/deps/glfw/osmesa_context.c.i
@@ -1019,6 +1224,11 @@ src/deps/glfw/osmesa_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/osmesa_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/osmesa_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/osmesa_context.c.i
 .PHONY : src/deps/glfw/osmesa_context.c.i
 
 src/deps/glfw/osmesa_context.s: src/deps/glfw/osmesa_context.c.s
@@ -1042,6 +1252,11 @@ src/deps/glfw/osmesa_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/osmesa_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/osmesa_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/osmesa_context.c.s
 .PHONY : src/deps/glfw/osmesa_context.c.s
 
 src/deps/glfw/platform.obj: src/deps/glfw/platform.c.obj
@@ -1113,6 +1328,11 @@ src/deps/glfw/wgl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/wgl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/wgl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/wgl_context.c.obj
 .PHONY : src/deps/glfw/wgl_context.c.obj
 
 src/deps/glfw/wgl_context.i: src/deps/glfw/wgl_context.c.i
@@ -1136,6 +1356,11 @@ src/deps/glfw/wgl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/wgl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/wgl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/wgl_context.c.i
 .PHONY : src/deps/glfw/wgl_context.c.i
 
 src/deps/glfw/wgl_context.s: src/deps/glfw/wgl_context.c.s
@@ -1159,6 +1384,11 @@ src/deps/glfw/wgl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/wgl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/wgl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/wgl_context.c.s
 .PHONY : src/deps/glfw/wgl_context.c.s
 
 src/deps/glfw/win32_init.obj: src/deps/glfw/win32_init.c.obj
@@ -1182,6 +1412,11 @@ src/deps/glfw/win32_init.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_init.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_init.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_init.c.obj
 .PHONY : src/deps/glfw/win32_init.c.obj
 
 src/deps/glfw/win32_init.i: src/deps/glfw/win32_init.c.i
@@ -1205,6 +1440,11 @@ src/deps/glfw/win32_init.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_init.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_init.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_init.c.i
 .PHONY : src/deps/glfw/win32_init.c.i
 
 src/deps/glfw/win32_init.s: src/deps/glfw/win32_init.c.s
@@ -1228,6 +1468,11 @@ src/deps/glfw/win32_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_init.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_init.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_init.c.s
 .PHONY : src/deps/glfw/win32_init.c.s
 
 src/deps/glfw/win32_joystick.obj: src/deps/glfw/win32_joystick.c.obj
@@ -1251,6 +1496,11 @@ src/deps/glfw/win32_joystick.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_joystick.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_joystick.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
 .PHONY : src/deps/glfw/win32_joystick.c.obj
 
 src/deps/glfw/win32_joystick.i: src/deps/glfw/win32_joystick.c.i
@@ -1274,6 +1524,11 @@ src/deps/glfw/win32_joystick.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_joystick.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_joystick.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_joystick.c.i
 .PHONY : src/deps/glfw/win32_joystick.c.i
 
 src/deps/glfw/win32_joystick.s: src/deps/glfw/win32_joystick.c.s
@@ -1297,6 +1552,11 @@ src/deps/glfw/win32_joystick.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_joystick.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_joystick.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_joystick.c.s
 .PHONY : src/deps/glfw/win32_joystick.c.s
 
 src/deps/glfw/win32_module.obj: src/deps/glfw/win32_module.c.obj
@@ -1320,6 +1580,11 @@ src/deps/glfw/win32_module.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_module.c.obj
 .PHONY : src/deps/glfw/win32_module.c.obj
 
 src/deps/glfw/win32_module.i: src/deps/glfw/win32_module.c.i
@@ -1343,6 +1608,11 @@ src/deps/glfw/win32_module.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_module.c.i
 .PHONY : src/deps/glfw/win32_module.c.i
 
 src/deps/glfw/win32_module.s: src/deps/glfw/win32_module.c.s
@@ -1366,6 +1636,11 @@ src/deps/glfw/win32_module.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_module.c.s
 .PHONY : src/deps/glfw/win32_module.c.s
 
 src/deps/glfw/win32_monitor.obj: src/deps/glfw/win32_monitor.c.obj
@@ -1389,6 +1664,11 @@ src/deps/glfw/win32_monitor.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_monitor.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_monitor.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
 .PHONY : src/deps/glfw/win32_monitor.c.obj
 
 src/deps/glfw/win32_monitor.i: src/deps/glfw/win32_monitor.c.i
@@ -1412,6 +1692,11 @@ src/deps/glfw/win32_monitor.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_monitor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_monitor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_monitor.c.i
 .PHONY : src/deps/glfw/win32_monitor.c.i
 
 src/deps/glfw/win32_monitor.s: src/deps/glfw/win32_monitor.c.s
@@ -1435,6 +1720,11 @@ src/deps/glfw/win32_monitor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_monitor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_monitor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_monitor.c.s
 .PHONY : src/deps/glfw/win32_monitor.c.s
 
 src/deps/glfw/win32_thread.obj: src/deps/glfw/win32_thread.c.obj
@@ -1458,6 +1748,11 @@ src/deps/glfw/win32_thread.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_thread.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_thread.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_thread.c.obj
 .PHONY : src/deps/glfw/win32_thread.c.obj
 
 src/deps/glfw/win32_thread.i: src/deps/glfw/win32_thread.c.i
@@ -1481,6 +1776,11 @@ src/deps/glfw/win32_thread.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_thread.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_thread.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_thread.c.i
 .PHONY : src/deps/glfw/win32_thread.c.i
 
 src/deps/glfw/win32_thread.s: src/deps/glfw/win32_thread.c.s
@@ -1504,6 +1804,11 @@ src/deps/glfw/win32_thread.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_thread.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_thread.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_thread.c.s
 .PHONY : src/deps/glfw/win32_thread.c.s
 
 src/deps/glfw/win32_time.obj: src/deps/glfw/win32_time.c.obj
@@ -1527,6 +1832,11 @@ src/deps/glfw/win32_time.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_time.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_time.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_time.c.obj
 .PHONY : src/deps/glfw/win32_time.c.obj
 
 src/deps/glfw/win32_time.i: src/deps/glfw/win32_time.c.i
@@ -1550,6 +1860,11 @@ src/deps/glfw/win32_time.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_time.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_time.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_time.c.i
 .PHONY : src/deps/glfw/win32_time.c.i
 
 src/deps/glfw/win32_time.s: src/deps/glfw/win32_time.c.s
@@ -1573,6 +1888,11 @@ src/deps/glfw/win32_time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_time.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_time.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_time.c.s
 .PHONY : src/deps/glfw/win32_time.c.s
 
 src/deps/glfw/win32_window.obj: src/deps/glfw/win32_window.c.obj
@@ -1596,6 +1916,11 @@ src/deps/glfw/win32_window.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_window.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_window.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_window.c.obj
 .PHONY : src/deps/glfw/win32_window.c.obj
 
 src/deps/glfw/win32_window.i: src/deps/glfw/win32_window.c.i
@@ -1619,6 +1944,11 @@ src/deps/glfw/win32_window.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_window.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_window.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_window.c.i
 .PHONY : src/deps/glfw/win32_window.c.i
 
 src/deps/glfw/win32_window.s: src/deps/glfw/win32_window.c.s
@@ -1642,6 +1972,11 @@ src/deps/glfw/win32_window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_window.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_window.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_window.c.s
 .PHONY : src/deps/glfw/win32_window.c.s
 
 src/deps/glfw/window.obj: src/deps/glfw/window.c.obj
@@ -1941,10 +2276,15 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 01_portfolio
 	@echo ... 01_window
+	@echo ... 02_portfolio
 	@echo ... 02_triangle
 	@echo ... 03_color
+	@echo ... 03_portfolio
+	@echo ... 04_portfolio
 	@echo ... 04_texture
+	@echo ... 05_portfolio
 	@echo ... 05_transform3D
 	@echo ... 06_cube
 	@echo ... 07_geometry
@@ -1957,18 +2297,33 @@ help:
 	@echo ... 14_fbo
 	@echo ... 15_shadowmap
 	@echo ... EngineLib
+	@echo ... projects/01_portfolio/main.obj
+	@echo ... projects/01_portfolio/main.i
+	@echo ... projects/01_portfolio/main.s
 	@echo ... projects/01_window/main.obj
 	@echo ... projects/01_window/main.i
 	@echo ... projects/01_window/main.s
+	@echo ... projects/02_portfolio/main.obj
+	@echo ... projects/02_portfolio/main.i
+	@echo ... projects/02_portfolio/main.s
 	@echo ... projects/02_triangle/main.obj
 	@echo ... projects/02_triangle/main.i
 	@echo ... projects/02_triangle/main.s
 	@echo ... projects/03_color/main.obj
 	@echo ... projects/03_color/main.i
 	@echo ... projects/03_color/main.s
+	@echo ... projects/03_portfolio/main.obj
+	@echo ... projects/03_portfolio/main.i
+	@echo ... projects/03_portfolio/main.s
+	@echo ... projects/04_portfolio/main.obj
+	@echo ... projects/04_portfolio/main.i
+	@echo ... projects/04_portfolio/main.s
 	@echo ... projects/04_texture/main.obj
 	@echo ... projects/04_texture/main.i
 	@echo ... projects/04_texture/main.s
+	@echo ... projects/05_portfolio/main.obj
+	@echo ... projects/05_portfolio/main.i
+	@echo ... projects/05_portfolio/main.s
 	@echo ... projects/05_transform3D/main.obj
 	@echo ... projects/05_transform3D/main.i
 	@echo ... projects/05_transform3D/main.s
