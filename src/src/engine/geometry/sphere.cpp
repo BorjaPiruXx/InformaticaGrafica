@@ -4,6 +4,7 @@
 
 #include <cmath>
 #include <fstream>
+#include <glm/glm.hpp>
 
 //http://www.songho.ca/opengl/gl_sphere.html
 

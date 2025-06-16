@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "05_portfolio",
+      "name": "16_exam",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/05_portfolio",
+      "program": "${workspaceFolder}/build/16_exam",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

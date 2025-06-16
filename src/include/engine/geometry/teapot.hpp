@@ -9,7 +9,7 @@
 class Teapot final :public Geometry {
     public:
         Teapot() = delete;
-        explicit Teapot(uint32_t grid, glm::mat4 lidTransform = glm::mat4(1.0f), bool calcTangents = false);
+        explicit Teapot(uint32_t grid, glm::mat4 lidTransform = glm::mat4(1.0f), bool calcTangents = true);
 
     private:
         void generateVertexData(float* positions, float* uvs, float* normals, uint32_t* indices, uint32_t grid) const;
