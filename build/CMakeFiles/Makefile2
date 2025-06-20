@@ -63,12 +63,12 @@ CMAKE_BINARY_DIR = C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica
 
 # The main recursive "all" target.
 all: CMakeFiles/EngineLib.dir/all
-all: CMakeFiles/16_exam.dir/all
+all: CMakeFiles/05_portfolio.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/EngineLib.dir/codegen
-codegen: CMakeFiles/16_exam.dir/codegen
+codegen: CMakeFiles/05_portfolio.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -77,7 +77,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/EngineLib.dir/clean
-clean: CMakeFiles/16_exam.dir/clean
+clean: CMakeFiles/05_portfolio.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -113,36 +113,36 @@ CMakeFiles/EngineLib.dir/clean:
 .PHONY : CMakeFiles/EngineLib.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/16_exam.dir
+# Target rules for target CMakeFiles/05_portfolio.dir
 
 # All Build rule for target.
-CMakeFiles/16_exam.dir/all: CMakeFiles/EngineLib.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target 16_exam"
-.PHONY : CMakeFiles/16_exam.dir/all
+CMakeFiles/05_portfolio.dir/all: CMakeFiles/EngineLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target 05_portfolio"
+.PHONY : CMakeFiles/05_portfolio.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/16_exam.dir/rule: cmake_check_build_system
+CMakeFiles/05_portfolio.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles 46
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/16_exam.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/05_portfolio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles 0
-.PHONY : CMakeFiles/16_exam.dir/rule
+.PHONY : CMakeFiles/05_portfolio.dir/rule
 
 # Convenience name for target.
-16_exam: CMakeFiles/16_exam.dir/rule
-.PHONY : 16_exam
+05_portfolio: CMakeFiles/05_portfolio.dir/rule
+.PHONY : 05_portfolio
 
 # codegen rule for target.
-CMakeFiles/16_exam.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Finished codegen for target 16_exam"
-.PHONY : CMakeFiles/16_exam.dir/codegen
+CMakeFiles/05_portfolio.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\borja\OneDrive\Desktop\VIU\GitHub\InformaticaGrafica\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Finished codegen for target 05_portfolio"
+.PHONY : CMakeFiles/05_portfolio.dir/codegen
 
 # clean rule for target.
-CMakeFiles/16_exam.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/clean
-.PHONY : CMakeFiles/16_exam.dir/clean
+CMakeFiles/05_portfolio.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/clean
+.PHONY : CMakeFiles/05_portfolio.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

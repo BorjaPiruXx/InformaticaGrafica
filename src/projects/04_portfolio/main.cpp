@@ -73,17 +73,23 @@ void handleInput(const float time)
     }
 }
 
-void render(const Shader& shader1, const Shader& shader2, const Geometry& figure, const Model& object)
+void render(const Shader& shader1, const Shader& shader2, const Geometry& figure, const Texture& texture1, const Texture& texture2, const Texture& texture3, const Model& object)
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     glm::mat4 view = camera.getViewMatrixWithoutGLM();
-
     Window* window = Window::instance();
     glm::mat4 projection = glm::perspective(glm::radians(camera.getFOV()), static_cast<float>(window->getWidth()) / static_cast<float>(window->getHeight()), near, far);
 
+    // Dirección de la luz
+    glm::vec3 lightDirection = glm::normalize(glm::vec3(-1.0f, -1.0f, -0.3f));
+
     glm::vec3 lightPosition = glm::vec3(3.0f, 1.0f, 0.0f);
-    glm::vec3 lightColor = glm::vec3(0.5f, 1.0f, 0.5f);
+
+    // Color de la luz direccional
+    glm::vec3 dirLightColor = glm::vec3(0.8f, 0.8f, 0.0f);
+
+    glm::vec3 lightColor = glm::vec3(1.0f, 1.0f, 1.0f);
 
     glm::vec3 flashPosition = camera.getPosition();
     glm::vec3 flashDirection = camera.getFront();
@@ -113,22 +119,27 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
     shader2.set("projection", projection);
     shader2.set("normal", normal);
 
-    glm::vec3 viewLightPosition = glm::vec3(view * glm::vec4(lightPosition, 1.0f));
-    shader2.set("light.position", viewLightPosition);
+    /*
+     * Establecer en shader de phong los valores de la luz direccional:
+     *  > Dirección
+     *  > Componentes ambiente, difusa y especular
+    */
+    shader2.set("dirLight.direction", glm::mat3(view) * lightDirection);
+    shader2.set("dirLight.ambient", dirLightColor * glm::vec3(0.1f));
+    shader2.set("dirLight.diffuse", dirLightColor * glm::vec3(0.8f));
+    shader2.set("dirLight.specular", dirLightColor * glm::vec3(1.0f));
+
+    shader2.set("light.position", lightPosition);
     shader2.set("light.ambient", lightColor * glm::vec3(0.1f));
     shader2.set("light.diffuse", lightColor * glm::vec3(0.8f));
     shader2.set("light.specular", lightColor * glm::vec3(0.5f, 0.5f, 0.5f));
 
-    shader2.set("flashLight.position", glm::vec3(view * glm::vec4(flashPosition, 1.0f)));
-    shader2.set("flashLight.direction", glm::normalize(glm::mat3(view) * flashDirection));
-    shader2.set("flashLight.cutOff", glm::cos(glm::radians(12.52f)));
-    shader2.set("flashLight.outerCutOff", glm::cos(glm::radians(17.5f)));
-    shader2.set("flashLight.ambient", flashColor * glm::vec3(0.05f));
-    shader2.set("flashLight.diffuse", flashColor * glm::vec3(0.8f));
-    shader2.set("flashLight.specular", flashColor * glm::vec3(1.0f));
+    texture1.use(shader2, "material.diffuse", 0);
+    texture2.use(shader2, "material.specular", 1);
+    texture3.use(shader2, "material.normal", 2);
+    shader2.set("material.shininess", 32.0f);
 
-    glm::vec3 viewCameraPosition = glm::vec3(view * glm::vec4(camera.getPosition(), 1.0f));
-    shader2.set("cameraPosition", viewCameraPosition);
+    shader2.set("cameraPosition", camera.getPosition());
 
     // Renderizar el objeto 3D
     object.render(shader2);
@@ -148,6 +159,11 @@ int main(int, char*[])
 
     const Shader lightShader(PROJECT_PATH "light.vert", PROJECT_PATH "light.frag");
     const Shader phongShader(PROJECT_PATH "phong.vert", PROJECT_PATH "phong.frag");
+
+    // Cargar las texturas del modelo 3D
+    const Texture GB_D(ASSETS_PATH "models/Gun_Bot/GB_D.jpg", Texture::Format::RGB);
+    const Texture GB_C(ASSETS_PATH "models/Gun_Bot/GB_C.jpg", Texture::Format::RGB);
+    const Texture GB_N(ASSETS_PATH "models/Gun_Bot/GB_N.jpg", Texture::Format::RGB);
 
     // Añadir modelo 3D
     const Model object(ASSETS_PATH "models/Gun_Bot/Gun_Bot.obj");
@@ -170,7 +186,7 @@ int main(int, char*[])
 
         handleInput(deltaTime);
         //update();
-        render(lightShader, phongShader, figure, object);
+        render(lightShader, phongShader, figure, GB_D, GB_C, GB_N, object);
         window->frame();
     }
 

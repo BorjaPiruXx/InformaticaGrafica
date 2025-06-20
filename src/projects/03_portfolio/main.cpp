@@ -72,17 +72,16 @@ void handleInput(const float time)
     }
 }
 
-void render(const Shader& shader1, const Shader& shader2, const Geometry& figure)
+void render(const Shader& shader1, const Shader& shader2, const Geometry& figure, const Texture& texture)
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     glm::mat4 view = camera.getViewMatrixWithoutGLM();
-
     Window* window = Window::instance();
     glm::mat4 projection = glm::perspective(glm::radians(camera.getFOV()), static_cast<float>(window->getWidth()) / static_cast<float>(window->getHeight()), near, far);
 
     glm::vec3 lightPosition = glm::vec3(3.0f, 1.0f, 0.0f);
-    glm::vec3 lightColor = glm::vec3(0.5f, 1.0f, 0.5f);
+    glm::vec3 lightColor = glm::vec3(0.8f, 0.8f, 0.0f);
 
     // Posición de la linterna (posicionada en la cámara)
     glm::vec3 flashPosition = camera.getPosition();
@@ -92,8 +91,6 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
 
     // Color de la linterna (blanca)
     glm::vec3 flashColor = glm::vec3(1.0f);
-
-    glm::vec3 objectColor = glm::vec3(0.8f, 0.4f, 0.2f);
 
     shader1.use();
 
@@ -121,6 +118,7 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
 
     glm::vec3 viewLightPosition = glm::vec3(view * glm::vec4(lightPosition, 1.0f));
     shader2.set("light.position", viewLightPosition);
+
     shader2.set("light.ambient", lightColor * glm::vec3(0.1f));
     shader2.set("light.diffuse", lightColor * glm::vec3(0.8f));
     shader2.set("light.specular", lightColor * glm::vec3(0.5f, 0.5f, 0.5f));
@@ -140,10 +138,9 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
     shader2.set("flashLight.diffuse", flashColor * glm::vec3(0.8f));
     shader2.set("flashLight.specular", flashColor * glm::vec3(1.0f));
 
-    shader2.set("material.ambient", objectColor);
-    shader2.set("material.diffuse", objectColor);
-    shader2.set("material.specular", objectColor);
-    shader2.set("material.shininess", 1);
+    texture.use(shader2, "material.diffuse", 0);
+    shader2.set("material.specular", glm::vec3(0.8f, 0.4f, 0.2f));
+    shader2.set("material.shininess", 32.0f);
 
     glm::vec3 viewCameraPosition = glm::vec3(view * glm::vec4(camera.getPosition(), 1.0f));
     shader2.set("cameraPosition", viewCameraPosition);
@@ -166,6 +163,8 @@ int main(int, char*[])
     const Shader lightShader(PROJECT_PATH "light.vert", PROJECT_PATH "light.frag");
     const Shader phongShader(PROJECT_PATH "phong.vert", PROJECT_PATH "phong.frag");
 
+    const Texture bricks_albedo(ASSETS_PATH "textures/bricks_albedo.png", Texture::Format::RGB);
+
     glClearColor(0.0f, 0.2f, 0.5f, 1.0f);
 
     glEnable(GL_DEPTH_TEST);
@@ -184,7 +183,7 @@ int main(int, char*[])
 
         handleInput(deltaTime);
         //update();
-        render(lightShader, phongShader, figure);
+        render(lightShader, phongShader, figure, bricks_albedo);
         window->frame();
     }
 

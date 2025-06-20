@@ -136,41 +136,41 @@ EngineLib/fast:
 .PHONY : EngineLib/fast
 
 #=============================================================================
-# Target rules for targets named 16_exam
+# Target rules for targets named 05_portfolio
 
 # Build rule for target.
-16_exam: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 16_exam
-.PHONY : 16_exam
+05_portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 05_portfolio
+.PHONY : 05_portfolio
 
 # fast build rule for target.
-16_exam/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/build
-.PHONY : 16_exam/fast
+05_portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/build
+.PHONY : 05_portfolio/fast
 
-projects/16_exam/main.obj: projects/16_exam/main.cpp.obj
-.PHONY : projects/16_exam/main.obj
+projects/05_portfolio/main.obj: projects/05_portfolio/main.cpp.obj
+.PHONY : projects/05_portfolio/main.obj
 
 # target to build an object file
-projects/16_exam/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/projects/16_exam/main.cpp.obj
-.PHONY : projects/16_exam/main.cpp.obj
+projects/05_portfolio/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/projects/05_portfolio/main.cpp.obj
+.PHONY : projects/05_portfolio/main.cpp.obj
 
-projects/16_exam/main.i: projects/16_exam/main.cpp.i
-.PHONY : projects/16_exam/main.i
+projects/05_portfolio/main.i: projects/05_portfolio/main.cpp.i
+.PHONY : projects/05_portfolio/main.i
 
 # target to preprocess a source file
-projects/16_exam/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/projects/16_exam/main.cpp.i
-.PHONY : projects/16_exam/main.cpp.i
+projects/05_portfolio/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/projects/05_portfolio/main.cpp.i
+.PHONY : projects/05_portfolio/main.cpp.i
 
-projects/16_exam/main.s: projects/16_exam/main.cpp.s
-.PHONY : projects/16_exam/main.s
+projects/05_portfolio/main.s: projects/05_portfolio/main.cpp.s
+.PHONY : projects/05_portfolio/main.s
 
 # target to generate assembly for a file
-projects/16_exam/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/projects/16_exam/main.cpp.s
-.PHONY : projects/16_exam/main.cpp.s
+projects/05_portfolio/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/projects/05_portfolio/main.cpp.s
+.PHONY : projects/05_portfolio/main.cpp.s
 
 src/deps/glad/glad.obj: src/deps/glad/glad.c.obj
 .PHONY : src/deps/glad/glad.obj
@@ -226,7 +226,7 @@ src/deps/glfw/egl_context.obj: src/deps/glfw/egl_context.c.obj
 # target to build an object file
 src/deps/glfw/egl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/egl_context.c.obj
 .PHONY : src/deps/glfw/egl_context.c.obj
 
 src/deps/glfw/egl_context.i: src/deps/glfw/egl_context.c.i
@@ -235,7 +235,7 @@ src/deps/glfw/egl_context.i: src/deps/glfw/egl_context.c.i
 # target to preprocess a source file
 src/deps/glfw/egl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/egl_context.c.i
 .PHONY : src/deps/glfw/egl_context.c.i
 
 src/deps/glfw/egl_context.s: src/deps/glfw/egl_context.c.s
@@ -244,7 +244,7 @@ src/deps/glfw/egl_context.s: src/deps/glfw/egl_context.c.s
 # target to generate assembly for a file
 src/deps/glfw/egl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/egl_context.c.s
 .PHONY : src/deps/glfw/egl_context.c.s
 
 src/deps/glfw/init.obj: src/deps/glfw/init.c.obj
@@ -421,7 +421,7 @@ src/deps/glfw/osmesa_context.obj: src/deps/glfw/osmesa_context.c.obj
 # target to build an object file
 src/deps/glfw/osmesa_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
 .PHONY : src/deps/glfw/osmesa_context.c.obj
 
 src/deps/glfw/osmesa_context.i: src/deps/glfw/osmesa_context.c.i
@@ -430,7 +430,7 @@ src/deps/glfw/osmesa_context.i: src/deps/glfw/osmesa_context.c.i
 # target to preprocess a source file
 src/deps/glfw/osmesa_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/osmesa_context.c.i
 .PHONY : src/deps/glfw/osmesa_context.c.i
 
 src/deps/glfw/osmesa_context.s: src/deps/glfw/osmesa_context.c.s
@@ -439,7 +439,7 @@ src/deps/glfw/osmesa_context.s: src/deps/glfw/osmesa_context.c.s
 # target to generate assembly for a file
 src/deps/glfw/osmesa_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/osmesa_context.c.s
 .PHONY : src/deps/glfw/osmesa_context.c.s
 
 src/deps/glfw/platform.obj: src/deps/glfw/platform.c.obj
@@ -496,7 +496,7 @@ src/deps/glfw/wgl_context.obj: src/deps/glfw/wgl_context.c.obj
 # target to build an object file
 src/deps/glfw/wgl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/wgl_context.c.obj
 .PHONY : src/deps/glfw/wgl_context.c.obj
 
 src/deps/glfw/wgl_context.i: src/deps/glfw/wgl_context.c.i
@@ -505,7 +505,7 @@ src/deps/glfw/wgl_context.i: src/deps/glfw/wgl_context.c.i
 # target to preprocess a source file
 src/deps/glfw/wgl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/wgl_context.c.i
 .PHONY : src/deps/glfw/wgl_context.c.i
 
 src/deps/glfw/wgl_context.s: src/deps/glfw/wgl_context.c.s
@@ -514,7 +514,7 @@ src/deps/glfw/wgl_context.s: src/deps/glfw/wgl_context.c.s
 # target to generate assembly for a file
 src/deps/glfw/wgl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/wgl_context.c.s
 .PHONY : src/deps/glfw/wgl_context.c.s
 
 src/deps/glfw/win32_init.obj: src/deps/glfw/win32_init.c.obj
@@ -523,7 +523,7 @@ src/deps/glfw/win32_init.obj: src/deps/glfw/win32_init.c.obj
 # target to build an object file
 src/deps/glfw/win32_init.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_init.c.obj
 .PHONY : src/deps/glfw/win32_init.c.obj
 
 src/deps/glfw/win32_init.i: src/deps/glfw/win32_init.c.i
@@ -532,7 +532,7 @@ src/deps/glfw/win32_init.i: src/deps/glfw/win32_init.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_init.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_init.c.i
 .PHONY : src/deps/glfw/win32_init.c.i
 
 src/deps/glfw/win32_init.s: src/deps/glfw/win32_init.c.s
@@ -541,7 +541,7 @@ src/deps/glfw/win32_init.s: src/deps/glfw/win32_init.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_init.c.s
 .PHONY : src/deps/glfw/win32_init.c.s
 
 src/deps/glfw/win32_joystick.obj: src/deps/glfw/win32_joystick.c.obj
@@ -550,7 +550,7 @@ src/deps/glfw/win32_joystick.obj: src/deps/glfw/win32_joystick.c.obj
 # target to build an object file
 src/deps/glfw/win32_joystick.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
 .PHONY : src/deps/glfw/win32_joystick.c.obj
 
 src/deps/glfw/win32_joystick.i: src/deps/glfw/win32_joystick.c.i
@@ -559,7 +559,7 @@ src/deps/glfw/win32_joystick.i: src/deps/glfw/win32_joystick.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_joystick.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_joystick.c.i
 .PHONY : src/deps/glfw/win32_joystick.c.i
 
 src/deps/glfw/win32_joystick.s: src/deps/glfw/win32_joystick.c.s
@@ -568,7 +568,7 @@ src/deps/glfw/win32_joystick.s: src/deps/glfw/win32_joystick.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_joystick.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_joystick.c.s
 .PHONY : src/deps/glfw/win32_joystick.c.s
 
 src/deps/glfw/win32_module.obj: src/deps/glfw/win32_module.c.obj
@@ -577,7 +577,7 @@ src/deps/glfw/win32_module.obj: src/deps/glfw/win32_module.c.obj
 # target to build an object file
 src/deps/glfw/win32_module.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_module.c.obj
 .PHONY : src/deps/glfw/win32_module.c.obj
 
 src/deps/glfw/win32_module.i: src/deps/glfw/win32_module.c.i
@@ -586,7 +586,7 @@ src/deps/glfw/win32_module.i: src/deps/glfw/win32_module.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_module.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_module.c.i
 .PHONY : src/deps/glfw/win32_module.c.i
 
 src/deps/glfw/win32_module.s: src/deps/glfw/win32_module.c.s
@@ -595,7 +595,7 @@ src/deps/glfw/win32_module.s: src/deps/glfw/win32_module.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_module.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_module.c.s
 .PHONY : src/deps/glfw/win32_module.c.s
 
 src/deps/glfw/win32_monitor.obj: src/deps/glfw/win32_monitor.c.obj
@@ -604,7 +604,7 @@ src/deps/glfw/win32_monitor.obj: src/deps/glfw/win32_monitor.c.obj
 # target to build an object file
 src/deps/glfw/win32_monitor.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
 .PHONY : src/deps/glfw/win32_monitor.c.obj
 
 src/deps/glfw/win32_monitor.i: src/deps/glfw/win32_monitor.c.i
@@ -613,7 +613,7 @@ src/deps/glfw/win32_monitor.i: src/deps/glfw/win32_monitor.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_monitor.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_monitor.c.i
 .PHONY : src/deps/glfw/win32_monitor.c.i
 
 src/deps/glfw/win32_monitor.s: src/deps/glfw/win32_monitor.c.s
@@ -622,7 +622,7 @@ src/deps/glfw/win32_monitor.s: src/deps/glfw/win32_monitor.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_monitor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_monitor.c.s
 .PHONY : src/deps/glfw/win32_monitor.c.s
 
 src/deps/glfw/win32_thread.obj: src/deps/glfw/win32_thread.c.obj
@@ -631,7 +631,7 @@ src/deps/glfw/win32_thread.obj: src/deps/glfw/win32_thread.c.obj
 # target to build an object file
 src/deps/glfw/win32_thread.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_thread.c.obj
 .PHONY : src/deps/glfw/win32_thread.c.obj
 
 src/deps/glfw/win32_thread.i: src/deps/glfw/win32_thread.c.i
@@ -640,7 +640,7 @@ src/deps/glfw/win32_thread.i: src/deps/glfw/win32_thread.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_thread.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_thread.c.i
 .PHONY : src/deps/glfw/win32_thread.c.i
 
 src/deps/glfw/win32_thread.s: src/deps/glfw/win32_thread.c.s
@@ -649,7 +649,7 @@ src/deps/glfw/win32_thread.s: src/deps/glfw/win32_thread.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_thread.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_thread.c.s
 .PHONY : src/deps/glfw/win32_thread.c.s
 
 src/deps/glfw/win32_time.obj: src/deps/glfw/win32_time.c.obj
@@ -658,7 +658,7 @@ src/deps/glfw/win32_time.obj: src/deps/glfw/win32_time.c.obj
 # target to build an object file
 src/deps/glfw/win32_time.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_time.c.obj
 .PHONY : src/deps/glfw/win32_time.c.obj
 
 src/deps/glfw/win32_time.i: src/deps/glfw/win32_time.c.i
@@ -667,7 +667,7 @@ src/deps/glfw/win32_time.i: src/deps/glfw/win32_time.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_time.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_time.c.i
 .PHONY : src/deps/glfw/win32_time.c.i
 
 src/deps/glfw/win32_time.s: src/deps/glfw/win32_time.c.s
@@ -676,7 +676,7 @@ src/deps/glfw/win32_time.s: src/deps/glfw/win32_time.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_time.c.s
 .PHONY : src/deps/glfw/win32_time.c.s
 
 src/deps/glfw/win32_window.obj: src/deps/glfw/win32_window.c.obj
@@ -685,7 +685,7 @@ src/deps/glfw/win32_window.obj: src/deps/glfw/win32_window.c.obj
 # target to build an object file
 src/deps/glfw/win32_window.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_window.c.obj
 .PHONY : src/deps/glfw/win32_window.c.obj
 
 src/deps/glfw/win32_window.i: src/deps/glfw/win32_window.c.i
@@ -694,7 +694,7 @@ src/deps/glfw/win32_window.i: src/deps/glfw/win32_window.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_window.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_window.c.i
 .PHONY : src/deps/glfw/win32_window.c.i
 
 src/deps/glfw/win32_window.s: src/deps/glfw/win32_window.c.s
@@ -703,7 +703,7 @@ src/deps/glfw/win32_window.s: src/deps/glfw/win32_window.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\16_exam.dir\build.make CMakeFiles/16_exam.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_window.c.s
 .PHONY : src/deps/glfw/win32_window.c.s
 
 src/deps/glfw/window.obj: src/deps/glfw/window.c.obj
@@ -1003,11 +1003,11 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 16_exam
+	@echo ... 05_portfolio
 	@echo ... EngineLib
-	@echo ... projects/16_exam/main.obj
-	@echo ... projects/16_exam/main.i
-	@echo ... projects/16_exam/main.s
+	@echo ... projects/05_portfolio/main.obj
+	@echo ... projects/05_portfolio/main.i
+	@echo ... projects/05_portfolio/main.s
 	@echo ... src/deps/glad/glad.obj
 	@echo ... src/deps/glad/glad.i
 	@echo ... src/deps/glad/glad.s

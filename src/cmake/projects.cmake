@@ -18,7 +18,7 @@ set(PROJECT_LIST
     01_portfolio
     02_portfolio
     03_portfolio
-    04_portfolio
-    05_portfolio]==]
-    16_exam
+    04_portfolio]==]
+    05_portfolio
+    #16_exam
 )
