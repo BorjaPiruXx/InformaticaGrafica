@@ -15,12 +15,11 @@ out mat3 tbNormal;
 
 void main()
 {
+    textureCoord = aTexCoord;
+    
     mat4 viewModel = view * model;
-
     tbNormal = mat3(normalize(mat3(viewModel) * aTangent), normalize(mat3(viewModel) * aBitangent), normalize(mat3(viewModel) * aNormal));
+    fragmentPosition = vec3(model * vec4(aPosition, 1.0));
 
-    normalPosition = mat3(transpose(inverse(viewModel))) * aNormal;
-    fragmentPosition = vec3(viewModel * vec4(aPosition, 1.0));
-
-    gl_Position = projection * vec4(aPosition, 1.0);
+    gl_Position = projection * view * vec4(fragmentPosition, 1.0);
 }

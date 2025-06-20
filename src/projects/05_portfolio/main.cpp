@@ -105,15 +105,18 @@ void handleInput(const float time)
     }
 }
 
-void render(const Shader& shader1, const Shader& shader2, const Geometry& figure1, const Model& object)
+void render(const Shader& shader1, const Shader& shader2, const Geometry& figure, const Texture& texture1, const Texture& texture2, const Texture& texture3, const Model& object)
 {
-    glm::mat4 view = camera.getViewMatrixWithoutGLM();
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+    glm::mat4 view = camera.getViewMatrixWithoutGLM();
     Window* window = Window::instance();
     glm::mat4 projection = glm::perspective(glm::radians(camera.getFOV()), static_cast<float>(window->getWidth()) / static_cast<float>(window->getHeight()), near, far);
 
+    glm::vec3 lightDirection = glm::normalize(glm::vec3(-1.0f, -1.0f, -0.3f));
     glm::vec3 lightPosition = glm::vec3(3.0f, 1.0f, 0.0f);
-    glm::vec3 lightColor = glm::vec3(0.5f, 1.0f, 0.5f);
+    glm::vec3 dirLightColor = glm::vec3(0.8f, 0.8f, 0.0f);
+    glm::vec3 lightColor = glm::vec3(1.0f, 1.0f, 1.0f);
 
     glm::vec3 flashPosition = camera.getPosition();
     glm::vec3 flashDirection = camera.getFront();
@@ -131,7 +134,7 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
 
     shader1.set("lightColor", lightColor);
 
-    figure1.render();
+    figure.render();
 
     shader2.use();
 
@@ -143,27 +146,28 @@ void render(const Shader& shader1, const Shader& shader2, const Geometry& figure
     shader2.set("projection", projection);
     shader2.set("normal", normal);
 
-    glm::vec3 viewLightPosition = glm::vec3(view * glm::vec4(lightPosition, 1.0f));
-    shader2.set("light.position", viewLightPosition);
+    shader2.set("dirLight.direction", glm::mat3(view) * lightDirection);
+    shader2.set("dirLight.ambient", dirLightColor * glm::vec3(0.1f));
+    shader2.set("dirLight.diffuse", dirLightColor * glm::vec3(0.8f));
+    shader2.set("dirLight.specular", dirLightColor * glm::vec3(1.0f));
+
+    shader2.set("light.position", lightPosition);
     shader2.set("light.ambient", lightColor * glm::vec3(0.1f));
     shader2.set("light.diffuse", lightColor * glm::vec3(0.8f));
     shader2.set("light.specular", lightColor * glm::vec3(0.5f, 0.5f, 0.5f));
 
-    shader2.set("flashLight.position", glm::vec3(view * glm::vec4(flashPosition, 1.0f)));
-    shader2.set("flashLight.direction", glm::normalize(glm::mat3(view) * flashDirection));
-    shader2.set("flashLight.cutOff", glm::cos(glm::radians(12.52f)));
-    shader2.set("flashLight.outerCutOff", glm::cos(glm::radians(17.5f)));
-    shader2.set("flashLight.ambient", flashColor * glm::vec3(0.05f));
-    shader2.set("flashLight.diffuse", flashColor * glm::vec3(0.8f));
-    shader2.set("flashLight.specular", flashColor * glm::vec3(1.0f));
+    texture1.use(shader2, "material.diffuse", 0);
+    texture2.use(shader2, "material.specular", 1);
+    texture3.use(shader2, "material.normal", 2);
+    shader2.set("material.shininess", 32.0f);
 
-    glm::vec3 viewCameraPosition = glm::vec3(view * glm::vec4(camera.getPosition(), 1.0f));
-    shader2.set("cameraPosition", viewCameraPosition);
+    shader2.set("cameraPosition", camera.getPosition());
 
     object.render(shader2);
 }
 
-void renderBuffer(const Shader& shader1, const Shader& shader2, const Shader& shader3, const Geometry& figure1, const Geometry& figure2, const Model& object, std::pair<uint32_t, uint32_t> fbo)
+void renderBuffer(const Shader& shader1, const Shader& shader2, const Shader& shader3, const Geometry& figure1, const Geometry& figure2, 
+    const Texture& texture1, const Texture& texture2, const Texture& texture3, const Model& object, std::pair<uint32_t, uint32_t> fbo)
 {
     // Renderizar la escena al framebuffer
     {
@@ -171,7 +175,7 @@ void renderBuffer(const Shader& shader1, const Shader& shader2, const Shader& sh
         glBindFramebuffer(GL_FRAMEBUFFER, fbo.first);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        render(shader1, shader2, figure1, object);
+        render(shader1, shader2, figure1, texture1, texture2, texture3, object);
     }
 
     // Dibujar el contenido del framebuffer en el cuadrado
@@ -184,7 +188,7 @@ void renderBuffer(const Shader& shader1, const Shader& shader2, const Shader& sh
 
         glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, fbo.second);
-        shader3.set("screenTexture", 0);
+        shader3.set("screen", 0);
 
         figure2.render();
     }
@@ -211,6 +215,10 @@ int main(int, char*[])
     // Generar shader de escena
     const Shader screenShader(PROJECT_PATH "screen.vert", PROJECT_PATH "screen.frag");
 
+    const Texture GB_D(ASSETS_PATH "models/Gun_Bot/GB_D.jpg", Texture::Format::RGB);
+    const Texture GB_C(ASSETS_PATH "models/Gun_Bot/GB_C.jpg", Texture::Format::RGB);
+    const Texture GB_N(ASSETS_PATH "models/Gun_Bot/GB_N.jpg", Texture::Format::RGB);
+
     const Model object(ASSETS_PATH "models/Gun_Bot/Gun_Bot.obj");
 
     // Generar frame buffer
@@ -236,8 +244,8 @@ int main(int, char*[])
         //update();
 
         // Renderizar la escena global del buffer
-        renderBuffer(lightShader, phongShader, screenShader, sphere, quad, object, fbo);
-
+        renderBuffer(lightShader, phongShader, screenShader, sphere, quad, GB_D, GB_C, GB_N, object, fbo);
+        
         window->frame();
     }
 
