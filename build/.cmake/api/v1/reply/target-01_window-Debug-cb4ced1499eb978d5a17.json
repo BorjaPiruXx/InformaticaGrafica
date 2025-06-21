@@ -1,0 +1,376 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "01_window.exe"
+		},
+		{
+			"path" : "01_window.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"configure_platform",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/platform.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "ASSETS_PATH=\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "PROJECT_PATH=\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_GLFW_USE_OPENGL=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLFW_WGL"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLFW_WIN32"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/stb"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-W -lm -I -M"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "ASSETS_PATH=\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/assets/\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "PROJECT_PATH=\"C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/projects/01_window/\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_GLFW_USE_OPENGL=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLFW_WGL"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_GLFW_WIN32"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/glfw"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/src/src/deps/stb"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "EngineLib::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "01_window::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libEngineLib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lOpenGL32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lassimp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lOpenGL32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "01_window",
+	"nameOnDisk" : "01_window.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Deps",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "projects/01_window/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"path" : "src/deps/glfw/win32_joystick.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"path" : "src/deps/glfw/win32_platform.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"path" : "src/deps/glfw/win32_thread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"path" : "src/deps/glfw/win32_time.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 1,
+			"path" : "src/deps/glfw/egl_context.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 1,
+			"path" : "src/deps/glfw/win32_init.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 1,
+			"path" : "src/deps/glfw/win32_joystick.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 1,
+			"path" : "src/deps/glfw/win32_monitor.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 1,
+			"path" : "src/deps/glfw/win32_thread.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 1,
+			"path" : "src/deps/glfw/win32_time.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 1,
+			"path" : "src/deps/glfw/win32_window.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 1,
+			"path" : "src/deps/glfw/wgl_context.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 1,
+			"path" : "src/deps/glfw/osmesa_context.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 1,
+			"path" : "src/deps/glfw/win32_module.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
