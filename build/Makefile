@@ -136,6 +136,253 @@ EngineLib/fast:
 .PHONY : EngineLib/fast
 
 #=============================================================================
+# Target rules for targets named 01_window
+
+# Build rule for target.
+01_window: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_window
+.PHONY : 01_window
+
+# fast build rule for target.
+01_window/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/build
+.PHONY : 01_window/fast
+
+#=============================================================================
+# Target rules for targets named 02_triangle
+
+# Build rule for target.
+02_triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02_triangle
+.PHONY : 02_triangle
+
+# fast build rule for target.
+02_triangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/build
+.PHONY : 02_triangle/fast
+
+#=============================================================================
+# Target rules for targets named 03_color
+
+# Build rule for target.
+03_color: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 03_color
+.PHONY : 03_color
+
+# fast build rule for target.
+03_color/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/build
+.PHONY : 03_color/fast
+
+#=============================================================================
+# Target rules for targets named 04_texture
+
+# Build rule for target.
+04_texture: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 04_texture
+.PHONY : 04_texture
+
+# fast build rule for target.
+04_texture/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/build
+.PHONY : 04_texture/fast
+
+#=============================================================================
+# Target rules for targets named 05_transform3D
+
+# Build rule for target.
+05_transform3D: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 05_transform3D
+.PHONY : 05_transform3D
+
+# fast build rule for target.
+05_transform3D/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/build
+.PHONY : 05_transform3D/fast
+
+#=============================================================================
+# Target rules for targets named 06_cube
+
+# Build rule for target.
+06_cube: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 06_cube
+.PHONY : 06_cube
+
+# fast build rule for target.
+06_cube/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/build
+.PHONY : 06_cube/fast
+
+#=============================================================================
+# Target rules for targets named 07_geometry
+
+# Build rule for target.
+07_geometry: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 07_geometry
+.PHONY : 07_geometry
+
+# fast build rule for target.
+07_geometry/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/build
+.PHONY : 07_geometry/fast
+
+#=============================================================================
+# Target rules for targets named 08_camera
+
+# Build rule for target.
+08_camera: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 08_camera
+.PHONY : 08_camera
+
+# fast build rule for target.
+08_camera/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/build
+.PHONY : 08_camera/fast
+
+#=============================================================================
+# Target rules for targets named 09_phong
+
+# Build rule for target.
+09_phong: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 09_phong
+.PHONY : 09_phong
+
+# fast build rule for target.
+09_phong/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/build
+.PHONY : 09_phong/fast
+
+#=============================================================================
+# Target rules for targets named 10_lightmap
+
+# Build rule for target.
+10_lightmap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10_lightmap
+.PHONY : 10_lightmap
+
+# fast build rule for target.
+10_lightmap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/build
+.PHONY : 10_lightmap/fast
+
+#=============================================================================
+# Target rules for targets named 11_lightemitter
+
+# Build rule for target.
+11_lightemitter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 11_lightemitter
+.PHONY : 11_lightemitter
+
+# fast build rule for target.
+11_lightemitter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/build
+.PHONY : 11_lightemitter/fast
+
+#=============================================================================
+# Target rules for targets named 12_loadmodel
+
+# Build rule for target.
+12_loadmodel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12_loadmodel
+.PHONY : 12_loadmodel
+
+# fast build rule for target.
+12_loadmodel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/build
+.PHONY : 12_loadmodel/fast
+
+#=============================================================================
+# Target rules for targets named 13_normalmap
+
+# Build rule for target.
+13_normalmap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 13_normalmap
+.PHONY : 13_normalmap
+
+# fast build rule for target.
+13_normalmap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/build
+.PHONY : 13_normalmap/fast
+
+#=============================================================================
+# Target rules for targets named 14_fbo
+
+# Build rule for target.
+14_fbo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 14_fbo
+.PHONY : 14_fbo
+
+# fast build rule for target.
+14_fbo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/build
+.PHONY : 14_fbo/fast
+
+#=============================================================================
+# Target rules for targets named 15_shadowmap
+
+# Build rule for target.
+15_shadowmap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 15_shadowmap
+.PHONY : 15_shadowmap
+
+# fast build rule for target.
+15_shadowmap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/build
+.PHONY : 15_shadowmap/fast
+
+#=============================================================================
+# Target rules for targets named 01_portfolio
+
+# Build rule for target.
+01_portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_portfolio
+.PHONY : 01_portfolio
+
+# fast build rule for target.
+01_portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/build
+.PHONY : 01_portfolio/fast
+
+#=============================================================================
+# Target rules for targets named 02_portfolio
+
+# Build rule for target.
+02_portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02_portfolio
+.PHONY : 02_portfolio
+
+# fast build rule for target.
+02_portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/build
+.PHONY : 02_portfolio/fast
+
+#=============================================================================
+# Target rules for targets named 03_portfolio
+
+# Build rule for target.
+03_portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 03_portfolio
+.PHONY : 03_portfolio
+
+# fast build rule for target.
+03_portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/build
+.PHONY : 03_portfolio/fast
+
+#=============================================================================
+# Target rules for targets named 04_portfolio
+
+# Build rule for target.
+04_portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 04_portfolio
+.PHONY : 04_portfolio
+
+# fast build rule for target.
+04_portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/build
+.PHONY : 04_portfolio/fast
+
+#=============================================================================
 # Target rules for targets named 05_portfolio
 
 # Build rule for target.
@@ -147,6 +394,198 @@ EngineLib/fast:
 05_portfolio/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/build
 .PHONY : 05_portfolio/fast
+
+projects/01_portfolio/main.obj: projects/01_portfolio/main.cpp.obj
+.PHONY : projects/01_portfolio/main.obj
+
+# target to build an object file
+projects/01_portfolio/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/projects/01_portfolio/main.cpp.obj
+.PHONY : projects/01_portfolio/main.cpp.obj
+
+projects/01_portfolio/main.i: projects/01_portfolio/main.cpp.i
+.PHONY : projects/01_portfolio/main.i
+
+# target to preprocess a source file
+projects/01_portfolio/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/projects/01_portfolio/main.cpp.i
+.PHONY : projects/01_portfolio/main.cpp.i
+
+projects/01_portfolio/main.s: projects/01_portfolio/main.cpp.s
+.PHONY : projects/01_portfolio/main.s
+
+# target to generate assembly for a file
+projects/01_portfolio/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/projects/01_portfolio/main.cpp.s
+.PHONY : projects/01_portfolio/main.cpp.s
+
+projects/01_window/main.obj: projects/01_window/main.cpp.obj
+.PHONY : projects/01_window/main.obj
+
+# target to build an object file
+projects/01_window/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/projects/01_window/main.cpp.obj
+.PHONY : projects/01_window/main.cpp.obj
+
+projects/01_window/main.i: projects/01_window/main.cpp.i
+.PHONY : projects/01_window/main.i
+
+# target to preprocess a source file
+projects/01_window/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/projects/01_window/main.cpp.i
+.PHONY : projects/01_window/main.cpp.i
+
+projects/01_window/main.s: projects/01_window/main.cpp.s
+.PHONY : projects/01_window/main.s
+
+# target to generate assembly for a file
+projects/01_window/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/projects/01_window/main.cpp.s
+.PHONY : projects/01_window/main.cpp.s
+
+projects/02_portfolio/main.obj: projects/02_portfolio/main.cpp.obj
+.PHONY : projects/02_portfolio/main.obj
+
+# target to build an object file
+projects/02_portfolio/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/projects/02_portfolio/main.cpp.obj
+.PHONY : projects/02_portfolio/main.cpp.obj
+
+projects/02_portfolio/main.i: projects/02_portfolio/main.cpp.i
+.PHONY : projects/02_portfolio/main.i
+
+# target to preprocess a source file
+projects/02_portfolio/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/projects/02_portfolio/main.cpp.i
+.PHONY : projects/02_portfolio/main.cpp.i
+
+projects/02_portfolio/main.s: projects/02_portfolio/main.cpp.s
+.PHONY : projects/02_portfolio/main.s
+
+# target to generate assembly for a file
+projects/02_portfolio/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/projects/02_portfolio/main.cpp.s
+.PHONY : projects/02_portfolio/main.cpp.s
+
+projects/02_triangle/main.obj: projects/02_triangle/main.cpp.obj
+.PHONY : projects/02_triangle/main.obj
+
+# target to build an object file
+projects/02_triangle/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/projects/02_triangle/main.cpp.obj
+.PHONY : projects/02_triangle/main.cpp.obj
+
+projects/02_triangle/main.i: projects/02_triangle/main.cpp.i
+.PHONY : projects/02_triangle/main.i
+
+# target to preprocess a source file
+projects/02_triangle/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/projects/02_triangle/main.cpp.i
+.PHONY : projects/02_triangle/main.cpp.i
+
+projects/02_triangle/main.s: projects/02_triangle/main.cpp.s
+.PHONY : projects/02_triangle/main.s
+
+# target to generate assembly for a file
+projects/02_triangle/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/projects/02_triangle/main.cpp.s
+.PHONY : projects/02_triangle/main.cpp.s
+
+projects/03_color/main.obj: projects/03_color/main.cpp.obj
+.PHONY : projects/03_color/main.obj
+
+# target to build an object file
+projects/03_color/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/projects/03_color/main.cpp.obj
+.PHONY : projects/03_color/main.cpp.obj
+
+projects/03_color/main.i: projects/03_color/main.cpp.i
+.PHONY : projects/03_color/main.i
+
+# target to preprocess a source file
+projects/03_color/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/projects/03_color/main.cpp.i
+.PHONY : projects/03_color/main.cpp.i
+
+projects/03_color/main.s: projects/03_color/main.cpp.s
+.PHONY : projects/03_color/main.s
+
+# target to generate assembly for a file
+projects/03_color/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/projects/03_color/main.cpp.s
+.PHONY : projects/03_color/main.cpp.s
+
+projects/03_portfolio/main.obj: projects/03_portfolio/main.cpp.obj
+.PHONY : projects/03_portfolio/main.obj
+
+# target to build an object file
+projects/03_portfolio/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/projects/03_portfolio/main.cpp.obj
+.PHONY : projects/03_portfolio/main.cpp.obj
+
+projects/03_portfolio/main.i: projects/03_portfolio/main.cpp.i
+.PHONY : projects/03_portfolio/main.i
+
+# target to preprocess a source file
+projects/03_portfolio/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/projects/03_portfolio/main.cpp.i
+.PHONY : projects/03_portfolio/main.cpp.i
+
+projects/03_portfolio/main.s: projects/03_portfolio/main.cpp.s
+.PHONY : projects/03_portfolio/main.s
+
+# target to generate assembly for a file
+projects/03_portfolio/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/projects/03_portfolio/main.cpp.s
+.PHONY : projects/03_portfolio/main.cpp.s
+
+projects/04_portfolio/main.obj: projects/04_portfolio/main.cpp.obj
+.PHONY : projects/04_portfolio/main.obj
+
+# target to build an object file
+projects/04_portfolio/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/projects/04_portfolio/main.cpp.obj
+.PHONY : projects/04_portfolio/main.cpp.obj
+
+projects/04_portfolio/main.i: projects/04_portfolio/main.cpp.i
+.PHONY : projects/04_portfolio/main.i
+
+# target to preprocess a source file
+projects/04_portfolio/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/projects/04_portfolio/main.cpp.i
+.PHONY : projects/04_portfolio/main.cpp.i
+
+projects/04_portfolio/main.s: projects/04_portfolio/main.cpp.s
+.PHONY : projects/04_portfolio/main.s
+
+# target to generate assembly for a file
+projects/04_portfolio/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/projects/04_portfolio/main.cpp.s
+.PHONY : projects/04_portfolio/main.cpp.s
+
+projects/04_texture/main.obj: projects/04_texture/main.cpp.obj
+.PHONY : projects/04_texture/main.obj
+
+# target to build an object file
+projects/04_texture/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/projects/04_texture/main.cpp.obj
+.PHONY : projects/04_texture/main.cpp.obj
+
+projects/04_texture/main.i: projects/04_texture/main.cpp.i
+.PHONY : projects/04_texture/main.i
+
+# target to preprocess a source file
+projects/04_texture/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/projects/04_texture/main.cpp.i
+.PHONY : projects/04_texture/main.cpp.i
+
+projects/04_texture/main.s: projects/04_texture/main.cpp.s
+.PHONY : projects/04_texture/main.s
+
+# target to generate assembly for a file
+projects/04_texture/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/projects/04_texture/main.cpp.s
+.PHONY : projects/04_texture/main.cpp.s
 
 projects/05_portfolio/main.obj: projects/05_portfolio/main.cpp.obj
 .PHONY : projects/05_portfolio/main.obj
@@ -171,6 +610,270 @@ projects/05_portfolio/main.s: projects/05_portfolio/main.cpp.s
 projects/05_portfolio/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/projects/05_portfolio/main.cpp.s
 .PHONY : projects/05_portfolio/main.cpp.s
+
+projects/05_transform3D/main.obj: projects/05_transform3D/main.cpp.obj
+.PHONY : projects/05_transform3D/main.obj
+
+# target to build an object file
+projects/05_transform3D/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/projects/05_transform3D/main.cpp.obj
+.PHONY : projects/05_transform3D/main.cpp.obj
+
+projects/05_transform3D/main.i: projects/05_transform3D/main.cpp.i
+.PHONY : projects/05_transform3D/main.i
+
+# target to preprocess a source file
+projects/05_transform3D/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/projects/05_transform3D/main.cpp.i
+.PHONY : projects/05_transform3D/main.cpp.i
+
+projects/05_transform3D/main.s: projects/05_transform3D/main.cpp.s
+.PHONY : projects/05_transform3D/main.s
+
+# target to generate assembly for a file
+projects/05_transform3D/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/projects/05_transform3D/main.cpp.s
+.PHONY : projects/05_transform3D/main.cpp.s
+
+projects/06_cube/main.obj: projects/06_cube/main.cpp.obj
+.PHONY : projects/06_cube/main.obj
+
+# target to build an object file
+projects/06_cube/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/projects/06_cube/main.cpp.obj
+.PHONY : projects/06_cube/main.cpp.obj
+
+projects/06_cube/main.i: projects/06_cube/main.cpp.i
+.PHONY : projects/06_cube/main.i
+
+# target to preprocess a source file
+projects/06_cube/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/projects/06_cube/main.cpp.i
+.PHONY : projects/06_cube/main.cpp.i
+
+projects/06_cube/main.s: projects/06_cube/main.cpp.s
+.PHONY : projects/06_cube/main.s
+
+# target to generate assembly for a file
+projects/06_cube/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/projects/06_cube/main.cpp.s
+.PHONY : projects/06_cube/main.cpp.s
+
+projects/07_geometry/main.obj: projects/07_geometry/main.cpp.obj
+.PHONY : projects/07_geometry/main.obj
+
+# target to build an object file
+projects/07_geometry/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/projects/07_geometry/main.cpp.obj
+.PHONY : projects/07_geometry/main.cpp.obj
+
+projects/07_geometry/main.i: projects/07_geometry/main.cpp.i
+.PHONY : projects/07_geometry/main.i
+
+# target to preprocess a source file
+projects/07_geometry/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/projects/07_geometry/main.cpp.i
+.PHONY : projects/07_geometry/main.cpp.i
+
+projects/07_geometry/main.s: projects/07_geometry/main.cpp.s
+.PHONY : projects/07_geometry/main.s
+
+# target to generate assembly for a file
+projects/07_geometry/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/projects/07_geometry/main.cpp.s
+.PHONY : projects/07_geometry/main.cpp.s
+
+projects/08_camera/main.obj: projects/08_camera/main.cpp.obj
+.PHONY : projects/08_camera/main.obj
+
+# target to build an object file
+projects/08_camera/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/projects/08_camera/main.cpp.obj
+.PHONY : projects/08_camera/main.cpp.obj
+
+projects/08_camera/main.i: projects/08_camera/main.cpp.i
+.PHONY : projects/08_camera/main.i
+
+# target to preprocess a source file
+projects/08_camera/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/projects/08_camera/main.cpp.i
+.PHONY : projects/08_camera/main.cpp.i
+
+projects/08_camera/main.s: projects/08_camera/main.cpp.s
+.PHONY : projects/08_camera/main.s
+
+# target to generate assembly for a file
+projects/08_camera/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/projects/08_camera/main.cpp.s
+.PHONY : projects/08_camera/main.cpp.s
+
+projects/09_phong/main.obj: projects/09_phong/main.cpp.obj
+.PHONY : projects/09_phong/main.obj
+
+# target to build an object file
+projects/09_phong/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/projects/09_phong/main.cpp.obj
+.PHONY : projects/09_phong/main.cpp.obj
+
+projects/09_phong/main.i: projects/09_phong/main.cpp.i
+.PHONY : projects/09_phong/main.i
+
+# target to preprocess a source file
+projects/09_phong/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/projects/09_phong/main.cpp.i
+.PHONY : projects/09_phong/main.cpp.i
+
+projects/09_phong/main.s: projects/09_phong/main.cpp.s
+.PHONY : projects/09_phong/main.s
+
+# target to generate assembly for a file
+projects/09_phong/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/projects/09_phong/main.cpp.s
+.PHONY : projects/09_phong/main.cpp.s
+
+projects/10_lightmap/main.obj: projects/10_lightmap/main.cpp.obj
+.PHONY : projects/10_lightmap/main.obj
+
+# target to build an object file
+projects/10_lightmap/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/projects/10_lightmap/main.cpp.obj
+.PHONY : projects/10_lightmap/main.cpp.obj
+
+projects/10_lightmap/main.i: projects/10_lightmap/main.cpp.i
+.PHONY : projects/10_lightmap/main.i
+
+# target to preprocess a source file
+projects/10_lightmap/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/projects/10_lightmap/main.cpp.i
+.PHONY : projects/10_lightmap/main.cpp.i
+
+projects/10_lightmap/main.s: projects/10_lightmap/main.cpp.s
+.PHONY : projects/10_lightmap/main.s
+
+# target to generate assembly for a file
+projects/10_lightmap/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/projects/10_lightmap/main.cpp.s
+.PHONY : projects/10_lightmap/main.cpp.s
+
+projects/11_lightemitter/main.obj: projects/11_lightemitter/main.cpp.obj
+.PHONY : projects/11_lightemitter/main.obj
+
+# target to build an object file
+projects/11_lightemitter/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/projects/11_lightemitter/main.cpp.obj
+.PHONY : projects/11_lightemitter/main.cpp.obj
+
+projects/11_lightemitter/main.i: projects/11_lightemitter/main.cpp.i
+.PHONY : projects/11_lightemitter/main.i
+
+# target to preprocess a source file
+projects/11_lightemitter/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/projects/11_lightemitter/main.cpp.i
+.PHONY : projects/11_lightemitter/main.cpp.i
+
+projects/11_lightemitter/main.s: projects/11_lightemitter/main.cpp.s
+.PHONY : projects/11_lightemitter/main.s
+
+# target to generate assembly for a file
+projects/11_lightemitter/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/projects/11_lightemitter/main.cpp.s
+.PHONY : projects/11_lightemitter/main.cpp.s
+
+projects/12_loadmodel/main.obj: projects/12_loadmodel/main.cpp.obj
+.PHONY : projects/12_loadmodel/main.obj
+
+# target to build an object file
+projects/12_loadmodel/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/projects/12_loadmodel/main.cpp.obj
+.PHONY : projects/12_loadmodel/main.cpp.obj
+
+projects/12_loadmodel/main.i: projects/12_loadmodel/main.cpp.i
+.PHONY : projects/12_loadmodel/main.i
+
+# target to preprocess a source file
+projects/12_loadmodel/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/projects/12_loadmodel/main.cpp.i
+.PHONY : projects/12_loadmodel/main.cpp.i
+
+projects/12_loadmodel/main.s: projects/12_loadmodel/main.cpp.s
+.PHONY : projects/12_loadmodel/main.s
+
+# target to generate assembly for a file
+projects/12_loadmodel/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/projects/12_loadmodel/main.cpp.s
+.PHONY : projects/12_loadmodel/main.cpp.s
+
+projects/13_normalmap/main.obj: projects/13_normalmap/main.cpp.obj
+.PHONY : projects/13_normalmap/main.obj
+
+# target to build an object file
+projects/13_normalmap/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/projects/13_normalmap/main.cpp.obj
+.PHONY : projects/13_normalmap/main.cpp.obj
+
+projects/13_normalmap/main.i: projects/13_normalmap/main.cpp.i
+.PHONY : projects/13_normalmap/main.i
+
+# target to preprocess a source file
+projects/13_normalmap/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/projects/13_normalmap/main.cpp.i
+.PHONY : projects/13_normalmap/main.cpp.i
+
+projects/13_normalmap/main.s: projects/13_normalmap/main.cpp.s
+.PHONY : projects/13_normalmap/main.s
+
+# target to generate assembly for a file
+projects/13_normalmap/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/projects/13_normalmap/main.cpp.s
+.PHONY : projects/13_normalmap/main.cpp.s
+
+projects/14_fbo/main.obj: projects/14_fbo/main.cpp.obj
+.PHONY : projects/14_fbo/main.obj
+
+# target to build an object file
+projects/14_fbo/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/projects/14_fbo/main.cpp.obj
+.PHONY : projects/14_fbo/main.cpp.obj
+
+projects/14_fbo/main.i: projects/14_fbo/main.cpp.i
+.PHONY : projects/14_fbo/main.i
+
+# target to preprocess a source file
+projects/14_fbo/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/projects/14_fbo/main.cpp.i
+.PHONY : projects/14_fbo/main.cpp.i
+
+projects/14_fbo/main.s: projects/14_fbo/main.cpp.s
+.PHONY : projects/14_fbo/main.s
+
+# target to generate assembly for a file
+projects/14_fbo/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/projects/14_fbo/main.cpp.s
+.PHONY : projects/14_fbo/main.cpp.s
+
+projects/15_shadowmap/main.obj: projects/15_shadowmap/main.cpp.obj
+.PHONY : projects/15_shadowmap/main.obj
+
+# target to build an object file
+projects/15_shadowmap/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/projects/15_shadowmap/main.cpp.obj
+.PHONY : projects/15_shadowmap/main.cpp.obj
+
+projects/15_shadowmap/main.i: projects/15_shadowmap/main.cpp.i
+.PHONY : projects/15_shadowmap/main.i
+
+# target to preprocess a source file
+projects/15_shadowmap/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/projects/15_shadowmap/main.cpp.i
+.PHONY : projects/15_shadowmap/main.cpp.i
+
+projects/15_shadowmap/main.s: projects/15_shadowmap/main.cpp.s
+.PHONY : projects/15_shadowmap/main.s
+
+# target to generate assembly for a file
+projects/15_shadowmap/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/projects/15_shadowmap/main.cpp.s
+.PHONY : projects/15_shadowmap/main.cpp.s
 
 src/deps/glad/glad.obj: src/deps/glad/glad.c.obj
 .PHONY : src/deps/glad/glad.obj
@@ -226,6 +929,25 @@ src/deps/glfw/egl_context.obj: src/deps/glfw/egl_context.c.obj
 # target to build an object file
 src/deps/glfw/egl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/egl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/egl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/egl_context.c.obj
 .PHONY : src/deps/glfw/egl_context.c.obj
 
@@ -235,6 +957,25 @@ src/deps/glfw/egl_context.i: src/deps/glfw/egl_context.c.i
 # target to preprocess a source file
 src/deps/glfw/egl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/egl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/egl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/egl_context.c.i
 .PHONY : src/deps/glfw/egl_context.c.i
 
@@ -244,6 +985,25 @@ src/deps/glfw/egl_context.s: src/deps/glfw/egl_context.c.s
 # target to generate assembly for a file
 src/deps/glfw/egl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/egl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/egl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/egl_context.c.s
 .PHONY : src/deps/glfw/egl_context.c.s
 
@@ -421,6 +1181,25 @@ src/deps/glfw/osmesa_context.obj: src/deps/glfw/osmesa_context.c.obj
 # target to build an object file
 src/deps/glfw/osmesa_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/osmesa_context.c.obj
 .PHONY : src/deps/glfw/osmesa_context.c.obj
 
@@ -430,6 +1209,25 @@ src/deps/glfw/osmesa_context.i: src/deps/glfw/osmesa_context.c.i
 # target to preprocess a source file
 src/deps/glfw/osmesa_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/osmesa_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/osmesa_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/osmesa_context.c.i
 .PHONY : src/deps/glfw/osmesa_context.c.i
 
@@ -439,6 +1237,25 @@ src/deps/glfw/osmesa_context.s: src/deps/glfw/osmesa_context.c.s
 # target to generate assembly for a file
 src/deps/glfw/osmesa_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/osmesa_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/osmesa_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/osmesa_context.c.s
 .PHONY : src/deps/glfw/osmesa_context.c.s
 
@@ -496,6 +1313,25 @@ src/deps/glfw/wgl_context.obj: src/deps/glfw/wgl_context.c.obj
 # target to build an object file
 src/deps/glfw/wgl_context.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/wgl_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/wgl_context.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/wgl_context.c.obj
 .PHONY : src/deps/glfw/wgl_context.c.obj
 
@@ -505,6 +1341,25 @@ src/deps/glfw/wgl_context.i: src/deps/glfw/wgl_context.c.i
 # target to preprocess a source file
 src/deps/glfw/wgl_context.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/wgl_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/wgl_context.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/wgl_context.c.i
 .PHONY : src/deps/glfw/wgl_context.c.i
 
@@ -514,6 +1369,25 @@ src/deps/glfw/wgl_context.s: src/deps/glfw/wgl_context.c.s
 # target to generate assembly for a file
 src/deps/glfw/wgl_context.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/wgl_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/wgl_context.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/wgl_context.c.s
 .PHONY : src/deps/glfw/wgl_context.c.s
 
@@ -523,6 +1397,25 @@ src/deps/glfw/win32_init.obj: src/deps/glfw/win32_init.c.obj
 # target to build an object file
 src/deps/glfw/win32_init.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_init.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_init.c.obj
 .PHONY : src/deps/glfw/win32_init.c.obj
 
@@ -532,6 +1425,25 @@ src/deps/glfw/win32_init.i: src/deps/glfw/win32_init.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_init.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_init.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_init.c.i
 .PHONY : src/deps/glfw/win32_init.c.i
 
@@ -541,6 +1453,25 @@ src/deps/glfw/win32_init.s: src/deps/glfw/win32_init.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_init.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_init.c.s
 .PHONY : src/deps/glfw/win32_init.c.s
 
@@ -550,6 +1481,25 @@ src/deps/glfw/win32_joystick.obj: src/deps/glfw/win32_joystick.c.obj
 # target to build an object file
 src/deps/glfw/win32_joystick.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_joystick.c.obj
 .PHONY : src/deps/glfw/win32_joystick.c.obj
 
@@ -559,6 +1509,25 @@ src/deps/glfw/win32_joystick.i: src/deps/glfw/win32_joystick.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_joystick.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_joystick.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_joystick.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_joystick.c.i
 .PHONY : src/deps/glfw/win32_joystick.c.i
 
@@ -568,6 +1537,25 @@ src/deps/glfw/win32_joystick.s: src/deps/glfw/win32_joystick.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_joystick.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_joystick.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_joystick.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_joystick.c.s
 .PHONY : src/deps/glfw/win32_joystick.c.s
 
@@ -577,6 +1565,25 @@ src/deps/glfw/win32_module.obj: src/deps/glfw/win32_module.c.obj
 # target to build an object file
 src/deps/glfw/win32_module.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_module.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_module.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_module.c.obj
 .PHONY : src/deps/glfw/win32_module.c.obj
 
@@ -586,6 +1593,25 @@ src/deps/glfw/win32_module.i: src/deps/glfw/win32_module.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_module.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_module.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_module.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_module.c.i
 .PHONY : src/deps/glfw/win32_module.c.i
 
@@ -595,6 +1621,25 @@ src/deps/glfw/win32_module.s: src/deps/glfw/win32_module.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_module.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_module.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_module.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_module.c.s
 .PHONY : src/deps/glfw/win32_module.c.s
 
@@ -604,6 +1649,25 @@ src/deps/glfw/win32_monitor.obj: src/deps/glfw/win32_monitor.c.obj
 # target to build an object file
 src/deps/glfw/win32_monitor.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_monitor.c.obj
 .PHONY : src/deps/glfw/win32_monitor.c.obj
 
@@ -613,6 +1677,25 @@ src/deps/glfw/win32_monitor.i: src/deps/glfw/win32_monitor.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_monitor.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_monitor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_monitor.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_monitor.c.i
 .PHONY : src/deps/glfw/win32_monitor.c.i
 
@@ -622,6 +1705,25 @@ src/deps/glfw/win32_monitor.s: src/deps/glfw/win32_monitor.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_monitor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_monitor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_monitor.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_monitor.c.s
 .PHONY : src/deps/glfw/win32_monitor.c.s
 
@@ -631,6 +1733,25 @@ src/deps/glfw/win32_thread.obj: src/deps/glfw/win32_thread.c.obj
 # target to build an object file
 src/deps/glfw/win32_thread.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_thread.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_thread.c.obj
 .PHONY : src/deps/glfw/win32_thread.c.obj
 
@@ -640,6 +1761,25 @@ src/deps/glfw/win32_thread.i: src/deps/glfw/win32_thread.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_thread.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_thread.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_thread.c.i
 .PHONY : src/deps/glfw/win32_thread.c.i
 
@@ -649,6 +1789,25 @@ src/deps/glfw/win32_thread.s: src/deps/glfw/win32_thread.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_thread.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_thread.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_thread.c.s
 .PHONY : src/deps/glfw/win32_thread.c.s
 
@@ -658,6 +1817,25 @@ src/deps/glfw/win32_time.obj: src/deps/glfw/win32_time.c.obj
 # target to build an object file
 src/deps/glfw/win32_time.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_time.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_time.c.obj
 .PHONY : src/deps/glfw/win32_time.c.obj
 
@@ -667,6 +1845,25 @@ src/deps/glfw/win32_time.i: src/deps/glfw/win32_time.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_time.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_time.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_time.c.i
 .PHONY : src/deps/glfw/win32_time.c.i
 
@@ -676,6 +1873,25 @@ src/deps/glfw/win32_time.s: src/deps/glfw/win32_time.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_time.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_time.c.s
 .PHONY : src/deps/glfw/win32_time.c.s
 
@@ -685,6 +1901,25 @@ src/deps/glfw/win32_window.obj: src/deps/glfw/win32_window.c.obj
 # target to build an object file
 src/deps/glfw/win32_window.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_window.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_window.c.obj
 .PHONY : src/deps/glfw/win32_window.c.obj
 
@@ -694,6 +1929,25 @@ src/deps/glfw/win32_window.i: src/deps/glfw/win32_window.c.i
 # target to preprocess a source file
 src/deps/glfw/win32_window.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_window.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_window.c.i
 .PHONY : src/deps/glfw/win32_window.c.i
 
@@ -703,6 +1957,25 @@ src/deps/glfw/win32_window.s: src/deps/glfw/win32_window.c.s
 # target to generate assembly for a file
 src/deps/glfw/win32_window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EngineLib.dir\build.make CMakeFiles/EngineLib.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_window.dir\build.make CMakeFiles/01_window.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_triangle.dir\build.make CMakeFiles/02_triangle.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_color.dir\build.make CMakeFiles/03_color.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_texture.dir\build.make CMakeFiles/04_texture.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_transform3D.dir\build.make CMakeFiles/05_transform3D.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06_cube.dir\build.make CMakeFiles/06_cube.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07_geometry.dir\build.make CMakeFiles/07_geometry.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08_camera.dir\build.make CMakeFiles/08_camera.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09_phong.dir\build.make CMakeFiles/09_phong.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10_lightmap.dir\build.make CMakeFiles/10_lightmap.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_lightemitter.dir\build.make CMakeFiles/11_lightemitter.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_loadmodel.dir\build.make CMakeFiles/12_loadmodel.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13_normalmap.dir\build.make CMakeFiles/13_normalmap.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14_fbo.dir\build.make CMakeFiles/14_fbo.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15_shadowmap.dir\build.make CMakeFiles/15_shadowmap.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01_portfolio.dir\build.make CMakeFiles/01_portfolio.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02_portfolio.dir\build.make CMakeFiles/02_portfolio.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03_portfolio.dir\build.make CMakeFiles/03_portfolio.dir/src/deps/glfw/win32_window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04_portfolio.dir\build.make CMakeFiles/04_portfolio.dir/src/deps/glfw/win32_window.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05_portfolio.dir\build.make CMakeFiles/05_portfolio.dir/src/deps/glfw/win32_window.c.s
 .PHONY : src/deps/glfw/win32_window.c.s
 
@@ -1003,11 +2276,87 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 01_portfolio
+	@echo ... 01_window
+	@echo ... 02_portfolio
+	@echo ... 02_triangle
+	@echo ... 03_color
+	@echo ... 03_portfolio
+	@echo ... 04_portfolio
+	@echo ... 04_texture
 	@echo ... 05_portfolio
+	@echo ... 05_transform3D
+	@echo ... 06_cube
+	@echo ... 07_geometry
+	@echo ... 08_camera
+	@echo ... 09_phong
+	@echo ... 10_lightmap
+	@echo ... 11_lightemitter
+	@echo ... 12_loadmodel
+	@echo ... 13_normalmap
+	@echo ... 14_fbo
+	@echo ... 15_shadowmap
 	@echo ... EngineLib
+	@echo ... projects/01_portfolio/main.obj
+	@echo ... projects/01_portfolio/main.i
+	@echo ... projects/01_portfolio/main.s
+	@echo ... projects/01_window/main.obj
+	@echo ... projects/01_window/main.i
+	@echo ... projects/01_window/main.s
+	@echo ... projects/02_portfolio/main.obj
+	@echo ... projects/02_portfolio/main.i
+	@echo ... projects/02_portfolio/main.s
+	@echo ... projects/02_triangle/main.obj
+	@echo ... projects/02_triangle/main.i
+	@echo ... projects/02_triangle/main.s
+	@echo ... projects/03_color/main.obj
+	@echo ... projects/03_color/main.i
+	@echo ... projects/03_color/main.s
+	@echo ... projects/03_portfolio/main.obj
+	@echo ... projects/03_portfolio/main.i
+	@echo ... projects/03_portfolio/main.s
+	@echo ... projects/04_portfolio/main.obj
+	@echo ... projects/04_portfolio/main.i
+	@echo ... projects/04_portfolio/main.s
+	@echo ... projects/04_texture/main.obj
+	@echo ... projects/04_texture/main.i
+	@echo ... projects/04_texture/main.s
 	@echo ... projects/05_portfolio/main.obj
 	@echo ... projects/05_portfolio/main.i
 	@echo ... projects/05_portfolio/main.s
+	@echo ... projects/05_transform3D/main.obj
+	@echo ... projects/05_transform3D/main.i
+	@echo ... projects/05_transform3D/main.s
+	@echo ... projects/06_cube/main.obj
+	@echo ... projects/06_cube/main.i
+	@echo ... projects/06_cube/main.s
+	@echo ... projects/07_geometry/main.obj
+	@echo ... projects/07_geometry/main.i
+	@echo ... projects/07_geometry/main.s
+	@echo ... projects/08_camera/main.obj
+	@echo ... projects/08_camera/main.i
+	@echo ... projects/08_camera/main.s
+	@echo ... projects/09_phong/main.obj
+	@echo ... projects/09_phong/main.i
+	@echo ... projects/09_phong/main.s
+	@echo ... projects/10_lightmap/main.obj
+	@echo ... projects/10_lightmap/main.i
+	@echo ... projects/10_lightmap/main.s
+	@echo ... projects/11_lightemitter/main.obj
+	@echo ... projects/11_lightemitter/main.i
+	@echo ... projects/11_lightemitter/main.s
+	@echo ... projects/12_loadmodel/main.obj
+	@echo ... projects/12_loadmodel/main.i
+	@echo ... projects/12_loadmodel/main.s
+	@echo ... projects/13_normalmap/main.obj
+	@echo ... projects/13_normalmap/main.i
+	@echo ... projects/13_normalmap/main.s
+	@echo ... projects/14_fbo/main.obj
+	@echo ... projects/14_fbo/main.i
+	@echo ... projects/14_fbo/main.s
+	@echo ... projects/15_shadowmap/main.obj
+	@echo ... projects/15_shadowmap/main.i
+	@echo ... projects/15_shadowmap/main.s
 	@echo ... src/deps/glad/glad.obj
 	@echo ... src/deps/glad/glad.i
 	@echo ... src/deps/glad/glad.s
