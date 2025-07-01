@@ -44,6 +44,7 @@ class Texture
         void setWrap(Wrap s, Wrap t);
         void setFilter(Filter mag, Filter min, Filter mipMapMag = Filter::None, Filter mipMapMin = Filter::None);
         
+        unsigned int id() const { return _id; }
 
     private:
         void applyWrapping() const;

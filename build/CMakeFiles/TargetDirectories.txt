@@ -19,5 +19,6 @@ C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/0
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/03_portfolio.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/04_portfolio.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/05_portfolio.dir
+C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/01_exam_30052025.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/edit_cache.dir
 C:/Users/borja/OneDrive/Desktop/VIU/GitHub/InformaticaGrafica/build/CMakeFiles/rebuild_cache.dir
