@@ -31,7 +31,6 @@ void main()
     vec3 diffMap = texture(material_diffuse, textureCoord).rgb;
     vec3 specMap = texture(material_specular, textureCoord).rgb;
     vec3 normMap = texture(material_normal, textureCoord).rgb;
-
     /*
      * Obtener mapa de normales en espacio de textura y de vista, 
      * y usar esta nueva normal para el resto de luces

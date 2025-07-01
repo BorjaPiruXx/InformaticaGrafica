@@ -20,4 +20,5 @@ set(PROJECT_LIST
     03_portfolio
     04_portfolio
     05_portfolio
+    01_exam_30052025
 )
