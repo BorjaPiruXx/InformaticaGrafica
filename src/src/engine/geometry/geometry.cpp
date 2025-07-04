@@ -14,22 +14,27 @@ Geometry::~Geometry()
 {
     glDeleteBuffers(6, _VBO);
     glDeleteVertexArrays(1, &_VAO);
+    if(_index)
+    {
+        delete[] _index;
+        _index = nullptr;
+    }
 }
 
 //TODO Check if works for all geometries
 //http://www.opengl-tutorial.org/es/intermediate-tutorials/tutorial-13-normal-mapping/
 void Geometry::calcTangents(const float* positions, const float* uvs, const float* normals, float* tangents, float* biTangents) const 
 {
-    if((_nVertices % 3) != 0) 
+    if((_nElements % 3) != 0) 
     {
         std::cout << "Error al calcular las tangentes, debido a que sus vértices no son múltiplos de 3" << std::endl;
     }
 
     // Cálculo de tangentes para triángulos
-    for(size_t i = 0; i < _nVertices; i += 3) 
+    for(size_t i = 0; i < _nElements; i += 3) 
     {
-        const uint32_t index3 = i * 3;
-        const uint32_t index2 = i * 2;
+        const uint32_t index3 = _index[i] * 3;
+        const uint32_t index2 = _index[i] * 2;
 
         glm::vec3 v0(positions[index3 + 0], positions[index3 + 1], positions[index3 + 2]);
         glm::vec3 v1(positions[index3 + 3], positions[index3 + 4], positions[index3 + 5]);
@@ -91,6 +96,9 @@ void Geometry::uploadData(const float* positions, const float* uvs, const float*
     memset(biTangents, 0.0f, length * sizeof(float));
     memset(tangents, 0.0f, length * sizeof(float));
 
+    _index = new uint32_t[_nElements];
+    memcpy(_index, index, sizeof(uint32_t) * _nElements);
+    
     if (_calcTangents) {
         calcTangents(positions, uvs, normals, tangents, biTangents);
     }
