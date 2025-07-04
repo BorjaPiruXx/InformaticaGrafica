@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "01_exam_30052025",
+      "name": "11_lightemitter_ej01",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/01_exam_30052025",
+      "program": "${workspaceFolder}/build/1_lightemitter_ej01",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

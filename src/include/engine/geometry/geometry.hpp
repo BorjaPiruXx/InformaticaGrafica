@@ -29,6 +29,7 @@ class Geometry
     protected:
         void uploadData(const float* positions, const float* uvs, const float* normals, const uint32_t* indices);
 
+        uint32_t* _index = nullptr;
         uint32_t _VAO = 0;
         uint32_t _VBO[6] 
         {

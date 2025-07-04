@@ -90,12 +90,20 @@ void Camera::handleKeyboard(Movement direction, float dt)
 {
   const float velocity = k_Speed * dt;
 
-  switch(direction) {
+  /*Restringir movimiento al plano horizontal XZ
+  glm::vec3 frontXZ = glm::normalize(glm::vec3(front_.x, 0.0f, front_.z));
+  glm::vec3 rightXZ = glm::normalize(glm::vec3(right_.x, 0.0f, right_.z));*/
+
+  switch(direction) 
+  {
     case Movement::Forward:     position_ += front_ * velocity;  break;
     case Movement::Backward:    position_ -= front_ * velocity;  break;
     case Movement::Left:        position_ -= right_ * velocity;  break;
     case Movement::Right:       position_ += right_ * velocity;  break;
   }
+
+  /*Mantener una altura fija
+  position_.y = 0.0f;*/
 }
 
 void Camera::handleMouseMovement(float xoffset, float yoffset, bool constrainPitch) 
